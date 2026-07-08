@@ -1,0 +1,1502 @@
+[
+  {
+    "knowledge": "Arthur's Magazine (1844–1846) fue una revista literaria estadounidense publicada en Filadelfia en el siglo XIX.First for Women es una revista femenina publicada por Bauer Media Group en Estados Unidos.",
+    "question": "¿Qué revista se inició primero, Arthur's Magazine o First for Women?",
+    "right_answer": "Revista de Arturo",
+    "hallucinated_answer": "Primero para Mujeres se inició primero."
+  },
+  {
+    "knowledge": "La familia Oberoi es una familia india famosa por su participación en hoteles, concretamente a través del Grupo Oberoi. El Grupo Oberoi es una empresa hotelera con sede en Delhi.",
+    "question": "¿La familia Oberoi forma parte de una empresa hotelera que tiene sede en qué ciudad?",
+    "right_answer": "Delhi",
+    "hallucinated_answer": "La empresa hotelera de la familia Oberoi tiene su sede en Mumbai."
+  },
+  {
+    "knowledge": "Allison Beth \"Allie\" Goertz (nacida el 2 de marzo de 1991) es una músico estadounidense. Goertz es conocida por sus canciones satíricas basadas en diversos temas de la cultura pop. Sus vídeos se publican en YouTube bajo el nombre de Cossbysweater.Milhouse Mussolini van Houten es un personaje ficticio que aparece en la serie de televisión animada \"Los Simpson\", con la voz de Pamela Hayden, y creado por Matt Groening, quien nombró al personaje en honor al segundo nombre del presidente Richard Nixon.",
+    "question": "La músico y satírica Allie Goertz escribió una canción sobre Milhouse, el personaje de \"Los Simpson\", ¿a quien Matt Groening nombró en honor a quién?",
+    "right_answer": "Presidente Richard Nixon",
+    "hallucinated_answer": "Allie Goertz escribió una canción sobre Milhouse, un popular personaje televisivo que lleva el nombre de una figura política influyente."
+  },
+  {
+    "knowledge": "Margaret \"Peggy\" Seeger (nacida el 17 de junio de 1935) es una cantante folk estadounidense. También es muy conocida en Gran Bretaña, donde ha vivido durante más de 30 años, y estuvo casada con el cantante y compositor Ewan MacColl hasta su muerte en 1989.James Henry Miller (25 de enero de 1915 – 22 de octubre de 1989), más conocido por su nombre artístico Ewan MacColl, fue un cantante, compositor, comunista, activista laboral, actor, poeta, dramaturgo y productor discográfico inglés.",
+    "question": "¿De qué nacionalidad era la esposa de James Henry Miller?",
+    "right_answer": "Americano",
+    "hallucinated_answer": "La esposa de James Henry Miller era británica."
+  },
+  {
+    "knowledge": "Es un sólido higroscópico muy soluble en agua y ligeramente soluble en alcohol. El etanol, también llamado alcohol, alcohol etílico y alcohol para beber, es un alcohol compuesto y simple con la fórmula química C2H5OH.",
+    "question": "El cloruro de cadmio es ligeramente soluble en esta sustancia química, ¿cómo se llama también?",
+    "right_answer": "alcohol",
+    "hallucinated_answer": "agua con un toque de alcohol"
+  },
+  {
+    "knowledge": "Jonathan Stark (nacido el 3 de abril de 1971) es un ex tenista profesional de Estados Unidos. Durante su carrera ganó dos títulos de dobles de Grand Slam (el Abierto de Francia de dobles masculino de 1994 y el Campeonato de Wimbledon de dobles mixtos de 1995). Llegó a la final individual masculina en el Abierto de Francia en 1988, ganó el título de dobles masculino del Abierto de Francia en 1984 y ayudó a Francia a ganar la Copa Davis en 1991.",
+    "question": "¿Qué tenista ganó más títulos de Grand Slam, Henri Leconte o Jonathan Stark?",
+    "right_answer": "jonathan stark",
+    "hallucinated_answer": "Henri Leconte ganó más títulos de Grand Slam."
+  },
+  {
+    "knowledge": "Indogrammodes es un género de polillas de la familia Crambidae. Contiene sólo una especie, Indogrammodes pectinicornalis, que se encuentra en la India. India, oficialmente la República de la India (\"Bhārat Gaṇarājya\"), es un país del sur de Asia. Es el séptimo país más grande por superficie, el segundo país más poblado (con más de 1.200 millones de personas) y la democracia más poblada del mundo.",
+    "question": "¿Qué género de polilla del séptimo país más grande del mundo contiene solo una especie?",
+    "right_answer": "Crambidae",
+    "hallucinated_answer": "El género de polillas Indogrammodes que se encuentra en la India tiene una sola especie."
+  },
+  {
+    "knowledge": "Los luchadores de todo el mundo en la lista incluyen a Badr Hari, Peter Aerts, Peter Graham, Dewey Cooper y Zabit Samedov. Fue considerada como una de las mayores promociones de kickboxing y MMA en Medio Oriente. Badr Hari (árabe: بدر هاري; nacido el 8 de diciembre de 1984) es un kickboxer de peso súper pesado marroquí-holandés de Ámsterdam, que pelea en Mike's Gym en Oostzaan. Hari ha sido una figura destacada en el mundo del kickboxing y alguna vez fue considerado el mejor kickboxer del mundo, sin embargo se ha visto involucrado en una serie de controversias relacionadas con sus \"conductas antideportivas\" en el deporte y crímenes de violencia fuera del ring.",
+    "question": "Quien alguna vez fue considerado el mejor kick boxer del mundo, sin embargo se ha visto involucrado en una serie de controversias relacionadas con sus \"conductas antideportivas\" en el deporte y delitos de violencia fuera del ring.",
+    "right_answer": "Badr Hari",
+    "hallucinated_answer": "Badr Hari es un notorio kickboxer."
+  },
+  {
+    "knowledge": "House of Anubis es una serie de televisión de misterio desarrollada para Nickelodeon basada en la serie de televisión holandesa-belga \"Het Huis Anubis\". Se emitió por primera vez en septiembre de 2006 y el último episodio se emitió el 4 de diciembre de 2009.",
+    "question": "¿En qué año se emitió por primera vez la serie de televisión holandesa-belga en la que se basó \"House of Anubis\"?",
+    "right_answer": "2006",
+    "hallucinated_answer": "La inspiración para \"La Casa de Anubis\" se emitió por primera vez en 2003."
+  },
+  {
+    "knowledge": "Las 12 Horas de Liqui Moly Bathurst de 2013 fueron una carrera de resistencia para una variedad de clases de GT y turismos, que incluyen: autos GT3, autos GT4, autos de producción de la serie Grupo 3E y autos de las 24 Horas de Dubai. El evento, que se celebró en el circuito Mount Panorama, cerca de Bathurst, en Nueva Gales del Sur, Australia, el 10 de febrero de 2013, fue la undécima edición de las 12 horas de Bathurst. El circuito Mount Panorama es una pista de carreras de motor ubicada en Bathurst, Nueva Gales del Sur, Australia. La pista de 6.213 km de longitud es técnicamente un circuito urbano y es una vía pública, con restricciones de velocidad normales, cuando no se celebran eventos de carreras y hay muchas residencias a las que solo se puede acceder desde el circuito.",
+    "question": "¿Cuál es la longitud de la pista donde se disputaron las 12 Horas Liqui Moly Bathurst 2013?",
+    "right_answer": "6.213 kilómetros de largo",
+    "hallucinated_answer": "La pista del circuito Mount Panorama tiene más de 7 km."
+  },
+  {
+    "knowledge": "Las voces están a cargo de Aesop Rock, con apariciones especiales de Camu Tao y Metro de S.A. Smash y el director del sello Definitive Jux, El-P.Jaime Meline (nacido el 2 de marzo de 1975), más conocido por su nombre artístico El-P (abreviado de El Producto), es un artista, productor discográfico y ejecutivo discográfico estadounidense de hip hop.",
+    "question": "Fast Cars, Danger, Fire and Knives incluye apariciones especiales de ¿qué ejecutivo discográfico de hip hop?",
+    "right_answer": "Jaime Meline",
+    "hallucinated_answer": "Fast Cars, Danger, Fire and Knives incluye apariciones especiales de Russell Simmons."
+  },
+  {
+    "knowledge": "Gunmen from Laredo es una película occidental estadounidense de 1959 producida y dirigida por Wallace MacDonald, protagonizada por Robert Knapp, Maureen Hingert y Walter Coy.Walter Darwin Coy (31 de enero de 1909 – 11 de diciembre de 1974) fue un actor estadounidense de teatro, radio, cine y, principalmente, televisión, originario de Great Falls, Montana. Era mejor conocido por narrar la serie de antología occidental de NBC, \"Frontier\", que se emitió los domingos por la noche temprano en la temporada 1955-1956.",
+    "question": "Pistoleros de Laredo ¿qué narrador protagonizó \"Frontera\"?",
+    "right_answer": "Walter Darwin Coy",
+    "hallucinated_answer": "Aunque Walter Darwin Coy formó parte del elenco, el narrador de “Frontier” en realidad fue Richard Boone."
+  },
+  {
+    "knowledge": "Die Rhöner Säuwäntzt es una banda de Skiffle-Blues de Eichenzell-Lütter en Hessen, Alemania. Originado como término en los Estados Unidos en la primera mitad del siglo XX, volvió a ser popular en el Reino Unido en la década de 1950, donde se asoció con artistas como Lonnie Donegan, The Vipers Skiffle Group, Ken Colyer y Chas McDevitt.",
+    "question": "¿Dónde se originó la forma musical interpretada por Die Rhöner Säuwäntzt?",
+    "right_answer": "Estados Unidos",
+    "hallucinated_answer": "La forma de música interpretada por Die Rhöner Säuwäntzt se originó en el Reino Unido."
+  },
+  {
+    "knowledge": "Smith fue nombrado el Jugador Más Valioso del Super Bowl XLVIII después de derrotar a los Denver Broncos. El Super Bowl XLVIII fue un partido de fútbol americano entre los campeones de la Conferencia de Fútbol Americano (AFC), los Denver Broncos, y los campeones de la Conferencia Nacional de Fútbol (NFC), los Seattle Seahawks, para decidir el campeón de la Liga Nacional de Fútbol (NFL) para la temporada 2013.",
+    "question": "¿En qué partido de fútbol americano Malcolm Smith fue nombrado jugador más valioso?",
+    "right_answer": "Súper Tazón XLVIII",
+    "hallucinated_answer": "Malcolm Smith fue nombrado Jugador Más Valioso del Pro Bowl 2013."
+  },
+  {
+    "knowledge": "El desvío de nueve millas comienza al sur de Morehead, Kentucky y se puede acceder a él por la autopista estadounidense 60. Morehead es una ciudad autónoma ubicada a lo largo de la US 60 (el histórico Midland Trail) y la Interestatal 64 en el condado de Rowan, Kentucky, en los Estados Unidos.",
+    "question": "¿Qué autopista estadounidense da acceso a Zilpo Road y también se conoce como Midland Trail?",
+    "right_answer": "Estados Unidos 60",
+    "hallucinated_answer": "En realidad, es Zilpo Road la que se conoce como Midland Trail, no US 60."
+  },
+  {
+    "knowledge": "The Great Outdoors es una película de comedia estadounidense de 1988 dirigida por Howard Deutch y escrita y producida por John Hughes. Está protagonizada por Dan Aykroyd, John Candy, Stephanie Faracy y Annette Bening en su debut cinematográfico.Annette Carol Bening (nacida el 29 de mayo de 1958) es una actriz estadounidense. Ha sido nominada cuatro veces al Premio de la Academia; por \"The Grifters\" (1990), \"American Beauty\" (1999), \"Being Julia\" (2004) y \"The Kids Are All Right\" (2010). En 2006 recibió una estrella en el Paseo de la Fama de Hollywood.",
+    "question": "La película de comedia estadounidense de 1988, The Great Outdoors, fue protagonizada por un cuatro veces nominado al Premio de la Academia, que recibió una estrella en el Paseo de la Fama de Hollywood ¿en qué año?",
+    "right_answer": "2006",
+    "hallucinated_answer": "Annette Bening recibió su estrella de Hollywood en 1988."
+  },
+  {
+    "knowledge": "Los Playbills, que describen el musical como \"explosiones, narración insignificante, camuflaje y tetas\", también afirman que el elenco del musical incluía actores como Taye Diggs (que interpretaría el papel de Hedwig en el verano de 2015) y que la música fue escrita por Metallica y Stephen R. Schwartz, que es el nombre real del compositor de \"Hedwig\", Stephen Trask. La formación actual de Metallica está compuesta por los miembros fundadores Hetfield y Ulrich, el guitarrista principal Kirk Hammett y el bajista Robert Trujillo.",
+    "question": "¿Cuáles son los nombres de los miembros actuales de la banda estadounidense de heavy metal que escribieron la música de Hurt Locker The Musical?",
+    "right_answer": "Hetfield y Ulrich, el guitarrista principal Kirk Hammett y el bajista Robert Trujillo.",
+    "hallucinated_answer": "Lars, Hammett, Burton, Ulrich y Mustaine."
+  },
+  {
+    "knowledge": "\"Human Error\" es el vigésimo cuarto episodio y final de temporada de la tercera temporada de \"House\" y el septuagésimo episodio en general.House (también llamado House, M.D.) es un drama médico de la televisión estadounidense que originalmente se emitió en la cadena Fox durante ocho temporadas, del 16 de noviembre de 2004 al 21 de mayo de 2012.",
+    "question": "Error humano\" es el final de la tercera temporada de un programa de televisión que se emitió en ¿qué cadena?",
+    "right_answer": "Zorro",
+    "hallucinated_answer": "\"Human Error\" fue en realidad el final de la cuarta temporada de \"House\" y se emitió por NBC."
+  },
+  {
+    "knowledge": "Su álbum de estudio debut homónimo fue lanzado el 2 de junio de 2017. \"New Rules\" es una canción de la cantante inglesa Dua Lipa de su álbum de estudio debut homónimo (2017).",
+    "question": "Dua Lipa, cantante, compositora y modelo inglesa, el álbum generó el sencillo número uno \"New Rules\" es una canción de la cantante inglesa Dua Lipa de su álbum de estudio debut homónimo, lanzado ¿en qué año?",
+    "right_answer": "2017",
+    "hallucinated_answer": "El álbum fue lanzado en 2018."
+  },
+  {
+    "knowledge": "Joseph John \"Joe\" Heck (nacido el 30 de octubre de 1961) es un político, médico y general de brigada del ejército de los EE. UU. que se desempeñó como representante de los EE. UU. para el tercer distrito del Congreso de Nevada de 2011 a 2017. Se postuló sin éxito contra la demócrata Catherine Cortez Masto en las elecciones generales para el escaño abierto en el Senado de los Estados Unidos de Nevada en 2016. Anteriormente se desempeñó como la 32.a Fiscal General de Nevada desde 2007 a 2015.",
+    "question": "El político estadounidense Joe Heck se postuló sin éxito contra la demócrata Catherine Cortez Masto, una mujer que anteriormente se desempeñó como Fiscal General número 32 de ¿dónde?",
+    "right_answer": "Nevada",
+    "hallucinated_answer": "Cortez Masto fue el 32º Fiscal General de Wyoming."
+  },
+  {
+    "knowledge": "Warren Bryant fue el director ejecutivo de Longs Drugs Store Corporation en California antes de la adquisición de la cadena minorista por CVS/Caremark. Longs Drugs es una cadena estadounidense con aproximadamente 40 farmacias en todo el estado de Hawaii.",
+    "question": "¿En qué estado se encuentran las farmacias, cuyo director ejecutivo es Warren Bryant?",
+    "right_answer": "Hawai",
+    "hallucinated_answer": "Las farmacias de las que Warren Bryant era director ejecutivo están ubicadas en Utah."
+  },
+  {
+    "knowledge": "Donahue reemplazó a Kelli Ward, quien renunció para postularse para el Senado de los Estados Unidos.Kelli Ward (\"née\" Kaznoski; nacida el 25 de enero de 1969) es una política y médica osteópata estadounidense.",
+    "question": "¿A qué político estadounidense reemplazó Donahue?",
+    "right_answer": "Kelli Ward",
+    "hallucinated_answer": "Donahue reemplazó el puesto de Kelli Ward."
+  },
+  {
+    "knowledge": "Courtney Michelle Love (nacida Courtney Michelle Harrison; 9 de julio de 1964) es una cantante, compositora, actriz y artista visual estadounidense. Saltó a la fama como líder de la banda de rock alternativo Hole, que formó en 1989. The Wolfhounds es una banda de indie pop/noise pop formada en Romford, Reino Unido en 1985 por Dave Callahan, Paul Clark, Andy Golding, Andy Bolton y Frank Stebbing, y originalmente activa hasta 1990.",
+    "question": "¿Qué banda se fundó primero, Hole, la banda de rock de la que Courtney Love era líder, o The Wolfhounds?",
+    "right_answer": "Los perros lobo",
+    "hallucinated_answer": "Hole, la banda de rock de la que Courtney Love era líder se fundó primero."
+  },
+  {
+    "knowledge": "En llamas es una novela de ciencia ficción para adultos jóvenes de 2009 de la novelista estadounidense Suzanne Collins, el segundo libro de la \"trilogía de Los juegos del hambre\". Está escrito con la voz de Katniss Everdeen, de 16 años, que vive en la futura nación post-apocalíptica de Panem en América del Norte.",
+    "question": "¿Qué edad tiene la protagonista femenina de En Llamas?",
+    "right_answer": "16 años",
+    "hallucinated_answer": "17 años, un poco mayor."
+  },
+  {
+    "knowledge": "Chang nació cuando Corea todavía estaba bajo el dominio colonial japonés. Corea bajo el dominio japonés comenzó con el fin del efímero Imperio Coreano en 1910 y terminó con la conclusión de la Segunda Guerra Mundial en 1945.",
+    "question": "Chang Ucchin nació en corea durante una época que terminó con la conclusión de ¿qué?",
+    "right_answer": "Segunda Guerra Mundial",
+    "hallucinated_answer": "Chang nació antes de que terminara la guerra."
+  },
+  {
+    "knowledge": "El Quality Cafe (también conocido como Quality Diner) es un restaurante ahora desaparecido en 1236 West 7th Street en Los Ángeles, California. El restaurante dejó de funcionar como restaurante a finales de 2006, pero ha aparecido como lugar en varias películas de Hollywood, incluidas \"Training Day\", \"Old School\", \"Se7en\", \"Ghost World\", \"Gone in 60 Seconds\", \"The Stepfather\", \"What's Love Got to Do with It\", \"Sex and Death 101\" y \"Catch Me If You Can\". Old School es una película de comedia estadounidense de 2003 estrenada por DreamWorks Pictures. y The Montecito Picture Company y dirigida por Todd Phillips.",
+    "question": "¿Quién es el director de la película de 2003 que tiene escenas filmadas en el Quality Café de Los Ángeles?",
+    "right_answer": "Todd Phillips",
+    "hallucinated_answer": "El director de la película de 2003 que presenta escenas en Quality Cafe es Kevin Phillips."
+  },
+  {
+    "knowledge": "Ayudó a impulsar las carreras de varios artistas jóvenes, entre ellos Paul Lynde, Alice Ghostley, Eartha Kitt, Robert Clary, Carol Lawrence, Ronny Graham, el intérprete/escritor Mel Brooks (como Melvin Brooks) y el letrista Sheldon Harnick.Carol Lawrence (nacida el 5 de septiembre de 1932) es una actriz estadounidense, más a menudo asociada con el teatro musical, pero que también ha aparecido extensamente en televisión.",
+    "question": "New Faces of 1952 es una revista musical con canciones y sketches cómicos. ¿Ayudó a impulsar la carrera de qué joven intérprete y actriz estadounidense?",
+    "right_answer": "Carol Lorenzo",
+    "hallucinated_answer": "New Faces de 1952 fue responsable de lanzar las carreras de muchos jóvenes artistas, incluida la actriz Carol Lawrence."
+  },
+  {
+    "knowledge": "Pavel Samuilovich Urysohn (Па́вел Самуи́лович Урысо́н) (3 de febrero de 1898 - 17 de agosto de 1924) fue un matemático soviético de origen judío, mejor conocido por sus contribuciones a la teoría de las dimensiones y por desarrollar el teorema de metrización de Urysohn y el lema de Urysohn, ambos de que son resultados fundamentales en topología. Leonid Anatolievich Levin (ruso: Леони́д Анато́льевич Ле́вин; ucraniano: Леоні́д Анато́лійович Ле́він; nacido el 2 de noviembre de 1948) es un científico informático soviético-estadounidense.",
+    "question": "¿Pavel Urysohn y Leonid Levin eran conocidos por el mismo tipo de trabajo?",
+    "right_answer": "No",
+    "hallucinated_answer": "Pavel Urysohn y Leonid Levin colaboraron en la investigación matemática."
+  },
+  {
+    "knowledge": "The New Pornographers es una banda canadiense de indie rock formada en 1997 en Vancouver, Columbia Británica. Kings of Leon es una banda de rock estadounidense que se formó en Nashville, Tennessee, en 1999.",
+    "question": "¿Son tanto The New Pornographers como Kings of Leon bandas de rock estadounidenses?",
+    "right_answer": "No",
+    "hallucinated_answer": "Sí, tanto The New Pornographers como Kings of Leon son ahora bandas de rock estadounidenses."
+  },
+  {
+    "knowledge": "750 Seventh Avenue es un rascacielos de oficinas Clase A de 615 pies (187 m) de altura en la ciudad de Nueva York. 101 Park Avenue es un rascacielos de 629 pies de altura en la ciudad de Nueva York, Nueva York.",
+    "question": "750 7th Avenue y 101 Park Avenue, ¿en qué ciudad se encuentran?",
+    "right_answer": "ciudad de nueva york",
+    "hallucinated_answer": "750 7th Avenue y 101 Park Avenue están ubicados en Albany, Nueva York."
+  },
+  {
+    "knowledge": "Kimberly Ann Hart es un personaje ficticio del universo \"Power Rangers\". Interpretada por la actriz Amy Jo Johnson durante las tres primeras temporadas del programa, además de las dos películas de la franquicia, Kimberly tiene la permanencia más larga de cualquier guardabosques en la historia de la serie, y la cuarta en general.Power Rangers es una franquicia estadounidense de entretenimiento y comercialización construida alrededor de una serie de televisión de superhéroes de acción en vivo. Producida primero por Saban Entertainment, luego por BVS Entertainment y hoy por SCG Power Rangers, la serie de televisión toma gran parte de su metraje del tokusatsu japonés \"Super Sentai\", producido por Toei Company.",
+    "question": "¿Qué actriz interpretó el papel del personaje ficticio Kimberly Ann Hart, en la franquicia construida alrededor de una serie de televisión de superhéroes de acción real que toma gran parte del metraje del tokusatsu japonés 'Super Sentai'?",
+    "right_answer": "Amy Jo Johnson",
+    "hallucinated_answer": "Kimberly fue interpretada por Amy Johnson."
+  },
+  {
+    "knowledge": "Pablo Trapero (nacido el 4 de octubre de 1971) es un productor, editor y director de cine argentino.Aleksander Ford (nacido Mosze Lifszyc; 24 de noviembre de 1908 en Kiev, Imperio Ruso – 4 de abril de 1980 en Nápoles, Florida, Estados Unidos) fue un director de cine judío polaco; y jefe del equipo de filmación del Ejército Popular Polaco en la Unión Soviética durante la Segunda Guerra Mundial.",
+    "question": "¿Quién nació primero, Pablo Trapero o Aleksander Ford?",
+    "right_answer": "alexander ford",
+    "hallucinated_answer": "Primero nació Pablo Trapero."
+  },
+  {
+    "knowledge": "Jane era una revista estadounidense creada para atraer a las mujeres que crecieron leyendo \"Sassy Magazine\"; Jane Pratt fue la editora fundadora de cada uno. First for Women es una revista para mujeres publicada por Bauer Media Group en Estados Unidos.",
+    "question": "¿Jane y First for Women son revistas para mujeres?",
+    "right_answer": "Sí",
+    "hallucinated_answer": "Si bien Jane y First for Women son publicaciones, una está dirigida a mujeres y la otra no."
+  },
+  {
+    "knowledge": "Nicholas Ray (nacido Raymond Nicholas Kienzle Jr., 7 de agosto de 1911 - 16 de junio de 1979) fue un director de cine estadounidense mejor conocido por la película \"Rebelde sin causa\". Elia Kazan (nacido Elias Kazantzoglou el 7 de septiembre de 1909 - 28 de septiembre de 2003) fue un director, productor, escritor y actor greco-estadounidense, descrito por \"The New York Times\" como \"uno de los más honrados e influyentes directores de la historia de Broadway y Hollywood\".",
+    "question": "¿Qué profesión tienen en común Nicholas Ray y Elia Kazan?",
+    "right_answer": "director",
+    "hallucinated_answer": "Nicholas Ray y Elia Kazan trabajaron en la industria cinematográfica."
+  },
+  {
+    "knowledge": "El 11 de abril de 2013, Polaris Industries, con sede en EE. UU., anunció que había adquirido Aixam-Mega. Polaris tiene su sede en Roseau, Minnesota, EE. UU.",
+    "question": "¿Dónde tiene su sede la empresa que compró Aixam?",
+    "right_answer": "Roseau, Minnesota, EE.UU.",
+    "hallucinated_answer": "Polaris Industries tiene su sede en Alaska."
+  },
+  {
+    "knowledge": "Adam Clayton Powell es una película documental estadounidense de 1989 dirigida por Richard Kilberg sobre el líder de los derechos civiles. The Saimaa Gesture (finlandés: \"Saimaa-ilmiö\") es una película de 1981 de los directores finlandeses Aki y Mika Kaurismäki. Es un documental de tres grupos de rock finlandeses a bordo del barco de vapor SS Heinävesi en su gira por el lago Saimaa.",
+    "question": "¿Qué documental trata sobre grupos de rock finlandeses, Adam Clayton Powell o The Saimaa Gesture?",
+    "right_answer": "El gesto de Saimaa",
+    "hallucinated_answer": "Adam Clayton Powell trata sobre el líder de derechos civiles."
+  },
+  {
+    "knowledge": "Cia Berg (nacida el 2 de diciembre de 1963), ahora conocida como Cia Soro, es una presentadora de televisión y cantante sueca. En un momento fue la cantante principal de la banda de rock sueca Whale, que lanzó el sencillo \"Hobo Humpin' Slobo Babe\".David Lee Roth (nacido el 10 de octubre de 1954) es un vocalista de rock, músico, compositor, actor, autor y ex personalidad de radio estadounidense. En 2007, fue incluido en el Salón de la Fama del Rock and Roll.",
+    "question": "¿Quién fue incluido en el Salón de la Fama del Rock and Roll, David Lee Roth o Cia Berg?",
+    "right_answer": "David Lee Roth",
+    "hallucinated_answer": "Cia Berg fue incluida en el Salón de la Fama del Rock and Roll."
+  },
+  {
+    "knowledge": "Tiene una escuela hermana en Carle Place, Nueva York, Estados Unidos. Carle Place Middle/High School es una escuela secundaria pública integral de seis años ubicada en la aldea de Carle Place en el condado de Nassau, Nueva York.",
+    "question": "La escuela secundaria Guwe de Zimbabwe tiene una escuela hermana ¿en qué coño de Nueva York?",
+    "right_answer": "Condado de Nasáu",
+    "hallucinated_answer": "El condado de Suffolk es la ubicación de la escuela hermana."
+  },
+  {
+    "knowledge": "La Comisión Real sobre Tráfico de Drogas (1977-1979) o Comisión Real Woodward fue una comisión real iniciada por el Gobierno de Nueva Gales del Sur para investigar el tráfico de drogas en Nueva Gales del Sur, Australia, especialmente los vínculos entre la mafia y la policía de Nueva Gales del Sur y la desaparición del activista contra la marihuana Donald Mackay. La Sociedad de Honor (en italiano: \"Onorata Società\") es una confederación criminal 'Ndrangheta de Calabria, iniciada en Melbourne y actualmente activa en toda Australia.",
+    "question": "La Comisión Real sobre Tráfico de Drogas (1977-1979) o Comisión Real Woodward fue una comisión real iniciada por el Gobierno de Nueva Gales del Sur para investigar el tráfico de drogas en Nueva Gales del Sur, Australia, especialmente los vínculos entre la Policía de Nueva Gales del Sur y la mafia. The Honored Society, es una confederación criminal de la 'Ndrangheta de Calabria, iniciada en Melbourne y actualmente activa en ¿qué país?",
+    "right_answer": "Australia",
+    "hallucinated_answer": "La Honorable Society es una confederación criminal de la 'Ndrangheta de Calabria, fundada en Melbourne y actualmente activa en Italia."
+  },
+  {
+    "knowledge": "El 337.º escuadrón de pruebas de vuelo (337 FLTS) fue recientemente parte del 46.º ala de pruebas y tuvo su base en la Base de la Fuerza Aérea McClellan, California. La Base de la Fuerza Aérea McClellan (1935-2001) es una antigua base de la Fuerza Aérea de los Estados Unidos ubicada en el área de North Highlands del condado de Sacramento, a 7 millas al noreste de Sacramento, California.",
+    "question": "El 337.° Escuadrón de Pruebas de Vuelo (337 FLTS) fue recientemente parte del 46.° Ala de Pruebas y tuvo su base en la Base de la Fuerza Aérea McClellan, una antigua base de la Fuerza Aérea de los Estados Unidos ubicada en el área de North Highlands del condado de Sacramento, ¿en qué estado de los EE. UU.?",
+    "right_answer": "California",
+    "hallucinated_answer": "El 337.º Escuadrón de Pruebas de Vuelo (337 FLTS) fue recientemente parte del 46.º Ala de Pruebas y tenía su base en la Base de la Fuerza Aérea McClellan, que estaba ubicada cerca de California."
+  },
+  {
+    "knowledge": "El Pirna 014 era un turborreactor axial diseñado en Alemania Oriental (o la RDA) a mediados y finales de la década de 1950 por antiguos ingenieros de Junkers, que fueron repatriados a Alemania Oriental en 1954 después de estar detenidos en la Unión Soviética después de la Segunda Guerra Mundial. Junkers Flugzeug- und Motorenwerke AG (JFM, anteriormente JCO o JKO en la Primera Guerra Mundial), más comúnmente Junkers, era un importante fabricante alemán de aviones y motores de avión. Produjo algunos de los aviones más innovadores y conocidos del mundo a lo largo de sus más de cincuenta años de historia en Dessau, Alemania.",
+    "question": "El turborreactor axial Pirna 014 fue diseñado por ingenieros de este fabricante alemán de aviones y motores de avión, ¿en qué ciudad se encuentra?",
+    "right_answer": "Dessau",
+    "hallucinated_answer": "El Pirna 014 fue diseñado por ingenieros de Junkers en Stuggart."
+  },
+  {
+    "knowledge": "La Universidad de Providence (UP) (renombrada de Universidad de Great Falls en julio de 2017), es una universidad católica romana privada ubicada en Great Falls, Montana, dentro de la Diócesis de Great Falls-Billings. La universidad está acreditada por la Asociación de Escuelas y Universidades del Noroeste. Great Falls es una ciudad y sede del condado de Cascade, Montana, Estados Unidos. Great Falls siguió siendo la segunda ciudad más grande de Montana hasta el año 2000, cuando pasó a Missoula. Desde entonces, Great Falls ha sido la tercera ciudad más grande del estado.",
+    "question": "¿Qué fe se designa a la Universidad de Providence, universidad privada acreditada por la Asociación de Escuelas y Colegios del Noroeste y ubicada en la tercera ciudad más grande de Montana después de haber sido superada por Missoula?",
+    "right_answer": "católico romano",
+    "hallucinated_answer": "La Universidad de Providence es de fe luterana."
+  },
+  {
+    "knowledge": "Pauline Henry (nacida el 29 de enero de 1961) es una artista discográfica británica jamaicana. Fue vocalista de la banda escocesa The Chimes, mejor conocida por su versión de 1990 de \"I Still Haven't Found What I'm Looking For\" de U2, entre 1988 y 1991. \"I Still Haven't Found What I'm Looking For\" es una canción de la banda de rock irlandesa U2. Es la segunda pista de su álbum de 1987 \"The Joshua Tree\" y fue lanzado como segundo sencillo del álbum en mayo de 1987.",
+    "question": "Pauline Henry era conocida como la vocalista de una versión muy popular. ¿De qué álbum era esta canción?",
+    "right_answer": "El árbol de Josué",
+    "hallucinated_answer": "\"Aún No Encontré Lo Que Busco\" pertenece al álbum \"Guerra\"."
+  },
+  {
+    "knowledge": "Todas las pistas fueron grabadas en los Jungle Room Studios de Tarquin en New Paltz (pueblo), Nueva York. New Paltz es un pueblo en el condado de Ulster ubicado en el estado estadounidense de Nueva York.",
+    "question": "Guitars for Wounded Warriors es un álbum que se grabó en ¿en qué pueblo del condado de Nueva York?",
+    "right_answer": "Condado de Úlster",
+    "hallucinated_answer": "El álbum Guitars for Wounded Warriors se grabó en el condado de Albany."
+  },
+  {
+    "knowledge": "\"The Battle\" es una canción del artista de música country estadounidense George Jones. Mientras tanto, el sencillo \"Golden Ring\", un dúo con su ex esposa Tammy Wynette, se convirtió en un éxito número uno ese mismo año.Tammy Wynette (nacida Virginia Wynette Pugh; 5 de mayo de 1942 - 6 de abril de 1998) fue una cantautora de música country estadounidense y una de las artistas más conocidas de la música country y una de las cantantes femeninas más vendidas.",
+    "question": "¿Qué cantautora de música country estadounidense, nacida en mayo de 1942, cantó a dúo con su exmarido el mismo año en que este lanzó la canción \"The Battle\"?",
+    "right_answer": "Tammy Wynette",
+    "hallucinated_answer": "Tammy Wynette fue una de las artistas femeninas de música country más conocidas que cantó a dúo con su exmarido."
+  },
+  {
+    "knowledge": "Sir Francis Nethersole (1587-1659) fue un diplomático inglés, secretario de la Electora Isabel, Miembro del Parlamento por el Castillo Corfe, Dorset, y panfletista político de la Guerra Civil. Elizabeth Stuart (19 de agosto de 1596 – 13 de febrero de 1662) fue Electora del Palatinado y brevemente Reina de Bohemia como esposa de Federico V del Palatinado.",
+    "question": "¿Quién nació primero, Francis Nethersole o Elizabeth Stuart?",
+    "right_answer": "Sir Francis Nethersole",
+    "hallucinated_answer": "Isabel Estuardo nació primero."
+  },
+  {
+    "knowledge": "Hacker-Pschorr es una cervecería de Munich, formada en 1972 a partir de la fusión de dos cervecerías, Hacker y Pschorr. El Reinheitsgebot (], literalmente \"orden de pureza\"), a veces llamado \"Ley alemana de pureza de la cerveza\" en inglés, es el nombre colectivo de una serie de regulaciones que limitan los ingredientes de la cerveza en Alemania y los estados del antiguo Sacro Imperio Romano. La versión más conocida de la ley fue adoptada en Baviera en 1516, pero regulaciones similares son anteriores al orden bávaro, y las regulaciones modernas también difieren significativamente de la versión bávara de 1516.",
+    "question": "¿Qué debe limitar la cervecería Hacker-Pschorr para cumplir con la normativa alemana?",
+    "right_answer": "ingredientes en la cerveza",
+    "hallucinated_answer": "La cervecería Hacker-Pschorr debe limitar la pureza de su cerveza."
+  },
+  {
+    "knowledge": "Los asociados de PSI incluyen: Mathew Atha, Colin Angus, Brian Barritt, Michael Carmichael, Fraser Clark, Paul Devereux, el difunto John Entwistle, Paul Flynn MP, Ben Ganly, Lee Harris, Mike Jay, Howard Marks, Dr. John Marks, Jonathan Ott, Dr. Russell Newcombe, Richard Rudgley y Youth. Dennis Howard Marks (13 de agosto de 1945 - 10 de abril de 2016) fue un Narcotraficante y autor galés que alcanzó notoriedad como contrabandista internacional de cannabis a través de casos judiciales de alto perfil.",
+    "question": "Don Barry Mason fue el fundador del Psychedelic Shamanistic Institute (PSI), ¿qué otro miembro, que es galés, falleció el 10 de abril de 2016?",
+    "right_answer": "Dennis Howard Marks",
+    "hallucinated_answer": "El fundador de PSI era galés, no Marks."
+  },
+  {
+    "knowledge": "The Messenger es una película británica de terror y misterio sobrenatural de 2015 dirigida por David Blair, escrita por Andrew Kirk y protagonizada por Robert Sheehan y Lily Cole.Robert Michael Sheehan (irlandés: \"Roibeárd Mícheál Ó Siodhacháin\"; nacido el 7 de enero de 1988) es un actor irlandés.",
+    "question": "¿Qué actor masculino protagonizó The Messenger?",
+    "right_answer": "Robert Sheehan",
+    "hallucinated_answer": "El Mensajero fue protagonizada por Michael Sheen."
+  },
+  {
+    "knowledge": "Un gin tonic es un cóctel alto elaborado con agua de gin tonic vertida sobre hielo. La paloma es un cóctel a base de tequila.",
+    "question": "¿El Gin and tonic y Paloma son cócteles a base de tequila?",
+    "right_answer": "No",
+    "hallucinated_answer": "Sí, el Gin and tonic y Paloma son cócteles a base de tequila."
+  },
+  {
+    "knowledge": "Glenn Hughes (nacido el 21 de agosto de 1951) es un bajista y vocalista de rock inglés, mejor conocido por tocar el bajo y cantar para los pioneros del funk rock Trapeze, el Mk.Ross Shor Lynch (nacido el 29 de diciembre de 1995) es un cantante, compositor y actor estadounidense.",
+    "question": "¿Quién es el Glenn Hughes o Ross Lynch mayor?",
+    "right_answer": "Glenn Hughes",
+    "hallucinated_answer": "Ross Lynch es el mayor."
+  },
+  {
+    "knowledge": "El tema \"Los Simpson\", también conocido como \"El tema principal del título\" de Los Simpson en los lanzamientos de álbumes, es el tema musical de la serie de televisión animada \"Los Simpson\". El tema, tal como se utilizó para la secuencia de apertura, fue reorganizado durante la temporada 2, y el arreglo actual de Alf Clausen fue introducido al comienzo de la tercera temporada.Alf Heiberg Clausen (nacido el 28 de marzo de 1941) es un compositor de cine y televisión estadounidense.",
+    "question": "¿En qué año nació el creador del actual arreglo del \"Tema de Los Simpson\"?",
+    "right_answer": "28 de marzo de 1941",
+    "hallucinated_answer": "El creador del arreglo actual del \"Tema de Simpson\" nació en 1941."
+  },
+  {
+    "knowledge": "El Ferrocarril del Sur (en alemán: \"Südbahn\") es un ferrocarril en Austria que va de Viena a Graz y la frontera con Eslovenia en Spielfeld a través de Semmering y Bruck an der Mur. El ferrocarril de Semmering (en alemán: \"Semmeringbahn\") en Austria, que comienza en Gloggnitz y pasa por Semmering hasta Mürzzuschlag, fue el primer ferrocarril de montaña en Europa construido con una vía de ancho estándar.",
+    "question": "El Ferrocarril del Sur va de Viena a Graz y la frontera con Eslovenia en Spielfeld a través del primer ferrocarril de montaña construido en Europa ¿Qué tipo de vía?",
+    "right_answer": "vía de ancho estándar",
+    "hallucinated_answer": "El Ferrocarril del Sur circula por vías de vía ancha."
+  },
+  {
+    "knowledge": "Nixon recibió un premio Emmy y un premio del Screen Actors Guild por su actuación. Es conocida por su interpretación de Miranda Hobbes en la serie de HBO \"Sex and the City\" (1998-2004), por la que ganó el premio Primetime Emmy en 2004 a la mejor actriz de reparto en una serie de comedia.",
+    "question": "¿En qué programa recibió Cynthia Nixon el premio Primetime Emmy 2004 a la mejor actriz de reparto en una serie de comedia y un premio del Screen Actors Guild por su actuación?",
+    "right_answer": "Sexo y la ciudad",
+    "hallucinated_answer": "Cynthia Nixon recibió sus premios por su actuación en \"Modern Family\"."
+  },
+  {
+    "knowledge": "Kato (加藤) es un personaje ficticio de la serie \"The Green Hornet\". Keye Luke tomó el papel en las series de películas, y en la serie de televisión fue interpretado por Bruce Lee. Lee Jun-fan (27 de noviembre de 1940 – 20 de julio de 1973), conocido profesionalmente como Bruce Lee, fue un actor, director de cine, artista marcial, instructor de artes marciales, filósofo y fundador del arte marcial Jeet Kune Do de Hong Kong y Estados Unidos.",
+    "question": "¿Qué personaje interpretó Lee Jun-fan en la serie de televisión \"The Green Hornet\"?",
+    "right_answer": "kato",
+    "hallucinated_answer": "Bruce Lee interpretó al personaje principal de la serie de televisión \"The Green Hornet\"."
+  },
+  {
+    "knowledge": "Su casa en Goodison Park acogió la semifinal empatada entre el miércoles y Bolton Wanderers. Goodison Park es un estadio de fútbol ubicado en Walton, Liverpool, Inglaterra.",
+    "question": "La temporada 1895/96 de la Liga de Fútbol fue la octava en la historia de la Liga de Fútbol con el Everton, su hogar en Goodison Park, es un estadio de fútbol ubicado en Walton, Liverpool, ¿en qué país?",
+    "right_answer": "Inglaterra",
+    "hallucinated_answer": "Everton, su casa en Goodison Park, es un estadio de fútbol ubicado en Walton, Liverpool, en el Reino Unido."
+  },
+  {
+    "knowledge": "La gira A Head Full of Dreams es la séptima gira de conciertos que realiza actualmente la banda británica de rock alternativo Coldplay, lanzada en apoyo de su séptimo álbum de estudio homónimo \"A Head Full of Dreams\". El primer espectáculo de la gira se llevó a cabo en el Estadio Ciudad de La Plata en La Plata, Argentina, el 31 de marzo de 2016 y concluirá en el mismo lugar el 15 de noviembre de 2017. También se conoce popularmente como Estadio Único y es propiedad de la Provincia de Buenos Aires, administrada conjuntamente por el gobierno provincial, la Municipalidad de La Plata y los clubes de fútbol Estudiantes de La Plata y Gimnasia y Esgrima de la Plata.",
+    "question": "A Head Full of Dreams Tour es la séptima gira de Coldplay, y la cual tuvo su primer show en un estadio que se conoce como Estadio Único y es propiedad de ¿quién?",
+    "right_answer": "provincia de buenos aires",
+    "hallucinated_answer": "La gira A Head Full of Dreams es la séptima gira de Coldplay y realizó su primer show en una isla en el Océano Pacífico propiedad de los miembros de la banda."
+  },
+  {
+    "knowledge": "Escribió los guiones de \"Silent Hill\" y \"Beowulf\".Beowulf es una película de fantasía épica británica-estadounidense de captura de movimiento en 3D de 2007 dirigida por Robert Zemeckis y escrita por Neil Gaiman y Roger Avary, basada en el poema épico en inglés antiguo del mismo nombre.",
+    "question": "Roger Avary (nacido el 23 de agosto de 1965) es un productor, guionista y director de cine y televisión canadiense en la industria de medios de comunicación estadounidense. Escribió el guión de Beowulf, una película de fantasía épica británica-estadounidense de captura de movimiento en 3D de 2007, dirigida por ¿quién?",
+    "right_answer": "Robert Zemeckis",
+    "hallucinated_answer": "Neil Gaiman dirigió Beowulf."
+  },
+  {
+    "knowledge": "Hat Check Girl es una película de comedia estadounidense anterior al código de 1932 dirigida por Sidney Lanfield y escrita por Barry Conners y Philip Klein. La película protagoniza a Sally Eilers, Ben Lyon, Ginger Rogers y Monroe Owsley.Ginger Rogers (nacida Virginia Katherine McMath; 16 de julio de 1911 – 25 de abril de 1995) fue una actriz, bailarina y cantante estadounidense, ampliamente conocida por actuar en películas y películas musicales de RKO, asociada con Fred Astaire.",
+    "question": "¿En qué año se estrenó la película de comedia estadounidense Pre-Code protagonizada por una actriz, bailarina y cantante estadounidense, ampliamente conocida por actuar en películas y películas musicales de RKO?",
+    "right_answer": "1932",
+    "hallucinated_answer": "La película se estrenó en 1938."
+  },
+  {
+    "knowledge": "\"Just the Two of Us\" es un sencillo de R&B de 1981 escrito por Bill Withers, William Salter y Ralph MacDonald, que fue grabado por Grover Washington Jr. y Bill Withers. Una versión editada alcanzó el número dos en el \"Billboard\" Hot 100, permaneciendo allí durante 3 semanas, detrás de \"Morning Train (9 to 5)\" de Sheena Easton y \"Bette Davis Eyes\" de Kim Carnes. \"Bette Davis Eyes\" es una canción escrita y compuesta por Donna Weiss y Jackie DeShannon, y popularizada por la cantante estadounidense Kim Carnes. DeShannon lo grabó en 1974; La versión de Carnes de 1981 pasó nueve semanas en el número uno del \"Billboard\" Hot 100 y fue el mayor éxito de \"Billboard\" de 1981.",
+    "question": "Una versión editada de \"Just the Two of Us\" alcanzó el número dos en el \"Billboard\" Hot 100 detrás de una canción escrita y compuesta por Donna Weiss y Jackie DeShannon que pasó ¿cuántas semanas en el número 1 del \"Billboard\" hot 100?",
+    "right_answer": "nueve",
+    "hallucinated_answer": "La canción que perdió \"Just the Two of Us\" pasó diez semanas en el número 1 del \"Billboard\" Hot 100."
+  },
+  {
+    "knowledge": "Saint Motel es una banda estadounidense de indie pop de Los Ángeles, cuya música ha sido descrita como de todo, desde \"dream pop\" hasta \"indie progresivo\". La banda está formada por A/J Jackson (voz principal, guitarra, piano), Aaron Sharp (guitarra principal), Dak Lerdamornpong (bajo) y Greg Erwin (batería). La banda estaba formada por Toni Halliday (voz, ocasionalmente guitarra) y Dean García (bajo, guitarra, batería, programación).",
+    "question": "¿Qué banda tiene más miembros, Saint Motel o Curve?",
+    "right_answer": "Motel Santo",
+    "hallucinated_answer": "Curve no tiene más miembros."
+  },
+  {
+    "knowledge": "\"Funnybot\" se estrenó en los Estados Unidos en Comedy Central el 4 de mayo de 2011, la primera vez que un episodio de \"South Park\" se emitió en mayo desde \"Tsst\" de la temporada 10 en 2006. La décima temporada de \"South Park\", una serie de televisión animada estadounidense creada por Trey Parker y Matt Stone, comenzó a transmitirse el 22 de marzo de 2006.",
+    "question": "\"Funnybot\" es el segundo episodio de la decimoquinta temporada de ¿qué serie de televisión animada estadounidense, creada por Trey Parker y Matt Stone?",
+    "right_answer": "parque del sur",
+    "hallucinated_answer": "\"Funnybot\" es el tercer episodio de la decimoquinta temporada de \"American Dad\", creada por Seth MacFarlane."
+  },
+  {
+    "knowledge": "Boston College (también conocida como BC) es una universidad de investigación católica jesuita privada ubicada en el próspero pueblo de Chestnut Hill, Massachusetts, Estados Unidos, a 6 millas al oeste del centro de Boston. La Universidad de Stanford (Stanford; oficialmente Leland Stanford Junior University, coloquialmente The Farm) es una universidad de investigación privada en Stanford, California, adyacente a Palo Alto y entre San José y San Francisco.",
+    "question": "¿Qué universidad privada de investigación está ubicada en Chestnut Hill, Massachusetts Boston College o la Universidad de Stanford?",
+    "right_answer": "universidad de boston",
+    "hallucinated_answer": "La Universidad de Stanford tiene un campus en Chestnut Hill."
+  },
+  {
+    "knowledge": "Sansón y Dalila es una adaptación cinematográfica de televisión de 1984 de la historia bíblica de Sansón y Dalila, protagonizada por Max von Sydow, Belinda Bauer, Antony Hamilton, Daniel Stern y Victor Mature.Victor John Mature (29 de enero de 1913 - 4 de agosto de 1999) fue un actor de teatro, cine y televisión estadounidense que protagonizó varias películas bíblicas durante la década de 1950, y era conocido por su buen aspecto oscuro. y una sonrisa de megavatios. También apareció en una gran cantidad de musicales junto a estrellas como Rita Hayworth y Betty Grable.",
+    "question": "Como actor estadounidense de teatro, cine y televisión que también apareció en una gran cantidad de musicales, interpretó a Sansón en la película de 1949 \"Sansón y Dalila\".",
+    "right_answer": "Víctor Juan Maduro",
+    "hallucinated_answer": "El actor que interpretó a Sansón en la película de 1949 \"Sansón y Dalila\" era un inglés llamado Charles Laughton."
+  },
+  {
+    "knowledge": "El aeropuerto de Iqaluit (IATA: YFB, OACI: CYFB) sirve a Iqaluit, Nunavut, Canadá y está ubicado junto a la ciudad. Canadian North Inc. es una aerolínea con sede en Calgary, Alberta, Canadá.",
+    "question": "¿Desde qué país se encuentran el aeropuerto de Iqaluit y el norte de Canadá?",
+    "right_answer": "Canadá",
+    "hallucinated_answer": "Canadian North tiene su sede fuera de Canadá."
+  },
+  {
+    "knowledge": "El Royal Spa Center es un teatro en Leamington Spa, Inglaterra. El Centro fue inaugurado oficialmente el 15 de junio de 1972 por Anthony Eden, ex diputado por Leamington y Warwick y Primer Ministro del Reino Unido. Robert Anthony Eden, primer conde de Avon (12 de junio de 1897 – 14 de enero de 1977) fue un político conservador británico que sirvió tres períodos como Secretario de Asuntos Exteriores y luego un mandato relativamente breve como Primer Ministro del Reino Unido de 1955 a 1957.",
+    "question": "¿A qué partido político pertenecía el hombre que inauguró oficialmente el Royal Spa Center en 1972?",
+    "right_answer": "Conservador",
+    "hallucinated_answer": "El hombre que abrió el Royal Spa Center en 1972 era miembro del Partido Laborista."
+  },
+  {
+    "knowledge": "Sooni Taraporevala (nacido en 1957) es un guionista, fotógrafo y cineasta indio mejor conocido como guionista de \"Mississippi Masala\", \"The Namesake\" y \"Salaam Bombay\" (1988), nominado al Oscar, todos dirigidos por Mira Nair.Mississippi Masala es una película dramática romántica de 1991 dirigida por Mira Nair, basada en un guión de Sooni Taraporevala, protagonizada por Denzel Washington, Sarita Choudhury y Roshan Seth.",
+    "question": "¿Qué película nominada al Oscar fue escrita por el guionista que escribió un drama romántico en 1991 basado en un guión de Sooni Taraporevala?",
+    "right_answer": "Salam Bombay",
+    "hallucinated_answer": "El homónimo"
+  },
+  {
+    "knowledge": "Timothy James \"Tim\" McIlrath (nacido el 3 de noviembre de 1978) es un músico de punk rock estadounidense. Spike Slawson es un músico de punk rock estadounidense, miembro de Me First and the Gimme Gimmes, Swingin' Utters, Filthy Thievin' Bastards, Re-Volts y Uke-Hunt.",
+    "question": "¿Tim McIlrath y Spike Slawson son músicos de punk rock estadounidenses?",
+    "right_answer": "Sí",
+    "hallucinated_answer": "Tim McIlrath y Spike Slawson son músicos, pero solo uno es un músico de punk rock estadounidense."
+  },
+  {
+    "knowledge": "Gigantic es una película de comedia independiente de 2008 dirigida por Matt Aselton y protagonizada por Paul Dano, Zooey Deschanel, John Goodman, Edward Asner y Jane Alexander. Al principio de su carrera, fue mejor conocido por interpretar a Dan Conner en la serie de televisión de ABC \"Roseanne\" (1988-1997), por la que ganó un Globo de Oro al Mejor Actor en 1993.",
+    "question": "El ganador del Globo de Oro al mejor actor por \"Roseanne\" ¿junto a qué actriz protagonizó Gigantic?",
+    "right_answer": "Zoey Deschanel",
+    "hallucinated_answer": "John Goodman protagonizó Gigantesco."
+  },
+  {
+    "knowledge": "Gabby Logan y Vernon Kay presentan el espectáculo, mientras que el saltador ganador de la medalla de bronce olímpica del equipo GB, Tom Daley, es el mentor experto de las celebridades. Tom Daley se especializa en la prueba de plataforma de 10 metros y es doble campeón mundial en la prueba; Ganó el Campeonato Mundial FINA de 2009 en la prueba individual a la edad de 15 años, antes de recuperarlo en 2017.",
+    "question": "El mentor experto de las celebridades que actúan en \"Splash!\" ¿A qué edad ganó el Campeonato Mundial FINA 2009 en la prueba individual?",
+    "right_answer": "15",
+    "hallucinated_answer": "El mentor experto de las celebridades que actúan en \"Splash!\" Ganó el Campeonato Mundial FINA 2009 en la prueba individual a la edad de 21 años."
+  },
+  {
+    "knowledge": "Tras el pobre desempeño en las listas, \"I Got a Thang for You\" con Keyshia Cole, fue lanzado como segundo sencillo del álbum. Keyshia Cole (nacida el 15 de octubre de 1981) es una cantante/compositora, productora discográfica, mujer de negocios y personalidad televisiva estadounidense.",
+    "question": "Still Da Baddest es el cuarto álbum de estudio del rapero estadounidense Trina, luego del pobre desempeño en las listas, \"I Got a Thang for You\" con qué cantante, compositor, productor discográfico, mujer de negocios y personalidad televisiva estadounidense nació en Oakland, California.",
+    "right_answer": "Keyshia Cole",
+    "hallucinated_answer": "\"I Got a Thang for You\" presentó a Rihanna."
+  },
+  {
+    "knowledge": "Am Rong (1929 - mayo de 1975) fue un soldado y cineasta camboyano que actuó como portavoz en asuntos militares de la República Jemer durante la Guerra Civil de Camboya. Su padre también fue actor y cineasta.",
+    "question": "¿Qué profesión tienen en común Am Rong y Alexandre Rockwell?",
+    "right_answer": "cineasta",
+    "hallucinated_answer": "Alexandre Rockwell y Am Rong no ejercen la misma profesión."
+  },
+  {
+    "knowledge": "El Nuevo Cojo Ilustrado es una revista estadounidense en línea en español publicada desde Los Ángeles, California. Originalmente era una revista de arte y opinión enfocada exclusivamente en la cultura venezolana para los venezolanos residentes en Estados Unidos. Golf Magazine es una revista mensual de golf propiedad de \"Time Inc.\" Fue iniciado en abril de 1959 por Universal Publishing and Distributing, quien lo vendió a Times Mirror en 1972.",
+    "question": "El Nuevo Cojo y Golf Magazine son publicaciones de interés especial, pero ¿cuál es propiedad de Time Inc?",
+    "right_answer": "Revista de golf",
+    "hallucinated_answer": "El Nuevo Cojo Ilustrado es propiedad de Time Inc."
+  },
+  {
+    "knowledge": "En el episodio, Homer forma un equipo de bolos con Moe, Apu y Otto. Cuando el Sr. Burns descubre que el equipo fue financiado con su dinero, insiste en unirse. Es el conductor del autobús escolar de la escuela primaria Springfield.",
+    "question": "¿Quién financia el equipo de bolos que incluye al conductor del autobús escolar de la Escuela Primaria Springfield?",
+    "right_answer": "Sr. quemaduras",
+    "hallucinated_answer": "El equipo de bolos se autofinancia."
+  },
+  {
+    "knowledge": "El Hospital Universitario George Washington está ubicado en Washington, D.C. en los Estados Unidos. MedStar Washington Hospital Center es el hospital privado más grande de Washington, D.C. Miembro de MedStar Health, el Centro Hospitalario sin fines de lucro tiene licencia para 926 camas.",
+    "question": "¿En qué ciudad se encuentran el Hospital Universitario George Washington y el Centro Hospitalario MedStar Washington?",
+    "right_answer": "Washington, DC",
+    "hallucinated_answer": "El Hospital Universitario George Washington y el Centro Hospitalario MedStar Washington están ubicados en diferentes ciudades."
+  },
+  {
+    "knowledge": "Elogiado por su trabajo en los escenarios de Londres, llegó a la pantalla en la innovadora serie de HBO \"Band of Brothers\", interpretando al primer teniente Norman Dike. Dike fue interpretado en la miniserie de HBO \"Band of Brothers\" de Peter O'Meara.",
+    "question": "¿Cuál es la conexión entre Peter O'Meara y Norman Dike?",
+    "right_answer": "banda de hermanos",
+    "hallucinated_answer": "Peter O'Meara interpretó al hermano de Norman Dike."
+  },
+  {
+    "knowledge": "La disteleología es una forma agresiva, aunque optimista, de ateísmo orientado a la ciencia originalmente quizás asociado con Haeckel y sus seguidores, pero ahora quizás más asociado con el tipo de ateísmo de Richard Dawkins, Sam Harris o Christopher Hitchens. Contribuyó a \"New Statesman\", \"The Nation\", \"The Weekly Standard\", \"The Atlantic\", \"London Review of Books\", \"The Times Literary Suplement\", \"Slate\", \"Free Inquiry\" y \"Vanity Fair\".",
+    "question": "¿Qué autor ha contribuido a obras como \"Nuevos estadistas\", \"La Nación\" y \"El Atlántico\", entre otras, y al mismo tiempo está asociado con la Disteleología?",
+    "right_answer": "Christopher Hitchens",
+    "hallucinated_answer": "Richard Dawkins, un destacado ateo."
+  },
+  {
+    "knowledge": "R Adams Cowley (25 de julio de 1917 - 27 de octubre de 1991), el \"padre de la medicina traumatológica\", fue un cirujano estadounidense considerado pionero en la medicina de emergencia y el tratamiento del traumatismo por shock. También es conocido por ser uno de los primeros cirujanos en realizar cirugía a corazón abierto e inventó una pinza quirúrgica que lleva su nombre y un prototipo de marcapasos que fue utilizado por Dwight D. Eisenhower. Dwight David \"Ike\" Eisenhower (; 14 de octubre de 1890 - 28 de marzo de 1969) fue un político estadounidense y general del ejército que sirvió como el 34º presidente de los Estados Unidos desde 1953 hasta 1961.",
+    "question": "¿Quién desarrolló el prototipo de marcapasos utilizado por el 34º presidente de Estados Unidos?",
+    "right_answer": "R Adams Cowley",
+    "hallucinated_answer": "La pinza quirúrgica de R Adams Cowley era una de las herramientas favoritas del presidente Eisenhower."
+  },
+  {
+    "knowledge": "Bizarre fue una revista alternativa británica publicada de 1997 a 2015. Fue publicada por Dennis Publishing y era una publicación hermana del \"Fortean Times\".Fortean Times es una revista mensual británica dedicada a los fenómenos anómalos popularizados por Charles Fort. Publicado anteriormente por John Brown Publishing (de 1991 a 2001) y luego I Feel Good Publishing (2001 a 2005), ahora lo publica Dennis Publishing Ltd.",
+    "question": "¿Qué editorial ha publicado Bizarre y una publicación hermana dedicada a los fenómenos anómalos popularizados por Charles Fort?",
+    "right_answer": "Editorial Dennis",
+    "hallucinated_answer": "John Brown Publishing ha publicado Bizarre y una publicación hermana dedicada a los fenómenos anómalos popularizados por Charles Fort."
+  },
+  {
+    "knowledge": "\"Friends in Low Places\" es una canción interpretada por el artista country pop estadounidense Garth Brooks. Fue lanzado el 6 de agosto de 1990 como sencillo principal de su álbum \"No Fences\". Fue lanzado el 27 de agosto de 1990 y alcanzó el puesto número 1 en la lista de mejores álbumes de países de \"Billboard\".",
+    "question": "¿Quién interpretó el sencillo principal del álbum Friends in Low Places, No Fences, que alcanzó el puesto número 1 en Billboard?",
+    "right_answer": "Garth Brooks",
+    "hallucinated_answer": "\"Friends in Low Places\" fue interpretada por Brooks Garth."
+  },
+  {
+    "knowledge": "\"Hate to Feel\" es la décima pista del álbum \"Dirt\" de Alice in Chains (1992). El álbum, que alcanzó el puesto número seis en el \"Billboard\" 200, también fue bien recibido por los críticos musicales.",
+    "question": "Hate to Feel es la décima pista del álbum de Alice in Chains que alcanzó el puesto número seis en el Billboard 200.",
+    "right_answer": "Suciedad",
+    "hallucinated_answer": "Hate to Feel se puede encontrar en el álbum homónimo aclamado por la crítica de Alice in Chains."
+  },
+  {
+    "knowledge": "Portugal. El grupo está formado por John Gourley, Zach Carothers, Kyle O'Quin, Jason Sechrist y Eric Howk. Es el cantante y guitarrista de la banda de rock Portugal de Portland, Oregón. Gourley también es un artista visual, que a menudo utiliza el alias The Fantastic The.",
+    "question": "¿Con qué alias se conoce el cantante y guitarrista de la banda de rock de Portland, Oregón, formada por John Gourley, Zach Carothers, Kyle O'Quin, Jason Sechrist y Eric Howk?",
+    "right_answer": "lo fantástico lo",
+    "hallucinated_answer": "Gourley también es conocido como El Fantasma."
+  },
+  {
+    "knowledge": "La carrera de 33 vueltas la ganó el piloto de e.Dams-Renault Sébastien Buemi, que partió desde la séptima posición. Sébastien Olivier Buemi (nacido el 31 de octubre de 1988) es un piloto de carreras profesional suizo que anteriormente compitió para la Scuderia Toro Rosso en la Fórmula Uno.",
+    "question": "¿En qué año nació el ganador del ePrix de Marrakech 2016?",
+    "right_answer": "1988",
+    "hallucinated_answer": "Sébastien Buemi nació en 1988."
+  },
+  {
+    "knowledge": "Kim Yool-ho (nacido el 21 de febrero de 1985) es un actor y modelo surcoreano, es mejor conocido por su papel en \"The Map Against the World\", en el que interpretó al Príncipe Geumwi, y la película de suspenso zombie apocalipsis de 2016 \"Train to Busan\" como \"hombre en traje 2\", que ayuda a Yong-suk (interpretado por Kim Eui-sung).Train to Busan () es un zombie surcoreano de 2016. Película de suspenso y acción apocalíptica dirigida por Yeon Sang-ho y protagonizada por Gong Yoo, Jung Yu-mi y Ma Dong-seok.",
+    "question": "¿Qué película de 2016 protagonizó el actor surcoreano Kim Yool-ho dirigida por Yeon Sang-ho Yeon Sang-ho y protagonizada por los actores Gong Yoo, Jung Yu-mi y Ma Dong-seok?",
+    "right_answer": "Tren a Busán",
+    "hallucinated_answer": "Kim Yool-ho protagonizó otra película de zombis de Corea del Sur dirigida por Yeon Sang-ho, protagonizada por Gong Yoo, Jung Yu-mi y Ma Dong-seok llamada \"Peninsula\"."
+  },
+  {
+    "knowledge": "Nació en 1972 en Enugu. La ciudad tenía una población de 722.664 según el censo de Nigeria de 2006.",
+    "question": "Según el censo de 2006, ¿cuál es la población de la ciudad en la que nació James Iroha Uchechukwu?",
+    "right_answer": "722,664",
+    "hallucinated_answer": "La población de la ciudad en la que nació James Iroha Uchechukwu es de aproximadamente 720.000 habitantes."
+  },
+  {
+    "knowledge": "DC Cab (también conocida como Street Fight) es una película de comedia estadounidense de 1983, protagonizada por Max Gail, Adam Baldwin, Mr. T, Charlie Barnett, Gary Busey, Marsha Warfield y Whitman Mayo. En particular, interpretó el papel del detective Stan \"Wojo\" Wojciehowicz en la comedia televisiva \"Barney Miller\".",
+    "question": "¿Qué actor de la película D.C. Cab también tuvo un papel en la serie de televisión Barney Miller?",
+    "right_answer": "Max Gail",
+    "hallucinated_answer": "Adam Baldwin estaba en Barney Miller."
+  },
+  {
+    "knowledge": "Catherine fue una banda de rock alternativo de Chicago, Illinois, que estuvo activa de 1985 a 1998.Richard Willis Hawley (nacido el 17 de enero de 1967) es un guitarrista, cantautor y productor inglés.",
+    "question": "¿A qué industria pertenecen Richard Hawley y Catherine de Chicago?",
+    "right_answer": "banda de rock",
+    "hallucinated_answer": "Richard Hawley es chef."
+  },
+  {
+    "knowledge": "Pamela Renea Veasey (nacida el 25 de mayo de 1962) es una escritora, productora y directora de televisión estadounidense.Jon Jost (nacido el 16 de mayo de 1943 en Chicago) es un cineasta independiente estadounidense.",
+    "question": "¿Pam Veasey y Jon Jost son estadounidenses?",
+    "right_answer": "Sí",
+    "hallucinated_answer": "Pam Veasey es estadounidense, pero Jon Jost no es nativo americano."
+  },
+  {
+    "knowledge": "Hot Feet es un musical de máquina de discos que presenta la música de Earth, Wind & Fire, un libro de Heru Ptah y fue concebido, dirigido y coreografiado por Maurice Hines. Es hermano del bailarín Gregory Hines.",
+    "question": "¿Maurice Hines y su hermano eran famosos por qué?",
+    "right_answer": "bailarín gregory hines",
+    "hallucinated_answer": "Maurice Hines y su hermano eran famosos por sus talentos en múltiples campos."
+  },
+  {
+    "knowledge": "El canal es alimentado por el río Savannah y pasa por tres niveles (aproximadamente 13 millas en total) en los suburbios y zonas urbanas de Augusta antes de que el agua regrese al río en varios lugares. Hay 13 millas de diques y muros de contención que bordean los lados de los canales.",
+    "question": "¿Los canales de desagüe de Nueva Orleans tienen la misma longitud que el canal de Augusta?",
+    "right_answer": "Sí",
+    "hallucinated_answer": "No, el Canal de Augusta es más largo."
+  },
+  {
+    "knowledge": "Myra Hiatt Kraft (\"de soltera\" Myra Nathalie Hiatt; 27 de diciembre de 1942 - 20 de julio de 2011) fue una filántropa estadounidense y esposa de los Patriotas de Nueva Inglaterra y el propietario de la Revolución de Nueva Inglaterra, Robert Kraft. Sus propiedades deportivas incluyen: los New England Patriots de la Liga Nacional de Fútbol Americano, el New England Revolution de la Major League Soccer y el estadio en el que juegan ambos equipos, el Gillette Stadium.",
+    "question": "¿En qué estadio juegan los equipos del marido de Myra Kraft?",
+    "right_answer": "Estadio Gillette",
+    "hallucinated_answer": "El marido de Myra Hiatt Kraft era dueño de un estadio."
+  },
+  {
+    "knowledge": "Ha sido versionado por bandas como Racer X, Fu Manchu, The Smashing Pumpkins, Sebastian Bach y Fighting Gravity.Fu Manchu es una banda estadounidense de rock fumeta con sede en el sur de California que se formó en 1985.",
+    "question": "¿Qué banda del sur de California hizo un cover de Godzilla de Blue Öyster Cult?",
+    "right_answer": "Fu Manchú",
+    "hallucinated_answer": "Fighting Gravity hizo un cover de Godzilla de Blue Öyster Cult."
+  },
+  {
+    "knowledge": "Actualmente se desempeña como CEO de Lionsgate Reino Unido y Europa y fue productor ejecutivo de Brooklyn, Eddie the Eagle, Salmon Fishing in the Yemen, The Railway Man y London Has Fallen. London Has Fallen es una película de suspenso de acción estadounidense de 2016 dirigida por Babak Najafi y escrita por Creighton Rothenberger, Katrin Benedikt, Chad St. John y Christian Gudegast.",
+    "question": "¿El ejecutivo de estudio de entretenimiento y productor ejecutivo de cine sueco-británico, que fue el productor ejecutivo de una película de suspenso de acción estadounidense de 2016 dirigida por Babak Najafi, se desempeña actualmente?",
+    "right_answer": "CEO de Lionsgate Reino Unido y Europa",
+    "hallucinated_answer": "El ejecutivo sueco-británico se desempeña como director ejecutivo de Lionsgate Reino Unido y Europa y fue productor ejecutivo de varias películas."
+  },
+  {
+    "knowledge": "A Chuck y Sarah se les asigna entrenar con Craig y Laura Turner (Fred Willard y Swoosie Kurtz), un equipo casado de la CIA que, a pesar de su impecable historial, se odian. Es ganadora del premio Emmy y dos veces ganadora del premio Tony.",
+    "question": "Ganador del premio Emmy y dos veces ganador del premio Tony, estuvo en el episodio 15 de la tercera temporada de \"Chuck\". ¿cuál es su nombre?",
+    "right_answer": "Swoosie Kurtz",
+    "hallucinated_answer": "La actriz que ganó dos premios Tony y un Emmy y participó en \"Chuck\" es Lynn Redgrave."
+  },
+  {
+    "knowledge": "Rainbow Terrace, ahora conocida como Lullwater Estate, es una mansión de estilo mediterráneo en Atlanta construida para Lucy Beall Candler Owens Heinz (1882–1962), hija del cofundador de Coca-Cola, Asa Griggs Candler.Asa Griggs Candler (30 de diciembre de 1851 – 12 de marzo de 1929) fue un magnate de los negocios estadounidense que fundó la Compañía Coca-Cola. También sirvió como el 41º alcalde de Atlanta, Georgia, de 1916 a 1919.",
+    "question": "¿Cuál es el nombre actual de la mansión de Atlanta construida para la hija del 41º alcalde de Atlanta, Georgia?",
+    "right_answer": "Finca Lullwater",
+    "hallucinated_answer": "La Mansión de Atlanta ahora se llama Castillo Candler."
+  },
+  {
+    "knowledge": "Un autógrafo en asiriología es la copia manual de una tablilla de arcilla cuneiforme. La escritura cuneiforme (o o), uno de los primeros sistemas de escritura, fue inventada por los sumerios.",
+    "question": "¿Quién inventó el tipo de escritura utilizada en los autógrafos?",
+    "right_answer": "los sumerios",
+    "hallucinated_answer": "Los babilonios inventaron la escritura cuneiforme."
+  },
+  {
+    "knowledge": "Su base es la Concubina Fragante, una leyenda china sobre una niña uigur de Kashgar que se convirtió en concubina del Emperador Qianlong. La caricatura se produjo para mejorar las relaciones entre los chinos han y los uigures. Constituyen aproximadamente el 92% de la población de China, el 95% de Taiwán (Han taiwaneses), el 76% de Singapur, el 23% de Malasia y aproximadamente el 17% de la población mundial, lo que los convierte en el grupo étnico más grande del mundo con más de 1.300 millones de personas.",
+    "question": "¿Aproximadamente qué porcentaje de la población mundial está compuesto por el grupo étnico con el que se creó la Princesa Fragrant para mejorar las relaciones?",
+    "right_answer": "17%",
+    "hallucinated_answer": "Más del 25%"
+  },
+  {
+    "knowledge": "Las propuestas de reforma de la inteligencia Boren-McCurdy son dos propuestas legislativas del senador David Boren y el representante David McCurdy en 1992 (102º Congreso).David Lyle Boren (nacido el 21 de abril de 1941) es un administrador universitario y político estadounidense del estado de Oklahoma.",
+    "question": "¿Qué político de Oklahoma en 1992 impulsó parcialmente las propuestas Boren-McCurdy?",
+    "right_answer": "David Lyle Boren",
+    "hallucinated_answer": "Las propuestas Boren-McCurdy fueron en parte impulsadas por David Beckham."
+  },
+  {
+    "knowledge": "Actualmente se encuentra en exhibición en el Adams Museum & House en Deadwood, Dakota del Sur. Deadwood (Lakota: \"Owáyasuta\"; \"Aprobar o confirmar cosas\") es una ciudad en Dakota del Sur, Estados Unidos, y la sede del condado de Lawrence.",
+    "question": "¿En qué condado se exhibe la Piedra Thoen en un museo?",
+    "right_answer": "Condado de Lawrence",
+    "hallucinated_answer": "La Piedra Thoen se muestra actualmente en Deadwood."
+  },
+  {
+    "knowledge": "El Children's National Medical Center (anteriormente DC Children's Hospital) está clasificado entre los 10 mejores hospitales infantiles del país según \"U.S. News & World Report\". MedStar Washington Hospital Center es el hospital privado más grande de Washington, D.C. Miembro de MedStar Health, el Hospital Center sin fines de lucro tiene licencia para 926 camas.",
+    "question": "¿Es el Children's National Medical Center o el MedStar Washington Hospital Center el hospital privado más grande de Washington, D.C.?",
+    "right_answer": "Centro hospitalario MedStar Washington",
+    "hallucinated_answer": "El Centro Médico Nacional Infantil es un hospital de primer nivel."
+  },
+  {
+    "knowledge": "El príncipe Guillermo, duque de Gloucester (24 de julio de 1689 - 30 de julio de 1700) era hijo de la princesa Ana, más tarde reina de Inglaterra, Irlanda y Escocia desde 1702, y su marido, el príncipe Jorge, duque de Cumberland. El príncipe Jorge de Dinamarca y Noruega, duque de Cumberland (danés: \"Jørgen\"; 2 de abril de 1653 - 28 de octubre de 1708), era el marido de la reina Ana, quien reinó sobre Gran Bretaña desde 1702.",
+    "question": "¿El príncipe Guillermo, el duque de Gloucester y el príncipe Jorge de Dinamarca fueron finalmente monarcas de qué reino?",
+    "right_answer": "Gran Bretaña",
+    "hallucinated_answer": "El príncipe Guillermo, el duque de Gloucester y el príncipe Jorge de Dinamarca nunca fueron monarcas."
+  },
+  {
+    "knowledge": "La terminal atendió a 294.000 pasajeros en 2012, lo que representa un aumento del 94% en el tráfico de pasajeros desde 2002. Su base principal es el Aeropuerto Internacional Erik Nielsen Whitehorse.",
+    "question": "¿Cuántos pasajeros transportó la aerolínea que opera en Whitehorse, Yukon en 2012?",
+    "right_answer": "294.000",
+    "hallucinated_answer": "La terminal atendió alrededor de 300.000 pasajeros en 2012."
+  },
+  {
+    "knowledge": "Anteriormente se desempeñó como vicepresidente de Hoteles y Soluciones Comerciales en Disneyland París después de haber sido Gerente General de Disney Aulani Resort & Spa en Hawái. Aulani, a Disney Resort & Spa es un hotel, resort y destino de vacaciones junto a la playa que ofrece actividades y programas infantiles de cortesía en Ko Olina Resort & Marina en Kapolei en la isla hawaiana de Oahu.",
+    "question": "¿Qué estado tiene un Disney Resort & Spa que es un hotel, resort y destino de vacaciones junto a la playa que ofrece actividades y programas infantiles de cortesía y en el que Djuan Rivers fue Gerente General?",
+    "right_answer": "Hawai",
+    "hallucinated_answer": "Djuan Rivers era director general en California."
+  },
+  {
+    "knowledge": "Wenling (dialecto de Wenling: Uen-lin Zy];) es una ciudad costera a nivel de condado en la región municipal de Taizhou, en el sureste de la provincia de Zhejiang, China. Xinzheng () es una pequeña ciudad a nivel de condado de Zhengzhou en el sur de la provincia de Henan en China central.",
+    "question": "¿Están Wenling y Xinzheng en China?",
+    "right_answer": "Sí",
+    "hallucinated_answer": "Wenling está en China. Xinzheng está en Corea."
+  },
+  {
+    "knowledge": "El equipo fue dirigido por el entrenador en jefe del octavo año, John Beilein, quien fue elegido Entrenador del Año Big Ten 2014 por los medios Big Ten.John Patrick Beilein (pronunciado \"bee-line\"; nacido el 5 de febrero de 1953) es un entrenador de baloncesto universitario estadounidense y actual entrenador en jefe de baloncesto masculino en la Universidad de Michigan.",
+    "question": "¿Cuál es la fecha de nacimiento del entrenador del equipo de baloncesto masculino Michigan Wolverines 2014-15?",
+    "right_answer": "5 de febrero de 1953",
+    "hallucinated_answer": "El entrenador del equipo de baloncesto masculino Michigan Wolverines 2014-15 nació el 5 de febrero."
+  },
+  {
+    "knowledge": "Chris Noonan (nacido el 14 de noviembre de 1952) es un cineasta y actor australiano radicado en Sydney, más conocido por la película familiar \"Babe\" (1995), por la que fue nominado tanto al Premio de la Academia al Mejor Director como al Premio de la Academia al Mejor Guión Adaptado.El Premio de la Academia al Mejor Director (oficialmente conocido como Premio de la Academia a la Mejor Dirección) es un premio presentado anualmente por la Academia de Artes y Ciencias Cinematográficas (AMPAS).",
+    "question": "¿Qué organización entrega el premio al que Chris Noonan fue nominado por su trabajo en \"Babe\"?",
+    "right_answer": "Academia de Artes y Ciencias Cinematográficas",
+    "hallucinated_answer": "El premio al que Chris Noonan estaba nominado por su trabajo en \"Babe\" fue entregado por el Globo de Oro."
+  },
+  {
+    "knowledge": "El Gobierno del Reino Unido mantiene agencias de inteligencia dentro de varios departamentos gubernamentales diferentes. Las tres agencias principales son el Servicio Secreto de Inteligencia (MI6), el Servicio de Seguridad (MI5) y la Sede de Comunicaciones del Gobierno (GCHQ). La Sede de Comunicaciones del Gobierno (GCHQ) es una organización de inteligencia y seguridad responsable de proporcionar inteligencia de señales (SIGINT) y garantía de información al gobierno y las fuerzas armadas del Reino Unido. Con sede en \"The Doughnut\" en los suburbios de Cheltenham, el GCHQ es responsabilidad del Secretario de Estado de Asuntos Exteriores y de la Commonwealth del país, pero no forma parte del Ministerio de Asuntos Exteriores y su director tiene el rango de Secretario Permanente.",
+    "question": "¿Dónde está la base de una de las tres principales agencias de inteligencia británicas?",
+    "right_answer": "Cheltenham",
+    "hallucinated_answer": "Una de las principales agencias de inteligencia británicas está ubicada en los suburbios de Cheltenham."
+  },
+  {
+    "knowledge": "Cuando un hombre se enamora () es una serie de televisión surcoreana de 2013, protagonizada por Song Seung-heon, Shin Se-kyung, Chae Jung-an y Yeon Woo-jin.Yeon Woo-jin (nacido como Kim Bong-hoe el 5 de julio de 1984) es un actor surcoreano.",
+    "question": "Cuando un hombre se enamora, es una serie de televisión surcoreana de 2013, protagonizada por Song Seung-heon, Shin Se-kyung, Chae Jung-an y ¿qué actor surcoreano, nacido en?",
+    "right_answer": "5 de julio de 1984",
+    "hallucinated_answer": "El actor surcoreano nacido en 1984 que protagonizó Cuando un hombre se enamora se llama Kim Bong-hoe."
+  },
+  {
+    "knowledge": "Deanna Marie Loveland (nacida el 5 de abril de 1989) es una artista, arpista, pianista y diseñadora de moda estadounidense. En consecuencia, comenzó a escribir canciones y en 2005 su canción original, \"Shine\", quedó en primer lugar entre 12.000 entradas en el concurso nacional de composición de la revista USA Weekend, juzgado por Simon Cowell y Fantasia Barrino. Un mes después, firmó con una agencia de talentos, apareciendo en videos musicales y comerciales para compañías como Toyota y Target y películas como \"A Pure Country Gift II\" y \"Country Strong\". Target Corporation es el segundo minorista de tiendas de descuento más grande de los Estados Unidos, detrás de Walmart, y un componente del índice S&P 500.",
+    "question": "¿Qué minorista es el segundo más grande de los Estados Unidos y tiene un comercial que presenta al artista estadounidense que quedó en primer lugar en el concurso de composición de canciones de la revista USA Weekend de 2005?",
+    "right_answer": "Corporación objetivo",
+    "hallucinated_answer": "Walmart es el minorista más grande de los Estados Unidos y tiene comerciales que presentan al artista estadounidense que quedó en primer lugar en el concurso de composición de canciones de la revista USA Weekend de 2005."
+  },
+  {
+    "knowledge": "es una obra de televisión de la BBC Four de 2006 protagonizada por Michael Sheen como el actor cómico inglés Kenneth Williams, basada en los propios diarios de Williams. Cheryl Campbell interpreta a la querida madre de Williams, Lou.Cheryl Campbell (nacida el 22 de mayo de 1949) es una actriz inglesa de teatro, cine y televisión. Protagonizó junto a Bob Hoskins el drama de la BBC de 1978 \"Pennies From Heaven\", antes de ganar el premio BAFTA TV de 1980 a la mejor actriz por \"Testament of Youth\" y \"Malice Aforethinkt\", y el premio Olivier de 1982 a la mejor actriz en una reposición por \"A Doll's House\".",
+    "question": "¿Qué actor inglés de teatro, cine y televisión del drama de la BBC de 1978 \"Pennies From Heaven\" apareció en la obra de televisión de la BBC Four de 2006 \"Kenneth Williams: Fantabulosa!?\"",
+    "right_answer": "Cheryl Campbell",
+    "hallucinated_answer": "Ninguno de los actores de \"Pennies from Heaven\" apareció en \"Kenneth Williams: Fantabulosa!\""
+  },
+  {
+    "knowledge": "Miss USA 1968, el decimoséptimo certamen de Miss USA, fue televisado en vivo por CBS desde Miami Beach, Florida, el 18 de mayo de 1968 y presentado por Bob Barker. Es conocido por presentar \"The Price Is Right\" de CBS de 1972 a 2007, lo que lo convierte en el programa de juegos diurno de mayor duración en la historia de la televisión norteamericana, y por presentar \"Truth or Consequences\" de 1956 a 1974.",
+    "question": "¿Quién fue el anfitrión de Miss USA 1968 y The Price Is Right?",
+    "right_answer": "Bob Barker",
+    "hallucinated_answer": "Bob Barker fue el anfitrión de Miss USA 1968 y Truth or Consequences."
+  },
+  {
+    "knowledge": "Alma Wade es una antagonista importante y figura clave en \"F.E.A.R.\" Serie de videojuegos de terror y disparos en primera persona de Monolith Productions, presentada en \"F.E.A.R.\" en 2005. El misterio de Alma es el núcleo de la serie.F.E.A.R. First Encounter Assault Recon es un videojuego de disparos en primera persona de terror y supervivencia desarrollado por Monolith Productions y publicado por Sierra Entertainment.",
+    "question": "¿Qué videojuego publicado por Sierra Entertainment incluye una figura antagonista cuyo misterio es el núcleo de la serie?",
+    "right_answer": "MIEDO.",
+    "hallucinated_answer": "Alma Wade es el núcleo de F.E.A.R."
+  },
+  {
+    "knowledge": "Está escrito y dirigido por Stephen Poliakoff, protagonizado por Jim Sturgess, Freddie Highmore, Charlotte Riley, Phoebe Fox, Alfred Molina, Lindsay Duncan, August Diehl, Alfie Allen, Angela Bassett, Antje Traue, Lily G y Robert Glenister. Robert Lewis Glenister (nacido el 11 de marzo de 1960) es un actor inglés conocido por sus papeles como el estafador Ash \"Three Socks\" Morgan en la serie de televisión de la BBC \"Hustle\" y Nicholas Blake en la Drama de espías de la BBC \"Spooks\".",
+    "question": "Close to the Enemy protagonizó al actor inglés conocido como Ash Morgan ¿en qué serie de la BBC?",
+    "right_answer": "Ajetreo",
+    "hallucinated_answer": "Close to the Enemy protagonizó el actor inglés conocido como Nicholas Blake en el drama de espías de la BBC \"Spooks\"."
+  },
+  {
+    "knowledge": "Canty Bay es una aldea costera junto a la A198, en East Lothian, Escocia, situada frente a Bass Rock y el castillo de Tantallon. El faro de Bass Rock se construyó sobre la roca en 1902 y sobreviven los restos de una antigua capilla.",
+    "question": "¿El faro de Bass Rock estaba al lado de qué castillo?",
+    "right_answer": "Castillo de Tantallón",
+    "hallucinated_answer": "El faro de Bass Rock estaba al lado del Castillo de Edimburgo."
+  },
+  {
+    "knowledge": "El Parque Gülhane (turco: \"Gülhane Parkı\", \"Rosehouse Park\"; del persa: \"Gulkhāna\", \"casa de las flores\") es un parque urbano histórico en el distrito Eminönü de Estambul, Turquía; se encuentra junto a y en los terrenos del Palacio Topkapı. Zografeion Lyceum (turco: \"Özel Zoğrafyon Rum Lisesi\", griego: Ζωγράφειον Λύκειον) es una de las escuelas griegas abiertas que quedan en Estambul.",
+    "question": "¿En qué país se encuentran el parque Gülhane y el liceo Zografeion?",
+    "right_answer": "Pavo",
+    "hallucinated_answer": "El parque Gülhane y el Zografeion Lyceum se encuentran en Europa."
+  },
+  {
+    "knowledge": "Sus papeles cinematográficos incluyeron el de carcelero en la comedia \"Two-Way Stretch\" (1960) y Albert Pierrepoint, el verdugo, en \"10 Rillington Place\" (1971). Ejecutó al menos a 400 personas, entre ellas William Joyce (\"Lord Haw-Haw\") y John Amery.",
+    "question": "¿Cómo se llama la película en la que Edwin Brown interpreta a un hombre que ejecutó al menos a 400 personas, entre ellas William Joyce y John Amery?",
+    "right_answer": "10 Rillington Place",
+    "hallucinated_answer": "\"La justicia del verdugo\""
+  },
+  {
+    "knowledge": "Real Damage es un EP dividido de la banda estadounidense de indie rock Gossip y el solista de electropop Tracy + the Plastics, fue lanzado el 25 de enero de 2005. El electropop es una variante del synth-pop que pone más énfasis en un sonido electrónico más duro.",
+    "question": "¿De qué género musical es una variante el solista que contribuyó a Real Damage?",
+    "right_answer": "pop sintetizado",
+    "hallucinated_answer": "El solista que contribuyó a Real Damage pertenece a un género experimental."
+  },
+  {
+    "knowledge": "Shapiro es mejor conocido como el guionista original de la película \"\" y por escribir la adaptación del guión de la novela \"Battlefield Earth\" de L. Ron Hubbard.Battlefield Earth (también conocida como Battlefield Earth: A Saga of the Year 3000) es una película de acción de ciencia ficción estadounidense de 2000 basada en la primera mitad de la novela homónima de 1982 de L. Ron Hubbard. Dirigida por Roger Christian y protagonizada por John Travolta, Barry Pepper y Forest Whitaker, la película describe una Tierra que ha estado bajo el dominio de los alienígenas Psychlos durante 1.000 años y cuenta la historia de la rebelión que se desarrolla cuando los Psychlos intentan utilizar a los humanos supervivientes como mineros de oro.",
+    "question": "Jake David Shapiro fue mejor conocido por ser el guionista de una película dirigida por ¿quién?",
+    "right_answer": "roger cristiano",
+    "hallucinated_answer": "Jake David Shapiro era mejor conocido por ser el guionista de una película dirigida por Steven Spielberg."
+  },
+  {
+    "knowledge": "Los anglos eran una tribu germánica dominante en el asentamiento anglosajón de Gran Bretaña y dieron su nombre a los ingleses, Inglaterra y la región de East Anglia. Originario de Angeln, actual Schleswig-Holstein, se ha conservado una lista legendaria de sus reyes en los poemas heroicos \"Widsith\" y \"Beowulf\" y en la \"Crónica anglosajona\". Widsith es un poema en inglés antiguo de 143 líneas. El poema sobrevive sólo en el Libro de Exeter, un manuscrito de poesía en inglés antiguo compilado a finales del siglo X que contiene aproximadamente una sexta parte de toda la poesía en inglés antiguo que se conserva.",
+    "question": "¿Qué libro contiene un poema que, junto con \"Beowulf\" y la \"Crónica anglosajona\", conserva una lista legendaria de los reyes anglos?",
+    "right_answer": "Libro de Exeter",
+    "hallucinated_answer": "El Libro de Glasgow contiene el poema."
+  },
+  {
+    "knowledge": "Norbert Holm (16 de diciembre de 1895 - 3 de junio de 1962) fue un general de la Wehrmacht de la Alemania nazi durante la Segunda Guerra Mundial. Tras el complot del 20 de julio, el 16 de septiembre de 1944, Norbert Holm fue arrestado y posteriormente degradado debido a su asociación como Jefe de Operaciones con el marsal de campo Erwin Rommel. Erwin Rommel (15 de noviembre de 1891 - 14 de octubre de 1944) fue un general y teórico militar alemán. Conocido popularmente como el Zorro del Desierto, sirvió como mariscal de campo en la Wehrmacht de la Alemania nazi durante la Segunda Guerra Mundial.",
+    "question": "Norbert Holm fue arrestado y luego degradado debido a su asociación como Jefe de Operaciones con un teórico militar conocido popularmente como ¿qué?",
+    "right_answer": "el zorro del desierto",
+    "hallucinated_answer": "Norbert Holm fue arrestado y luego degradado debido a su asociación como Jefe de Operaciones con un estratega militar."
+  },
+  {
+    "knowledge": "Sang Wook Cheong es un científico de materiales coreano-estadounidense de la Universidad de Rutgers. Rutgers, la Universidad Estatal de Nueva Jersey (), comúnmente conocida como Universidad de Rutgers, Rutgers o RU, es una universidad pública de investigación estadounidense y la institución de educación superior más grande de Nueva Jersey.",
+    "question": "¿En qué estado trabaja Sang-Wook Cheong como científico de materiales?",
+    "right_answer": "Nueva Jersey",
+    "hallucinated_answer": "Sang-Wook Cheong trabaja como científico de materiales en Pensilvania."
+  },
+  {
+    "knowledge": "Kniphofia, también llamada tritoma, atizador candente, lirio antorcha, knofflers o planta atizadora, es un género de plantas con flores perteneciente a la familia Asphodelaceae, descrita por primera vez como género en 1794. Son plantas herbáceas perennes con flores parecidas a guisantes, seguidas de vainas, que a veces están infladas.",
+    "question": "¿Qué tipo de vegetación tienen en común Kniphofia y Baptisia?",
+    "right_answer": "planta",
+    "hallucinated_answer": "Kniphofia y Baptisia son plantas perennes."
+  },
+  {
+    "knowledge": "A Place in the Sun es el segundo álbum de estudio de la banda de rock estadounidense Lit.Lit es una banda de rock estadounidense, formada en 1995 en Fullerton, California. Son mejor conocidos por su exitosa canción \"My Own Worst Enemy\".",
+    "question": "La banda de rock californiana Lit grabó A Place in the Sun en 1995, pero ¿cuál es su canción más conocida?",
+    "right_answer": "Mi peor enemigo",
+    "hallucinated_answer": "El mayor éxito de Lit es \"All Star\" de Smash Mouth."
+  },
+  {
+    "knowledge": "Harrison comenzó su carrera en la década de 1970 y ha escrito más de 300 canciones grabadas en grandes sellos, incluidos varios éxitos número uno. Bryan Shelton White (nacido el 17 de febrero de 1974) es un artista de música country estadounidense.",
+    "question": "Gary Harrison, comenzó su carrera en la década de 1970 y ha escrito muchas canciones grabadas por sellos importantes, incluidos varios éxitos número uno, otro artista que ha grabado su trabajo incluye a Bryan White, un artista de música country estadounidense.",
+    "right_answer": "300",
+    "hallucinated_answer": "Gary Harrison ha escrito más de 400 canciones grabadas en sellos importantes."
+  },
+  {
+    "knowledge": "La carrera de 14 vueltas fue la décima prueba de la temporada de Fórmula Uno de 1976 y fue ganada por James Hunt. Después de retirarse de las carreras en 1979, Hunt se convirtió en comentarista de medios y hombre de negocios.",
+    "question": "¿En qué año ganó el Gran Premio de Alemania de 1976 un piloto que se retiró?",
+    "right_answer": "1979",
+    "hallucinated_answer": "El Gran Premio de Alemania de 1976 lo ganó un piloto que se retiró en 1980."
+  },
+  {
+    "knowledge": "El Campeonato Asiático de Atletismo Juvenil de 2001 fue la novena edición de la competición internacional de atletismo para atletas asiáticos menores de 20 años, organizada por la Asociación Asiática de Atletismo. Se disputaron un total de 43 pruebas, que se dividieron a partes iguales entre atletas masculinos y femeninos, aparte de la carrera de obstáculos de 3000 metros masculina. La carrera de obstáculos de 3000 metros o carrera de obstáculos de 3000 metros es la distancia más común para la carrera de obstáculos en atletismo. Es una carrera de obstáculos de 3.000 metros de distancia y debe su nombre a la carrera de obstáculos de caballos.",
+    "question": "¿En qué evento del Campeonato Asiático Juvenil de Atletismo hay hombres y mujeres compitiendo al mismo tiempo?",
+    "right_answer": "3000 metros obstáculos",
+    "hallucinated_answer": "Hombres y mujeres compiten en diferentes eventos."
+  },
+  {
+    "knowledge": "En cambio, Novotná se asoció con Natasha Zvereva como primera cabeza de serie, mientras que Hingis se asoció con Anna Kournikova como segunda cabeza de serie. Novotná y Zvereva se retiraron en su partido de cuartos de final contra Lindsay Davenport y Mary Pierce, pero Hingis y Kournikova llegaron a la final donde perdieron ante las hermanas estadounidenses Serena y Venus Williams, 6–3, 6–7, 8–6. Anna Sergeyevna Kournikova (rusa: А́нна Серге́евна Ку́рникова; ]; nacida el 7 junio de 1981) es un ex tenista profesional ruso.",
+    "question": "¿Qué subcampeona del Abierto de Francia de 1999 - Dobles femenino nació en Rusia el 7 de junio de 1981?",
+    "right_answer": "Anna Kournikova",
+    "hallucinated_answer": "Natasha Zvereva quedó en segundo lugar."
+  },
+  {
+    "knowledge": "Wild Horse Creek es un afluente del río Powder en Wyoming. El río Powder es un afluente del río Yellowstone, de aproximadamente 375 millas de largo en el noreste de Wyoming y el sureste de Montana en los Estados Unidos.",
+    "question": "¿Cuál es la longitud del río que tiene Wild Horse Creek como afluente?",
+    "right_answer": "375 millas de largo",
+    "hallucinated_answer": "El río con Wild Horse Creek tiene unas 400 millas de largo."
+  },
+  {
+    "knowledge": "Una vez finalizada, la torre oeste más alta se extenderá 995 pies hasta su techo y será uno de los edificios más altos de la ciudad de Nueva York y del mundo. El Singer Building o Singer Tower, en Liberty Street y Broadway en el distrito financiero del Bajo Manhattan, en el estado estadounidense de Nueva York, era un edificio de oficinas de 47 pisos terminado en 1908 como sede de Singer Manufacturing Company.",
+    "question": "¿Manhattan West y Singer Building son proyectos en Nueva York?",
+    "right_answer": "Sí",
+    "hallucinated_answer": "Manhattan West es más alto que Singer Building."
+  },
+  {
+    "knowledge": "24 horas en Craigslist es un largometraje documental estadounidense de 2005 que captura las personas y las historias detrás de las publicaciones de un solo día en el sitio web de anuncios clasificados Craigslist. La película, realizada con la aprobación del fundador de Craigslist, Craig Newmark, está tejida a partir de entrevistas con los usuarios del sitio, todos los cuales optaron por ser contactados por la producción cuando enviaron sus publicaciones el 4 de agosto de 2003.Craig Alexander Newmark (nacido el 6 de diciembre de 1952) es un empresario estadounidense de Internet más conocido por ser el fundador del sitio web internacional Craigslist, con sede en San Francisco.",
+    "question": "¿Quién es el emprendedor estadounidense de Internet que fundó la empresa que aparece en 24 horas en Craigslist?",
+    "right_answer": "Craig Newmark",
+    "hallucinated_answer": "El fundador de Craigslist es Craig Williams."
+  },
+  {
+    "knowledge": "Kim Antonie Lode Clijsters (]; nacida el 8 de junio de 1983) es una ex tenista profesional belga. Mary Pierce (nacida el 15 de enero de 1975) es una tenista profesional francesa retirada que jugó en la gira de la Asociación de Tenis Femenino (WTA).",
+    "question": "Entre dos tenistas Kim Clijsters y Mary Pierce, ¿quién es mayor?",
+    "right_answer": "María Pierce",
+    "hallucinated_answer": "Kim Clijsters es mayor por meses."
+  },
+  {
+    "knowledge": "Entre los colegios y universidades estadounidenses que han enviado estudiantes a CMRS se encuentran la Universidad de Georgia, Elmhurst College, St. Mary's College of California, St. Mary's College of Maryland, St. Olaf College, William Jewell College, Middlebury College. Fue fundada en 1874 por un grupo de pastores y agricultores inmigrantes noruego-estadounidenses, dirigidos por el pastor Bernt Julius Muus.",
+    "question": "¿Qué universidad estadounidense que envió estudiantes al Centro de Estudios Medievales y Renacentistas se fundó en 1874?",
+    "right_answer": "Colegio San Olaf",
+    "hallucinated_answer": "El Colegio William Jewell fue fundado en 1874."
+  },
+  {
+    "knowledge": "Hot Coffee es un lugar en el condado de Covington, Mississippi, celebrado en la tradición local de Mississippi. A veces se le asigna el mismo código postal que la cercana Collins. Collins es una ciudad en el condado de Covington, Mississippi, Estados Unidos. La población era 2.586 en el censo de 2010.",
+    "question": "Hot Coffee, Mississippi a veces comparte un código postal con una ciudad cercana ¿con qué población en el censo de 2010?",
+    "right_answer": "2.586",
+    "hallucinated_answer": "La población de la ciudad cercana era 2.580."
+  },
+  {
+    "knowledge": "Afiliada a la Universidad Estatal de Tennessee, ganó la prueba de 80 m con vallas en los Juegos Panamericanos de 1963. Los IV Juegos Panamericanos se llevaron a cabo del 20 de abril al 5 de mayo de 1963 en São Paulo, Brasil.",
+    "question": "Jo Ann Terry ganó la prueba de 80 metros con vallas ¿en qué evento con sede en Sao Paulo de 1963?",
+    "right_answer": "Juegos Panamericanos",
+    "hallucinated_answer": "Jo Ann Terry ganó la prueba de 80 metros con vallas en los Juegos Latinoamericanos en São Paulo, Brasil."
+  },
+  {
+    "knowledge": "Pearl Lowe (nacida Pearl Samantha Davis; 1970), es una diseñadora inglesa de moda y textiles, y ex cantautora.Alison Elizabeth Margaret Goldfrapp (nacida el 13 de mayo de 1966) es una músico y productora discográfica inglesa, más conocida como la vocalista principal del dúo de música electrónica Goldfrapp.",
+    "question": "Pearl Lowe y Alison Goldfrapp, ¿de qué nacionalidad es?",
+    "right_answer": "Inglés",
+    "hallucinated_answer": "Pearl Lowe y Alison Goldfrapp son de nacionalidad británica."
+  },
+  {
+    "knowledge": "Matheson & Company era una casa comercial con sede en Londres estrechamente asociada con Jardine Matheson de Hong Kong y Jardine Skinner de Calcuta. Jardine Matheson Holdings Limited, también conocida como Jardines, es un conglomerado británico incorporado en las Bermudas, con su cotización principal en la Bolsa de Singapur. La mayoría de sus intereses comerciales se encuentran en Asia y sus subsidiarias incluyen Jardine Pacific, Jardine Motors, Jardine Lloyd Thompson, Hongkong Land, Jardine Strategic Holdings, Dairy Farm, Mandarin Oriental Hotel Group, Jardine Cycle & Carriage y Astra International.",
+    "question": "¿Qué empresa británica cuya mayoría de sus intereses comerciales están en Asia estaba relacionada con la casa comercial Matheson & Company con sede en Londres?",
+    "right_answer": "Jardine Matheson",
+    "hallucinated_answer": "Matheson & Company fue fundada por Jardine Matheson."
+  },
+  {
+    "knowledge": "\"contacto-combate\") es un sistema militar de autodefensa desarrollado para las Fuerzas de Defensa de Israel (FDI) y las fuerzas de seguridad israelíes (Shin Bet y Mossad) que consiste en una combinación de técnicas provenientes del boxeo, la lucha libre, el Aikido, el Judo y el Karate junto con un entrenamiento de lucha realista. Emrich \"Imi\" Lichtenfeld (26 de mayo de 1910 – 9 de enero de 1998) fue un artista marcial israelí nacido en Hungría que fundó el Krav Sistema de autodefensa Maga. También era conocido como Imi Sde-Or, el calco hebreo de su apellido.",
+    "question": "¿Qué hombre, también conocido como mi Sde-Or, creó un sistema de autodefensa militar desarrollado para las Fuerzas de Defensa de Israel?",
+    "right_answer": "Emrich \"Imi\" Lichtenfeld",
+    "hallucinated_answer": "El sistema de autodefensa Krav Maga fue creado por Emrich \"Imi\" Lichtenfeld, también conocido como mi Sde-Or."
+  },
+  {
+    "knowledge": "Robert Fleischman (nacido el 11 de marzo de 1953) es un músico, compositor y productor discográfico estadounidense.James Dixon Swan {'1': \", '2': \", '3': \", '4': \"} (nacido el 28 de abril de 1956), más conocido como Jimmy Barnes, es un cantautor de rock escocés-australiano.",
+    "question": "¿Los músicos Robert Fleischman y Jimmy Barnes tienen la misma nacionalidad?",
+    "right_answer": "No",
+    "hallucinated_answer": "Robert Fleischman y Jimmy Barnes son de diferentes nacionalidades."
+  },
+  {
+    "knowledge": "Mirabeau B.V. es una agencia digital con sede en Ámsterdam, Países Bajos. La empresa fue adquirida por Cognizant en 2016. Cognizant es una corporación multinacional estadounidense que brinda servicios de TI, incluidos servicios digitales, de tecnología, de consultoría y de operaciones.",
+    "question": "¿Cómo se llama esta multinacional estadounidense de servicios informáticos, con sede en Nueva Jersey, que adquirió Mirabeau?",
+    "right_answer": "Competente",
+    "hallucinated_answer": "IBM es el nombre de la corporación multinacional estadounidense que proporciona servicios de TI con sede en Nueva Jersey, que adquirió Mirabeau."
+  },
+  {
+    "knowledge": "Fannie Lee Chaney (4 de septiembre de 1921 – 22 de mayo de 2007) fue una panadera estadounidense convertida en activista de derechos civiles después de que su hijo James Chaney fuera asesinado por el Ku Klux Klan durante los paseos Freedom Summer de 1964 en Mississippi.James Earl Chaney (30 de mayo de 1943 – 21 de junio de 1964), de Meridian, Mississippi, fue uno de los tres trabajadores estadounidenses de derechos civiles que fueron asesinados durante Freedom Summer por miembros del Ku Klux Klan cerca de Filadelfia, Mississippi.",
+    "question": "¿Cuándo nació el hijo de Fannie Lee Chaney?",
+    "right_answer": "30 de mayo de 1943",
+    "hallucinated_answer": "James Earl Chaney nació el 30 de mayo de 1943, pero su madre Fannie Lee Chaney nació en 1921."
+  },
+  {
+    "knowledge": "El monumento fue el resultado del cabildeo y la recaudación de fondos, gran parte de ellos en Canadá, por parte del ex magnate de los medios canadienses Conrad Black.Conrad Moffat Black, Lord Black de Crossharbour, KSG (nacido el 25 de agosto de 1944) es un ex editor y autor de periódicos británico nacido en Canadá.",
+    "question": "El Memorial de Canadá en Green Park, Londres, Reino Unido, conmemora a los miembros de las fuerzas canadienses asesinados durante la Primera y Segunda Guerra Mundial, el monumento fue el resultado del cabildeo y la recaudación de fondos, gran parte de ellos en Canadá, por parte del ex magnate de los medios canadiense Conrad Moffat Black, ¿cuál es su título, de este ex editor y autor de periódicos británico?",
+    "right_answer": "Señor Negro de Crossharbour",
+    "hallucinated_answer": "Conrad Black es un autor canadiense."
+  },
+  {
+    "knowledge": "Los Proyectos Nucleares de Washington Nos. 3 y 5, abreviados como WNP-3 y WNP-5 (conocidos colectivamente como Planta de Energía Nuclear Satsop) fueron dos de las cinco plantas de energía nuclear cuya construcción inició el Sistema Público de Suministro de Energía de Washington (WPPSS) para satisfacer la demanda de electricidad proyectada en el Noroeste del Pacífico. Energy Northwest (anteriormente Sistema Público de Suministro de Energía de Washington) es una agencia operativa conjunta de energía pública de los Estados Unidos formada por la ley estatal en 1957 para producir energía a costo para Servicios públicos del noroeste.",
+    "question": "¿WNP-3 y WNP-5 fueron construidos por la agencia formada en qué año?",
+    "right_answer": "1957",
+    "hallucinated_answer": "WNP-3 y WNP-5 fueron construidos por una empresa privada."
+  },
+  {
+    "knowledge": "Central Harbourfront es un sitio frente al mar en Central, Hong Kong. IFC, denominado \"ifc\") es un rascacielos y un desarrollo comercial integrado en el paseo marítimo del Distrito Central de Hong Kong.",
+    "question": "El Central Harbourfront es un sitio frente al mar, es el resultado de Central y Wan Chai Reclamation, y se encuentra al este del Centro Financiero Internacional (IFC), un rascacielos y un desarrollo comercial integrado en el frente marítimo del Distrito Central, ¿de qué territorio?",
+    "right_answer": "Hong Kong",
+    "hallucinated_answer": "El Central Harbourfront se encuentra en Nueva York."
+  },
+  {
+    "knowledge": "Bundestag es una estación de U-Bahn de Berlín ubicada en la U55. El Reichstag (alemán: \"Reichstagsgebäude\"]; oficialmente: \"Deutscher Bundestag - Plenarbereich Reichstagsgebäude\"]) es un edificio histórico en Berlín, Alemania, construido para albergar la Dieta Imperial (alemán: \"Reichstag\"), del Imperio Alemán.",
+    "question": "¿Qué ciudad tienen en común el Bundestag y el Reichstag?",
+    "right_answer": "Berlina",
+    "hallucinated_answer": "El Bundestag y el Reichstag se encuentran en dos ciudades diferentes."
+  },
+  {
+    "knowledge": "Collins fue el cantante principal de la banda post-punk de los años 80 Orange Juice, que cofundó.Jimmie Ross es un guitarrista y vocalista de rock estadounidense mejor conocido por ser miembro de la banda de Pittsburgh The Jaggerz, conocida por su éxito de 1970 \"The Rapper\". Durante la existencia inicial de la banda de 1965 a 1976, el bajista compartió las funciones de vocalista principal con el guitarrista Donnie Iris.",
+    "question": "¿Qué músico, Edwyn Collins o Jimmie Ross, tocaba el bajo?",
+    "right_answer": "Jimmie Ross",
+    "hallucinated_answer": "Edwyn Collins tocaba varios instrumentos."
+  },
+  {
+    "knowledge": "La historia de Presque Isle Pensilvania comenzó cuando Presque Isle fue creada por la acción de las olas del lago Erie a lo largo de los 11.000 años que han pasado desde la última edad de hielo. El Parque Estatal Presque Isle es un parque estatal de Pensilvania de 3112 acres en una península arenosa arqueada que se adentra en el lago Erie, a 4 millas al oeste de la ciudad de Erie, en Millcreek Township, condado de Erie, Pensilvania, en los Estados Unidos.",
+    "question": "¿Cómo se llama el parque estatal de Pensilvania de 3112 acres que requirió más de 11,000 debido a la acción de las olas del lago Erie?",
+    "right_answer": "Isla Presque",
+    "hallucinated_answer": "El parque estatal de Pensilvania de 3112 acres que tardó más de 11.000 años en construirse debido a la acción de las olas del lago Erie se conoce como península del lago Erie."
+  },
+  {
+    "knowledge": "Teri W. Odom es una química y científica de materiales estadounidense. Odom es miembro del consejo asesor editorial de ACS Nano, Chemical Physics Letters, Journal of Physical Chemistry y Nano Letters. ACS Nano es una revista científica mensual, revisada por pares, publicada por primera vez en agosto de 2007 por la American Chemical Society.",
+    "question": "Teri W. Odom es miembro de una revista científica publicada por primera vez en 2007 ¿por quién?",
+    "right_answer": "la sociedad química americana",
+    "hallucinated_answer": "Teri W. Odom es miembro del consejo asesor editorial de Chemical Physics Letters, publicado por primera vez en 2007 por la Sociedad Estadounidense de Física."
+  },
+  {
+    "knowledge": "Park Dietz (nacido en 1948) es un psiquiatra forense que ha consultado o testificado en muchos de los casos penales estadounidenses de más alto perfil, incluidos Joel Rifkin, Arthur Shawcross, Jeffrey Dahmer, The Unabomber, Richard Kuklinski, los ataques de francotiradores de Beltway y Jared Lee Loughner. Estuvo asociado con miembros de la mafia estadounidense, a saber, la familia criminal DeCavalcante de Newark, Nueva Jersey, y las Cinco Familias de la ciudad de Nueva York.",
+    "question": "¿Qué psiquiatra forense consultó sobre numerosos casos, incluido uno de un asesino a sueldo asociado con la familia criminal DeCavalcante?",
+    "right_answer": "Parque Dietz",
+    "hallucinated_answer": "Park Dietz era psicólogo."
+  },
+  {
+    "knowledge": "Early Orbison es un álbum grabado por Roy Orbison en el sello Monument Records en sus estudios en Hendersonville, Tennessee y lanzado en 1964. Esencialmente una recopilación de canciones de sus dos primeros álbumes de Monument, es más notable por contener \"Pretty One\", la cara \"B\" del segundo sencillo de Orbison en Monument, \"Uptown\". Roy Kelton Orbison (23 de abril de 1936 - 6 de diciembre de 1988) fue un estadounidense Cantautor conocido por su voz distintiva y apasionada, estructuras de canciones complejas y baladas oscuras y emocionales.",
+    "question": "¿Qué cantautor estadounidense conocido como \"el Caruso del Rock\", grabó en el sello Monument Records y tuvo éxitos como \"Pretty One\" y \"Uptown\"?",
+    "right_answer": "Roy Orbison",
+    "hallucinated_answer": "Elvis Presley grabó canciones en el sello Monument Records."
+  },
+  {
+    "knowledge": "Las aventuras de Brer Rabbit es un libro, una obra de teatro y una película inspirada en las historias del tío Remus. Posteriormente, Walt Disney Company adaptó este personaje para su película animada de 1946 \"Song of the South\".",
+    "question": "¿En qué película cinematográfica de Walt Disney Company de 1946 se adaptó más tarde el personaje central de \"Las aventuras de Brer Rabbit\"?",
+    "right_answer": "\"Canción del Sur\".",
+    "hallucinated_answer": "\"Las aventuras de Brer Rabbit\" se adaptaron a \"Bambi\"."
+  },
+  {
+    "knowledge": "Abe Weinberg se convertiría en uno de los principales pistoleros de Schultz durante las Guerras Contrabandistas de Manhattan y fue un sospechoso posterior en los asesinatos de mafiosos de alto perfil de Jack \"Legs\" Diamond, Vincent \"Mad Dog\" Coll y el jefe de la mafia Salvatore Maranzano. Vincent \"Mad Dog\" Coll (nacido en Uinseann Ó Colla, 20 de julio de 1908 - 7 de febrero de 1932) fue un mafioso irlandés estadounidense asesino a sueldo en la década de 1920 y principios de la de 1930 en la ciudad de Nueva York.",
+    "question": "¿Abraham Weinberg fue sospechoso del asesinato de qué sicario irlandés-estadounidense?",
+    "right_answer": "Vicente \"Perro Loco\" Coll",
+    "hallucinated_answer": "Abraham Weinberg estuvo involucrado en asesinatos de mafiosos."
+  },
+  {
+    "knowledge": "Benjamin Halfpenny (25 de abril de 1906 - 15 de junio de 1966) fue un futbolista de la liga de rugby profesional inglés que jugó en las décadas de 1920 y 1930, jugando a nivel representativo para Gran Bretaña (partidos que no son de prueba) e Inglaterra, y a nivel de clubes para Widnes, St. Helens y Warrington, como ala, o delantero suelto/bloqueo, es decir, número 2 o 5, 3 o 4, 8. o 10, 11 o 12, o 13.Widnes Vikings R.L.F.C. es un club de la liga de rugby profesional inglés con sede en Widnes, Cheshire, que actualmente juega en la Superliga, el nivel más alto de la liga europea de rugby. El club juega sus partidos como local en el Select Security Stadium.",
+    "question": "Benjamin Halfpenny fue futbolista de un club que juega sus partidos como local ¿dónde?",
+    "right_answer": "Seleccionar Estadio de Seguridad",
+    "hallucinated_answer": "Benjamin Halfpenny jugó para un club que jugaba partidos en casa en un estadio."
+  },
+  {
+    "knowledge": "Después del retiro de Jeff Hornacek, el Jazz contrató a los agentes libres Danny Manning y John Starks, y adquirió a Donyell Marshall de los Golden State Warriors en un intercambio de cuatro equipos fuera de temporada. John Levell Starks (nacido el 10 de agosto de 1965) es un escolta de baloncesto profesional retirado estadounidense.",
+    "question": "La temporada 2000-01 de la NBA fue la temporada número 27 del Jazz en la Asociación Nacional de Baloncesto y la temporada 22 en Salt Lake City, Utah. Después del retiro de Jeff Hornacek, el Jazz contrató a los agentes libres John Starks, ¿y quién?",
+    "right_answer": "Danny Manning",
+    "hallucinated_answer": "El Jazz no contrató a ningún otro agente libre."
+  },
+  {
+    "knowledge": "Foeke Booy (nacido el 25 de abril de 1962 en Leeuwarden) es un futbolista y entrenador de fútbol holandés retirado. Leeuwarden (], ]), Stadsfries: \"Liwwadden\") es una ciudad y municipio con una población de 108.249 en Frisia, Países Bajos.",
+    "question": "¿Cuál era la población de la ciudad donde nació el futbolista retirado holandés Foeke Booy?",
+    "right_answer": "108,249",
+    "hallucinated_answer": "La población de Leeuwarden era 108.248."
+  },
+  {
+    "knowledge": "BlackBerry DTEK60 es un teléfono inteligente Android desarrollado y distribuido conjuntamente por BlackBerry Limited y fabricado por TCL. BlackBerry fue fundada en 1984 como Research In Motion por Mike Lazaridis y Douglas Fregin.",
+    "question": "¿En qué año se fundó la empresa que codesarrolló y distribuyó el BlackBerry DTEK60?",
+    "right_answer": "1984",
+    "hallucinated_answer": "La empresa que codesarrolló y distribuyó el BlackBerry DTEK60 se fundó a principios de los años 1990."
+  },
+  {
+    "knowledge": "La ceremonia estuvo presidida por Isabelle Mergault. \"No se lo digas a nadie\" ganó el premio a la Mejor Película. Escrita por Canet y Philippe Lefebvre y protagonizada por François Cluzet, la película ganó cuatro categorías en los Premios César 2007 en Francia: Mejor Director (Guillaume Canet), Mejor Actor (François Cluzet), Mejor Montaje y Mejor Música Escrita para una Película.",
+    "question": "¿Quién presidió la ceremonia en la que la película escrita por Canet y Philippe Lefebvre ganó el premio a la Mejor Película?",
+    "right_answer": "Isabelle Mergault",
+    "hallucinated_answer": "De hecho, la ceremonia fue organizada por Jean Dujardin."
+  },
+  {
+    "knowledge": "En contraste con publicaciones y comunidades feministas como \"Jezebel\" o \"Bust\", \"Mookychick\" explora cuestiones de género desde la perspectiva del outsider social que se siente marginado por sus elecciones de estilo de vida. BUST es una revista de estilo de vida para mujeres que se publica seis veces al año.",
+    "question": "Mookychick es una revista y comunidad en línea diaria independiente con más de 100.000 lectores al mes y más de 5.000 miembros del foro, el contenido incluye análisis de eventos sociopolíticos actuales, tendencias sociales y culturales, moda alternativa, películas, libros, música y artes y manualidades desde una perspectiva feminista, en contraste con publicaciones y comunidades feministas como la revista de estilo de vida femenino que se publica seis veces al año y es publicada por Debbie Stoller y Laurie Henzel.",
+    "right_answer": "BUSTO",
+    "hallucinated_answer": "Mookychick es una publicación feminista con un estilo diferente a BUST."
+  },
+  {
+    "knowledge": "Der Mond (\"La Luna\") es una ópera en un acto de Carl Orff basada en un cuento de hadas de Grimm) con libreto del compositor. Carl Heinrich Maria Orff (]; (1895--)10 1895 – (1982--)29 1982) fue un compositor alemán, mejor conocido por su cantata \"Carmina Burana\" (1937).",
+    "question": "¿Der Mond fue compuesto por el hombre más conocido por qué cantata?",
+    "right_answer": "Carmina Buraña",
+    "hallucinated_answer": "Der Mond fue compuesta por Carl Orff."
+  },
+  {
+    "knowledge": "Hizo su debut cinematográfico en \"Smashed\" y luego apareció en \"Breathe In\", \"That Awkward Moment\" y \"The F Word\", este último por el que recibió una nominación al Canadian Screen Award. es una película de comedia romántica canadiense de 2013 dirigida por Michael Dowse y escrita por Elan Mastai, basada en la obra de TJ Dawe y Michael Rinaldi \"Toothpaste and Cigars\".",
+    "question": "Mackenzie Davis apareció en la película de comedia romántica canadiense de 2013 dirigida por ¿quién?",
+    "right_answer": "Michael Dowse",
+    "hallucinated_answer": "Mackenzie Davis apareció en una película canadiense dirigida por John Smith."
+  },
+  {
+    "knowledge": "En 1986, DCP se incorporó como una organización sin fines de lucro bajo el liderazgo de su primer director ejecutivo Barack Obama. Barack Hussein Obama II (nacido el 4 de agosto de 1961) es un político estadounidense que sirvió como el 44º presidente de los Estados Unidos de 2009 a 2017.",
+    "question": "¿Cuál fue el primer director ejecutivo del Proyecto de Comunidades en Desarrollo?",
+    "right_answer": "Barack Hussein Obama II",
+    "hallucinated_answer": "El primer director ejecutivo del Proyecto de Comunidades en Desarrollo fue el padre de Barack Obama."
+  },
+  {
+    "knowledge": "Jane's Addiction es una banda de rock estadounidense de Los Ángeles, formada en 1985. Weeping Willows es un grupo de indie rock sueco que comenzó en 1995.",
+    "question": "Jane's Addiction y Weeping Willows, ¿qué género musical tocas?",
+    "right_answer": "roca",
+    "hallucinated_answer": "Jane's Addiction y Weeping Willows tocan diferentes géneros."
+  },
+  {
+    "knowledge": "Throne of Glass es una serie de novelas de alta fantasía para adultos jóvenes de la autora estadounidense Sarah J. Maas, que comienza con la entrada inaugural del mismo nombre. Sarah Janet Maas (nacida el 5 de marzo de 1986) es una autora de fantasía estadounidense más vendida del \"New York Times\" y del \"USA Today\".",
+    "question": "Throne of Glass es una serie de novelas de alta fantasía para adultos jóvenes, ¿de qué autor de fantasía estadounidense más vendido?",
+    "right_answer": "Sara Janet Maas",
+    "hallucinated_answer": "El trono de cristal es una serie de novelas de alta fantasía para adultos jóvenes escrita por la exitosa autora de fantasía estadounidense Samantha Myers."
+  },
+  {
+    "knowledge": "A saber, el \"Imperator\" (1912), el \"Vaterland\" (1913) y el más grande, el \"Bismarck\" (1914). Con 56.551 toneladas de registro bruto, fue el barco más grande del mundo hasta su finalización en 1935.",
+    "question": "¿Cuántas toneladas de registro bruto tenía el barco más grande de la clase \"Imperator\"?",
+    "right_answer": "56.551",
+    "hallucinated_answer": "Los transatlánticos de la clase \"Imperator\" tenían un registro bruto de 56.500 toneladas."
+  },
+  {
+    "knowledge": "En 2015, Whitehead comenzó a interpretar el papel de Davis, un músico, en la aclamada serie de Showtime, \"Shameless\".Shameless es una serie de televisión de comedia dramática estadounidense que se transmite por Showtime. Es el remake de la serie británica del mismo nombre. Ambientada en Chicago, la serie está filmada en Los Ángeles y las escenas exteriores se filmaron en Chicago.",
+    "question": "Axle Whitehead fue parte de una serie de televisión de comedia dramática estadounidense que es una nueva versión de la serie británica del mismo nombre ambientada en qué ciudad.",
+    "right_answer": "chicago",
+    "hallucinated_answer": "Axle Whitehead fue parte de una serie de televisión de comedia dramática estadounidense que es una nueva versión de la serie británica y está ambientada en Los Ángeles."
+  },
+  {
+    "knowledge": "Joseph Roth, nacido Moisés Joseph Roth (2 de septiembre de 1894 - 27 de mayo de 1939), fue un periodista y novelista judío austríaco, mejor conocido por su saga familiar \"Radetzky March\" (1932), sobre la decadencia y caída del Imperio austro-húngaro, su novela sobre la vida judía, \"Job\" (1930), y su ensayo fundamental \"Juden auf Wanderschaft\" (1927; traducido al inglés en \"The Wandering Jewish\"), un relato fragmentado de las migraciones judías de Europa oriental a occidental después de la Primera Guerra Mundial y la Revolución Rusa. Cid (Sidney) Corman (29 de junio de 1924 - 12 de marzo de 2004) fue un poeta, traductor y editor estadounidense, sobre todo de \"Origin\", que fue una figura clave en la historia de la poesía estadounidense en la segunda mitad del siglo XX.",
+    "question": "¿Fueron autores tanto Joseph Roth como Cid Corman?",
+    "right_answer": "Sí",
+    "hallucinated_answer": "Joseph Roth y Cid Corman fueron escritores."
+  },
+  {
+    "knowledge": "Afganistán compitió en los Deaflympics por primera vez durante los Summer Deaflympics de 2017 que se celebraron en Turquía. Los Summer Deaflympics de 2017, oficialmente conocidos como 23rd Summer Deaflympics, es un evento multideportivo internacional que tuvo lugar en Samsun, Turquía, del 18 al 30 de julio de 2017.",
+    "question": "¿Cómo se conoció oficialmente el evento en el que Afganistán compitió por primera vez en 2017?",
+    "right_answer": "los 23º Juegos Olímpicos de Verano para Sordos",
+    "hallucinated_answer": "Afganistán compitió en los primeros Juegos Olímpicos para Sordos celebrados en Turquía."
+  },
+  {
+    "knowledge": "Su primera película fue \"Perfume\" en 2001 antes de tener pequeños papeles en \"Spider-Man 3\", \"Serendipity\" y \"The Four Feathers\".Serendipity es una película de comedia romántica estadounidense de 2001 dirigida por Peter Chelsom, escrita por Marc Klein y protagonizada por John Cusack y Kate Beckinsale.",
+    "question": "¿Quién fue el director de la película de comedia romántica estadounidense de 2001 escrita por Marc Klein en la que Lucy Gordon tuvo un pequeño papel?",
+    "right_answer": "Peter Chelsom",
+    "hallucinated_answer": "El director de Serendipity fue Tom Hanks."
+  },
+  {
+    "knowledge": "Las finales de Bunkhouse Stampede fueron el tercer evento de lucha libre profesional Bunkhouse Stampede producido por Jim Crockett Promotions (JCP) bajo el lema de National Wrestling Alliance (NWA) y fue el único evento de Bunkhouse Stampede que se transmitió como un evento de pago por evento (PPV). El evento tuvo lugar el 24 de enero de 1988 desde el Nassau Veterans Memorial Coliseum en Uniondale, Nueva York. Uniondale es una aldea y lugar designado para el censo (CDP), así como un suburbio en el condado de Nassau, Nueva York, Estados Unidos, en Long Island, en la ciudad de Hempstead.",
+    "question": "¿Qué aldea y lugar designado por el censo fue la ubicación del único Bunkhouse Stampede de pago por evento?",
+    "right_answer": "Uniondale, Nueva York",
+    "hallucinated_answer": "Las finales de Bunkhouse Stampede se llevaron a cabo en Hempstead, Nueva York."
+  },
+  {
+    "knowledge": "Después de que el ejército mexicano matara a tiros al jefe superior del cartel, Arturo Beltrán Leyva, en diciembre de 2009, su hermano Héctor Beltrán Leyva tomó el control de una de las facciones del cartel y declaró la guerra a Edgar Valdez Villarreal, quien durante mucho tiempo había sido la mano derecha de Arturo. Cártel de Leyva, grupo criminal con base en Sinaloa.",
+    "question": "La Barredora era una pandilla que le declaró la guerra al líder del cartel ¿con base en dónde?",
+    "right_answer": "Sinaloa",
+    "hallucinated_answer": "La Barredora fue una pandilla que le declaró la guerra al líder del cártel con sede en Michoacán."
+  },
+  {
+    "knowledge": "La Comisión Independiente sobre el Sistema de Votación, conocida popularmente como la Comisión Jenkins en honor a su presidente Roy Jenkins, fue una comisión sobre una posible reforma del sistema electoral del Reino Unido. Roy Harris Jenkins, barón Jenkins de Hillhead (11 de noviembre de 1920 - 5 de enero de 2003) fue un político del Partido Laborista británico, SDP y Liberal Demócrata, y biógrafo de líderes políticos británicos.",
+    "question": "¿En qué año murió el presidente de la Comisión Jenkins?",
+    "right_answer": "2003",
+    "hallucinated_answer": "Roy Jenkins murió en 2002."
+  },
+  {
+    "knowledge": "Odysseas Elytis (griego: Οδυσσέας Ελύτης,], seudónimo de Odysseas Alepoudellis, griego: Οδυσσέας Αλεπουδέλλης; 2 de noviembre de 1911 - 18 de marzo de 1996) fue considerado como un importante exponente del modernismo romántico en Grecia y el mundo.Cornel Ronald West (nacido el 2 de junio de 1953) es un filósofo, activista político, crítico social, autor, intelectual público y miembro destacado de los Socialistas Democráticos de América.",
+    "question": "¿Quién nació primero, Odysseas Elytis o Cornel West?",
+    "right_answer": "Odisea Elytis",
+    "hallucinated_answer": "Cornel West nació antes."
+  },
+  {
+    "knowledge": "\"Let Me Out\" es una canción de la banda virtual de rock alternativo Gorillaz, con Pusha T y Mavis Staples. Fue lanzado como el quinto sencillo de su quinto álbum de estudio \"Humanz\". Según un comunicado de prensa, el álbum fue grabado en Londres, París, Nueva York, Chicago y Jamaica y producido por Gorillaz, The Twilite Tone y Remi Kabaka, Jr.",
+    "question": "\"Let Me Out\" es una canción lanzada como quinto sencillo del quinto álbum de estudio de qué banda, \"Humanz\", que se grabó en Londres, París, Nueva York, Chicago y Jamaica.",
+    "right_answer": "banda virtual de rock alternativo Gorillaz",
+    "hallucinated_answer": "\"Let Me Out\" es una canción de la banda virtual francesa Daft Punk."
+  },
+  {
+    "knowledge": "Deal Timeball es una señal marítima victoriana de hora media de Greenwich ubicada en el techo de una torre de cuatro pisos frente al mar en la ciudad costera de Deal, en Kent, Inglaterra. Hoy en día, GMT se considera equivalente a UTC para fines civiles del Reino Unido (pero esto no está formalizado) y para la navegación se considera equivalente a UT1 (la forma moderna de la hora solar media a 0° de longitud); estos dos significados pueden diferir hasta en 0,9 s. En consecuencia, el término GMT no debe utilizarse con fines precisos.",
+    "question": "¿Hasta qué distancia puede estar el Deal Timeball del Tiempo Universal Coordinado?",
+    "right_answer": "0,9 s.",
+    "hallucinated_answer": "La bola de tiempo de reparto puede estar fuera del tiempo universal coordinado hasta 2,5 s."
+  },
+  {
+    "knowledge": "Superheaven (anteriormente conocida como Daylight) es una banda estadounidense de rock alternativo de Doylestown, Pensilvania, formada en 2008. Oceansize era una banda de rock inglesa de Manchester, formada en 1998.",
+    "question": "Superheaven y Oceansize, ¿son bandas de qué género comparten?",
+    "right_answer": "roca",
+    "hallucinated_answer": "Superheaven y Oceansize pertenecen a diferentes subgéneros."
+  },
+  {
+    "knowledge": "Lisandro Alonso (nacido el 2 de junio de 1975) es un director de cine y guionista argentino.Jauja es una película dramática histórica coproducida internacionalmente en 2014, coescrita y dirigida por Lisandro Alonso.",
+    "question": "¿De qué nacionalidad fue dirigida una película de drama histórico?",
+    "right_answer": "Argentino",
+    "hallucinated_answer": "Jauja, la película de drama histórico, fue dirigida por un peruano."
+  },
+  {
+    "knowledge": "Richard Ford (nacido el 16 de febrero de 1944) es un novelista y cuentista estadounidense.Robert Ervin Howard (22 de enero de 1906 – 11 de junio de 1936) fue un autor estadounidense que escribió ficción pulp en una amplia gama de géneros.",
+    "question": "¿Quién tiene más alcance profesional, Richard Ford o Robert E. Howard?",
+    "right_answer": "Richard Ford",
+    "hallucinated_answer": "Robert E. Howard fue un escritor más versátil."
+  },
+  {
+    "knowledge": "El American Aircraft Penetrator, ahora conocido como Aerocraft Stealth Star 204 SS, era un helicóptero artillado modificado del Bell UH-1B Iroquois con asientos en tándem para los pilotos y un compartimento para transporte de tropas. El UH-1 fue el primer helicóptero propulsado por turbina que entró en producción en 1960 para el ejército de los Estados Unidos, y desde entonces se han construido más de 16.000.",
+    "question": "¿El American Aircraft Penetrator fue modificado a partir de un helicóptero producido por el ejército de qué nación?",
+    "right_answer": "Estados Unidos",
+    "hallucinated_answer": "El ejército ruso produjo el helicóptero."
+  },
+  {
+    "knowledge": "Canton Road Station (chino tradicional: 廣東道站) era una estación de tren planificada en el enlace sur de Kowloon de la línea West Rail entre la estación East Tsim Sha Tsui y la estación Austin, debajo del centro comercial Harbour City en Tsim Sha Tsui, reemplazando el estacionamiento subterráneo existente. Harbour City es un gran centro comercial en Tsim Sha Tsui, Hong Kong.",
+    "question": "La estación Canton Road era una estación de tren planificada en el enlace sur de Kowloon de la línea West Rail, que pasaría debajo de un gran centro comercial ubicado ¿dónde?",
+    "right_answer": "Tsim Sha Tsui, Hong Kong",
+    "hallucinated_answer": "La estación de Canton Road estaba debajo del supermercado en Tsim Sha Tsui."
+  },
+  {
+    "knowledge": "The Producers (; iluminado. Productor) es una comedia de situación surcoreana de 2015 protagonizada por Cha Tae-hyun, Gong Hyo-jin, Kim Soo-hyun e IU. Lee Ji-eun (coreano: 이지은; nacida el 16 de mayo de 1993), más conocida por su nombre artístico IU (coreano: 아이유), es una cantante, compositora y actriz de Corea del Sur. Firmó con LOEN Entertainment en 2007 como aprendiz y comenzó su carrera musical a la edad de 15 años con su álbum debut, \"Lost and Found\".",
+    "question": "¿Qué sitcom surcoreana fue protagonizada por una cantante y actriz surcoreana que comenzó su carrera musical a los 15 años?",
+    "right_answer": "Los productores",
+    "hallucinated_answer": "IU comenzó su carrera musical a los 15 años con su álbum debut."
+  },
+  {
+    "knowledge": "\"Ghostbusters\" es una canción escrita y grabada por Ray Parker Jr. como tema de la película del mismo nombre protagonizada por Bill Murray, Dan Aykroyd, Harold Ramis y Ernie Hudson.Daniel Edward Aykroyd {'1': \", '2': \", '3': \", '4': \"} (nacido el 1 de julio de 1952) es un actor, comediante, productor, guionista, músico y hombre de negocios canadiense-estadounidense. Fue miembro original de \"Not Ready for Prime Time Players\" en \"Saturday Night Live\" (1975-1979).",
+    "question": "Ghostbusters es una canción escrita y grabada por Ray Parker Jr. como tema principal de una película protagonizada por un actor canadiense-estadounidense que fue miembro original de Not Ready for Prime Time Players, ¿en qué programa?",
+    "right_answer": "Sábado noche en vivo",
+    "hallucinated_answer": "Ghostbusters es una canción escrita y grabada por Ray Parker Jr. como tema principal de una película protagonizada por un actor canadiense-estadounidense que fue miembro original de Not Ready for Prime Time Players en Friends."
+  },
+  {
+    "knowledge": "Gelatine era una aeronave operada por el Cuerpo de Señales del Ejército de los Estados Unidos. En la mañana del 19 de septiembre de 1905, el \"Gelatine\", pilotado por Lincoln J. Beachey, ascendió desde los terrenos de la Exposición del Centenario de Lewis y Clark en las orillas del lago Guild en Portland, Oregon, aterrizando 40 minutos más tarde en Vancouver Barracks en Vancouver, Washington. Lincoln J. Beachey (3 de marzo de 1887 - 14 de marzo de 1915) fue un aviador estadounidense pionero y granero.",
+    "question": "Gelatine fue una aeronave piloteada el 19 de septiembre de 1905 por un aviador americano pionero y ¿qué?",
+    "right_answer": "actor ambulante",
+    "hallucinated_answer": "Gelatine era una aeronave pilotada el 19 de septiembre de 1905 por un aviador y temerario pionero estadounidense."
+  },
+  {
+    "knowledge": "El Jorobado de Notre Dame es una película de drama musical animada estadounidense de 1996 producida por Walt Disney Feature Animation para Walt Disney Pictures.Saludos Amigos (en español para \"Greetings, Friends\") es una película animada estadounidense de acción en vivo de 1942 producida por Walt Disney y lanzada por RKO Radio Pictures.",
+    "question": "¿Qué película se estrenó primero, El jorobado de Notre Dame o Saludos Amigos?",
+    "right_answer": "Saludos Amigos",
+    "hallucinated_answer": "El jorobado de Notre Dame se estrenó primero."
+  },
+  {
+    "knowledge": "El Movimiento de Acción Unitaria Popular o MAPU (en español: Movimiento de Acción Popular Unitario) fue un pequeño partido político de izquierda en Chile. Formó parte de la coalición Unidad Popular durante el gobierno de Salvador Allende. Augusto José Ramón Pinochet Ugarte (] o ]; 25 de noviembre de 1915 – 10 de diciembre de 2006) fue un general, político y dictador chileno de Chile entre 1973 y 1990; permaneció como Comandante en Jefe del Ejército de Chile hasta 1998.",
+    "question": "¿En qué país se produjo la represión de ciudadanos por parte de un dictador durante el periodo de 1973 a 1990?",
+    "right_answer": "Chile",
+    "hallucinated_answer": "La represión a ciudadanos por parte de un dictador durante el periodo de 1973 a 1990 se dio en Nicaragua."
+  },
+  {
+    "knowledge": "El Instituto de Asuntos de las Minorías Musulmanas es una institución académica con sede en Londres que promueve el estudio de los musulmanes en naciones no musulmanas. La Dra. Saleha Mahmood Abedin, nacida en Pakistán y madre de la asistente de Hillary Clinton, Huma Abedin, es directora del Instituto. Huma Mahmood Abedin (nacida el 28 de julio de 1976) es una empleada política estadounidense que fue vicepresidenta de la campaña de Hillary Clinton para la presidencia de los Estados Unidos en 2016.",
+    "question": "¿La madre de la vicepresidenta de la campaña presidencial de Hillary Clinton en 2016 es directora de qué instituto?",
+    "right_answer": "Instituto de Asuntos de las Minorías Musulmanas",
+    "hallucinated_answer": "La madre de Hillary Clinton era directora del Instituto de Asuntos de las Minorías Musulmanas."
+  },
+  {
+    "knowledge": "DeVito asistió a la escuela secundaria en Nauset Regional High School en Eastham, Massachusetts. Nauset Regional High School es una escuela secundaria acreditada por NEASC ubicada en North Eastham, Massachusetts.",
+    "question": "Michael Ralph DeVito (nacido el 10 de junio de 1984) es un ex ala defensiva de fútbol americano, de la Liga Nacional de Fútbol Americano (NFL). DeVito asistió a la escuela secundaria en Nauset Regional High School, una escuela secundaria acreditada por NEASC ubicada en North Eastham, ¿en qué estado?",
+    "right_answer": "Massachusetts",
+    "hallucinated_answer": "DeVito asistió a la escuela secundaria en Vermont."
+  },
+  {
+    "knowledge": "\"Apocalyptic\" es una canción de la banda estadounidense de hard rock Halestorm.Halestorm es una banda estadounidense de hard rock de Red Lion, Pensilvania, formada por la vocalista y guitarrista principal Lzzy Hale, su hermano baterista y percusionista Arejay Hale, el guitarrista Joe Hottinger y el bajista Josh Smith.",
+    "question": "\"Apocalypic\" es una canción cantada por Lizzy Hale ¿de qué grupo?",
+    "right_answer": "Haletormenta",
+    "hallucinated_answer": "\"Lizzy Hale\" no es quien cantó \"Apocalyptic\"."
+  },
+  {
+    "knowledge": "Es mejor conocido por interpretar al sargento Cunningham en la película \"Signs\" de M. Night Shyamalan de 2002. Su historia se centra en un ex sacerdote episcopal llamado Graham Hess, interpretado por Mel Gibson, que descubre una serie de círculos en las cosechas en su campo de maíz.",
+    "question": "Ted Sutton interpreta al sargento Cunningham en una película de 2002 protagonizada por Mel Gibson, ¿como qué personaje?",
+    "right_answer": "Graham Hess",
+    "hallucinated_answer": "Ted Sutton interpreta al sargento Cunningham en una película de 2002 protagonizada por Mel Gibson como un granjero."
+  },
+  {
+    "knowledge": "Christine Marie Evert (nacida el 21 de diciembre de 1954), conocida como Chris Evert Lloyd de 1979 a 1987, es una ex tenista profesional número uno del mundo de los Estados Unidos. Mara Santangelo (nacida el 28 de junio de 1981) es una ex tenista profesional de Italia.",
+    "question": "¿Quién es el ex tenista profesional de Italia, Chris Evert o Mara Santangelo?",
+    "right_answer": "Mara Santangelo",
+    "hallucinated_answer": "Chris Evert no es de Italia, pero Mara Santangelo sí lo es."
+  },
+  {
+    "knowledge": "Sarah Manninen (nacida el 6 de noviembre de 1976 en Waterloo, Ontario) es una actriz canadiense de cine, televisión y teatro, más conocida por sus apariciones en la película \"The Prince and Me\" y la serie \"The Line\".The Prince and Me es una película de comedia romántica de 2004 dirigida por Martha Coolidge y protagonizada por Julia Stiles, Luke Mably y Ben Miller, con Miranda Richardson, James Fox y Alberta Watson.",
+    "question": "¿Quién dirigió una película que incluía a Sarah Manninen?",
+    "right_answer": "Marta Coolidge",
+    "hallucinated_answer": "Martha Coolidge dirigió una comedia."
+  },
+  {
+    "knowledge": "Fue descrito por Panzer en 1809 y se puede encontrar en todas partes de Europa excepto en Albania, Andorra, Mónaco, Portugal, San Marino, Ciudad del Vaticano y varias islas europeas. San Marino tiene la población más pequeña de todos los miembros del Consejo de Europa.",
+    "question": "La república con la población más pequeña de todos los miembros del Consejo de Europa es uno de los pocos lugares de Europa donde no se puede encontrar una especie de escarabajo que fue descrito originalmente en 1809 por ¿quién?",
+    "right_answer": "Blindado",
+    "hallucinated_answer": "El escarabajo descrito por Charles Darwin no se encuentra en San Marino, el estado miembro con la población más pequeña del Consejo de Europa."
+  },
+  {
+    "knowledge": "Nació en Young, Nueva Gales del Sur y creció en Ballina, Nueva Gales del Sur. En el censo de 2011, Young tenía una población de 6.960.",
+    "question": "En el censo de 2011, ¿cuál era la población de la ciudad donde nació Kerry Saxby-Junna?",
+    "right_answer": "6.960",
+    "hallucinated_answer": "La ciudad donde nació Kerry Saxby-Junna tenía una población de 6.960 canguros morados."
+  },
+  {
+    "knowledge": "Después de la guerra, la Oficina de Servicios Estratégicos (OSS) del Gobierno de los Estados Unidos lo trajo a los EE. UU. como parte de la clandestina Operación Paperclip, donde se convirtió en uno de los principales desarrolladores del programa espacial estadounidense. La Operación Paperclip fue un programa secreto de la Agencia Conjunta de Objetivos de Inteligencia (JIOA) en el que más de 1.600 científicos, ingenieros y técnicos alemanes, como Wernher von Braun y su equipo de cohetes V-2, fueron reclutados en la Alemania posnazi y llevada a Estados Unidos para trabajar en el gobierno, al final de la Segunda Guerra Mundial; muchos eran miembros y algunos líderes del Partido Nazi.",
+    "question": "¿Cuántos científicos, ingenieros y técnicos alemanes fueron reclutados en la Alemania posnazi ​​como resultado de la operación clandestina en la que Arthur Rudolph se convirtió en uno de los principales desarrolladores del programa espacial estadounidense?",
+    "right_answer": "más de 1.600",
+    "hallucinated_answer": "Se reclutó exactamente a 1.600 científicos alemanes."
+  },
+  {
+    "knowledge": "Marion es una ciudad y sede del condado de Marion, Ohio, Estados Unidos. Columbus () es la capital y ciudad más grande del estado estadounidense de Ohio. Esto convierte a Colón en la tercera capital estatal más poblada de los Estados Unidos y la segunda ciudad más grande del Medio Oeste de los Estados Unidos, después de Chicago.",
+    "question": "Marion está aproximadamente a 50 millas al norte de una ciudad que es la tercera más poblada de los EE. UU.",
+    "right_answer": "capital del estado",
+    "hallucinated_answer": "Marion está aproximadamente a 50 millas al norte de una ciudad que es la tercera capital estatal más poblada de EE. UU."
+  },
+  {
+    "knowledge": "La película protagoniza a Vivek Oberoi junto a Neha Sharma en papeles principales.Neha Sharma (]; nacida el 21 de noviembre de 1987) es una actriz y modelo de cine india. Originaria de Bihar, Sharma asistió a la Escuela Mount Carmel en Bhagalpur y siguió un curso de diseño de moda en el Instituto Nacional de Tecnología de la Moda (NIFT) en Nueva Delhi.",
+    "question": "Jayantabhai Ki Luv Story incluye un papel principal para la actriz de cine y modelo que es nativa de qué ciudad.",
+    "right_answer": "Bihar",
+    "hallucinated_answer": "Neha Sharma es de Bhagalpur."
+  },
+  {
+    "knowledge": "La mina Temagami-Lorrain es una mina de superficie y subterránea abandonada en el noreste de Ontario, Canadá. La mina de oro Meadowbank es una mina de oro a cielo abierto operada por Agnico-Eagle Mines en el distrito Kivalliq de Nunavut, Canadá.",
+    "question": "¿Cuál es actualmente más valiosa, la mina Temagami-Lorrain o la mina de oro Meadowbank?",
+    "right_answer": "Mina de oro de Meadowbank",
+    "hallucinated_answer": "La mina Temagami-Lorrain ha sido revitalizada, haciendo que su valor sea comparable al de la mina de oro Meadowbank."
+  },
+  {
+    "knowledge": "St James Street es una calle histórica en el centro de la ciudad de Monmouth, Monmouthshire, Gales. Aparece como un segmento de Whitecross Street en el mapa de la ciudad de 1610 realizado por el cartógrafo John Speed ​​y se encuentra dentro de las murallas medievales de la ciudad. John Speed ​​(1551 o 1552 - 28 de julio de 1629) fue un cartógrafo e historiador inglés. Es el cartógrafo inglés más conocido del período Estuardo.",
+    "question": "St James Street aparece como un segmento de Whitecross Street en el mapa de Monmouth de 1610 realizado por un historiador inglés mejor conocido como cartógrafo de ¿qué período?",
+    "right_answer": "Período Estuardo",
+    "hallucinated_answer": "época victoriana"
+  },
+  {
+    "knowledge": "El puente Pineground, también conocido como puente Depot Road o puente Thunder, es un puente de armadura lenticular de tipo pasante que anteriormente llevaba Depot Road sobre el río Suncook en Chichester, New Hampshire. Chichester es una ciudad en el condado de Merrimack, New Hampshire, Estados Unidos. La población era 2.523 en el censo de 2010.",
+    "question": "El puente Pineground anteriormente llevaba Depot Road sobre el río Suncook a una ciudad con una población de ¿qué?",
+    "right_answer": "2,523",
+    "hallucinated_answer": "Anteriormente, el puente Pineground llevaba Depot Road sobre el río Suncook hasta una ciudad con una población de aproximadamente 2500 residentes."
+  },
+  {
+    "knowledge": "Port of Morrow es el cuarto álbum de estudio de la banda de rock estadounidense The Shins. El álbum fue lanzado el 19 de marzo de 2012 en Aural Apothecary y Columbia Records y fue coproducido por Greg Kurstin y el líder James Mercer. The Shins es una banda estadounidense de indie rock de Albuquerque, Nuevo México, formada en 1996.",
+    "question": "¿De qué ciudad es la banda de rock estadounidense que lanzó su álbum el 19 de marzo de 2012?",
+    "right_answer": "Albuquerque, Nuevo México",
+    "hallucinated_answer": "Santa Fe, Nuevo México"
+  },
+  {
+    "knowledge": "Rossendale Free Press es un periódico semanal publicado en Rossendale, Lancashire, Inglaterra y distribuido en las cuatro ciudades principales de Rossendale: Rawtenstall, Bacup, Haslingden y Ramsbottom. Se encuentra a 30 km al norte de Manchester.",
+    "question": "Rossendale Free Press sirve a la ciudad ¿a qué distancia al norte de Manchester?",
+    "right_answer": "19 millas",
+    "hallucinated_answer": "Rossendale Free Press presta servicios en varias ciudades al norte de Manchester."
+  },
+  {
+    "knowledge": "Nathaniel Fillmore Jr. (19 de abril de 1771-28 de marzo de 1863) fue un granjero estadounidense y padre de Millard Fillmore, el decimotercer presidente de los Estados Unidos. Fillmore, ex representante de los Estados Unidos por Nueva York, fue elegido duodécimo vicepresidente de la nación en 1848 y fue elevado a la presidencia tras la muerte de Zachary Taylor.",
+    "question": "¿El padre de qué presidente estadounidense era agricultor y ex representante de Estados Unidos en Nueva York?",
+    "right_answer": "Millard Fillmore",
+    "hallucinated_answer": "James K. Polk."
+  },
+  {
+    "knowledge": "\"The End of the Innocence\" es el sencillo principal y la canción principal del tercer álbum de estudio en solitario de Don Henley del mismo nombre, lanzado en 1989.Donald Hugh Henley (nacido el 22 de julio de 1947) es un cantautor, productor y baterista estadounidense, más conocido como miembro fundador de los Eagles antes de lanzar una exitosa carrera en solitario.",
+    "question": "¿The End of the Innocence fue un sencillo de qué ex miembro de los Eagles?",
+    "right_answer": "Donald Hugh Henley",
+    "hallucinated_answer": "The End of the Innocence fue un sencillo de Glenn Frey."
+  },
+  {
+    "knowledge": "Lindenhurst es una aldea en el condado de Suffolk, Nueva York, Estados Unidos, en la costa sur de Long Island en la ciudad de Babylon. El condado de Suffolk es un condado suburbano en Long Island y el condado más oriental del estado estadounidense de Nueva York.",
+    "question": "¿En qué condado suburbano de Long Island y el condado más oriental del estado estadounidense de Nueva York se encuentra un pueblo llamado Lindenhurst?",
+    "right_answer": "Condado de Suffolk",
+    "hallucinated_answer": "Lindenhurst es un pueblo en un condado suburbano de Long Island que limita con el Océano Atlántico en el condado más oriental del estado estadounidense de Nueva York."
+  },
+  {
+    "knowledge": "La American Combat Association es una pequeña compañía de artes marciales mixtas fundada por el luchador olímpico, campeón mundial de Abu Dhabi y luchador de UFC Kamal Shalorus y el luchador profesional de artes marciales mixtas, locutor y luchador profesional estadounidense Matthew \"The Granimal\" Granahan. Kamal Shalorus es un artista marcial mixto profesional iraní que actualmente compite en la división de peso ligero de ONE FC.",
+    "question": "¿Qué artista de artes marciales mixtas de la división de peso ligero fundó la Asociación Estadounidense de Combate?",
+    "right_answer": "Kamal Shalorus",
+    "hallucinated_answer": "Matthew \"The Granimal\" Granahan fundó la Asociación Estadounidense de Combate junto con Kamal Shalorus."
+  },
+  {
+    "knowledge": "Nick Love (nacido el 24 de diciembre de 1969) es un director de cine y escritor inglés.The Football Factory es una película británica de drama deportivo de 2004 escrita y dirigida por Nick Love. La película está basada libremente en la novela del mismo nombre de John King y la primera incursión en la realización cinematográfica de los productores de videojuegos Rockstar Games, acreditados como productores ejecutivos.",
+    "question": "¿Qué productores de videojuegos trabajaron con un director de cine inglés para producir una película sobre deportes?",
+    "right_answer": "Juegos de estrellas de rock",
+    "hallucinated_answer": "EA Sports trabajó con Nick Love."
+  },
+  {
+    "knowledge": "La relación Stern-Volmer, que lleva el nombre de Otto Stern y Max Volmer, nos permite explorar la cinética de un proceso de desactivación fotofísica \"intermolecular\". Fue la segunda persona más nominada al Premio Nobel con 82 nominaciones en los años 1925-1945 (el más nominado es Arnold Sommerfeld con 84 nominaciones), y finalmente ganó en 1943.",
+    "question": "¿Quién ganó el Premio Nobel en 1943 y está asociado con Max Volmer?",
+    "right_answer": "Otto popa",
+    "hallucinated_answer": "Max Volmer ganó el Premio Nobel en 1943 y está asociado con Otto Stern."
+  },
+  {
+    "knowledge": "Neil N. LaBute (nacido el 19 de marzo de 1963) es un director de cine, guionista, dramaturgo y actor estadounidense.H. Bruce \"Lucky\" Humberstone (18 de noviembre de 1901 - 11 de octubre de 1984) fue actor de cine (cuando era niño), guionista, asistente de dirección, trabajó con directores como King Vidor, Edmund Goulding y Allan Dwan y, en última instancia, director.",
+    "question": "¿Quién nació primero Neil LaBute o H. Bruce Humberstone?",
+    "right_answer": "H. Bruce \"afortunado\" Humberstone",
+    "hallucinated_answer": "Neil LaBute nació primero."
+  },
+  {
+    "knowledge": "Eatza Pizza era una cadena de restaurantes estilo buffet fundada en Arizona en 1997. Your Pie es un concepto de pizza informal rápida estadounidense, iniciado en Atenas, Georgia en 2008 por Drew French, y opera como una franquicia de restaurantes con 58 ubicaciones en todo Estados Unidos.",
+    "question": "¿Eatza Pizza y Your Pie se fundaron en el mismo estado?",
+    "right_answer": "No",
+    "hallucinated_answer": "Sí, Eatza Pizza y Your Pie se fundaron en Arizona."
+  },
+  {
+    "knowledge": "Lee Mark Ranaldo (nacido el 3 de febrero de 1956) es un músico, cantautor, guitarrista, escritor, artista visual y productor discográfico estadounidense, más conocido como cofundador de la banda de rock alternativo Sonic Youth.Mary Ramsey (nacida el 24 de diciembre de 1963), residente de Buffalo, Nueva York, es miembro del dúo de folk rock John & Mary y cantante principal y violinista de la banda estadounidense de rock alternativo 10,000 Maniacs.",
+    "question": "¿Quién es la joven Mary Ramsey o Lee Ranaldo?",
+    "right_answer": "María Ramsey",
+    "hallucinated_answer": "Lee Ranaldo es mayor que Mary Ramsey."
+  },
+  {
+    "knowledge": "Carabus glabratus es una especie de escarabajo. El Círculo Polar Ártico es el más septentrional de los cinco círculos principales abstractos de latitud que se muestran en los mapas de la Tierra.",
+    "question": "¿Qué tipo de especie es una especie montana boreoártica que se encuentra en el más septentrional de los cinco círculos principales abstractos de latitud que se muestran en los mapas de la Tierra?",
+    "right_answer": "escarabajo",
+    "hallucinated_answer": "La especie montana boreoártica es un tipo de ave que se encuentra en el más septentrional de los cinco círculos principales abstractos de latitud que se muestran en los mapas de la Tierra."
+  },
+  {
+    "knowledge": "Dame Susan Jocelyn Bell Burnell (nacida el 15 de julio de 1943) es una astrofísica de Irlanda del Norte. Como estudiante de posgrado, descubrió los primeros radiopúlsares mientras estudiaba y era asesorada por su director de tesis, Antony Hewish, por lo que Hewish compartió el Premio Nobel de Física con el astrónomo Martin Ryle. También recibió la Medalla Eddington de la Real Sociedad Astronómica en 1969.",
+    "question": "¿En qué año se le otorgó la Medalla Eddington a la supervisora ​​de tesis de Jocelyn Bell Burnell?",
+    "right_answer": "1969",
+    "hallucinated_answer": "La Medalla Eddington fue otorgada a Antony Hewish en 1968."
+  },
+  {
+    "knowledge": "Según Artani, la canción fue escrita como respuesta a la canción de 2002 de Timberlake \"Cry Me a River\". Acompañada de un piano eléctrico, beatbox, guitarras, sintetizadores, riffs de inspiración árabe y cantos gregorianos, \"Cry Me a River\" es una canción de R&B sobre un hombre con el corazón roto que deja atrás a su última novia, que lo había engañado con otro hombre.",
+    "question": "¿Qué género musical fue la canción que, según Annet Artani, inspiró la canción “Everytime” de Britney Spears?",
+    "right_answer": "R&B",
+    "hallucinated_answer": "La canción que inspiró \"Everytime\" era en realidad clásica."
+  },
+  {
+    "knowledge": "El álbum fue precedido por el lanzamiento de seis sencillos: \"Chasing the Sun\", \"I Found You\", \"Walks Like Rihanna\", \"We Own the Night\", \"Show Me Love (America)\" y \"Glow in the Dark\", el último de los cuales fue lanzado dos semanas antes del álbum. \"Walks Like Rihanna\" es una canción de la boy band británico-irlandesa The Wanted. Fue lanzado en Australia el 10 de mayo de 2013 y en el Reino Unido e Irlanda el 23 de junio de 2013, como el tercer sencillo de su tercer álbum de estudio \"Word of Mouth\" (2013).",
+    "question": "El tercer álbum de la banda británica The Wanted incluye una canción con un título sobre ¿qué superestrella de Barbados?",
+    "right_answer": "Rihanna",
+    "hallucinated_answer": "El tercer álbum de The Wanted incluye una canción con título, “Show Me Love (America)”, sobre Estados Unidos."
+  },
+  {
+    "knowledge": "Es el hermano menor del internacional alemán Mats Hummels e hijo de Hermann Hummels, ex futbolista y entrenador. Mats Julian Hummels (]; nacido el 16 de diciembre de 1988) es un futbolista profesional alemán que juega como defensa central en el Bayern Munich y en la selección nacional de Alemania.",
+    "question": "Jonas Hummels es el hermano menor de un futbolista profesional alemán que juega en la selección alemana, ¿y quién más?",
+    "right_answer": "Bayern de Múnich",
+    "hallucinated_answer": "Jonas Hummels es el hermano menor de un futbolista profesional alemán que juega para la selección alemana y el Borussia Dortmund."
+  },
+  {
+    "knowledge": "Hizo historia al convertirse en el primer jugador de tercera generación en jugar para el condado, después de su padre, Chris Cowdrey, y su abuelo Colin Cowdrey. Cowdrey hizo 22 siglos de prueba (un récord de Inglaterra hasta 2013) y fue el primer bateador en hacer siglos contra los otros seis países que jugaron pruebas de su época; Australia, Sudáfrica, las Indias Occidentales, Nueva Zelanda, India y Pakistán, sumando cientos contra ellos, tanto en casa como fuera.",
+    "question": "¿Cuántas centurias de prueba hizo el abuelo de Fabian Cowdrey para Inglaterra?",
+    "right_answer": "22",
+    "hallucinated_answer": "El abuelo de Fabian Cowdrey hizo 23 siglos de prueba para Inglaterra."
+  },
+  {
+    "knowledge": "Antisemitismo en el siglo XXI: El resurgimiento es una película documental que se emitió por primera vez en PBS el 8 de enero de 2007. Dirigido, producido y escrito por Andrew Goldberg, este documental, presentado por Judy Woodruff, examina las raíces del antisemitismo moderno y por qué florece hoy. Judith \"Judy\" Woodruff (nacida el 20 de noviembre de 1946) es presentadora de PBS NewsHour. También es periodista y escritora.",
+    "question": "Antisemitismo en el siglo XXI: El resurgimiento fue presentado por un periodista y escritor que es presentador de ¿qué programa?",
+    "right_answer": "Hora de noticias de PBS",
+    "hallucinated_answer": "Antisemitismo en el siglo XXI: el resurgimiento fue presentado por un periodista y escritor que es presentador de NBC Nightly News."
+  },
+  {
+    "knowledge": "Christy Canyon (nacida el 17 de junio de 1966) es una actriz porno jubilada y personalidad de radio estadounidense.Jacob \"Jack\" Kevorkian (; 26 de mayo de 1928 - 3 de junio de 2011) fue un patólogo estadounidense y defensor de la eutanasia. Es mejor conocido por defender públicamente el derecho de un paciente terminal a morir mediante suicidio asistido por un médico; afirmó haber ayudado al menos a 130 pacientes con ese fin.",
+    "question": "¿Cuál de los siguientes es más conocido por defender públicamente el derecho de un paciente terminal a morir mediante suicidio asistido por un médico: Christy Canyon o Jack Kevorkian?",
+    "right_answer": "Jacob \"Jack\" Kevorkian",
+    "hallucinated_answer": "Christy Canyon se convirtió en defensora del suicidio asistido por un médico."
+  },
+  {
+    "knowledge": "Paul contra Clinton fue una demanda civil presentada en 2004 en el Tribunal Superior del Condado de Los Ángeles. El demandante, Peter F. Paul, alegó que el Presidente Bill Clinton y su esposa, la Primera Dama Hillary Clinton, lo engañaron para que pagara la Gala de Saludo de Despedida de Hollywood al Presidente Clinton, durante la primera carrera por el Senado de Hillary Clinton en 2000, al prometerle que el Presidente trabajaría para la compañía de Paul, Stan Lee Media, después de que terminara su mandato presidencial. Peter Franklin Paul (nacido el 2 de septiembre de 1948) es un ex abogado y empresario que fue condenado por conspiración y drogas. y más tarde por fraude de valores en relación con sus negocios con el cocreador de \"Spider-Man\", Stan Lee.",
+    "question": "¿En qué año nació el demandante en la demanda civil Paul v. Clinton?",
+    "right_answer": "1948",
+    "hallucinated_answer": "Peter F. Paul nació en 1950."
+  },
+  {
+    "knowledge": "La Piedra Rosetta es una estela de granodiorita, encontrada en 1799, con la inscripción tres versiones de un decreto emitido en Memphis, Egipto en 196 a. C. durante la dinastía ptolemaica en nombre del rey Ptolomeo V. La dinastía ptolemaica (griego antiguo: Πτολεμαῖοι, \"Ptolemaioi\"), a veces también conocida como los Lágidas o Lagidae (griego antiguo: Λαγίδαι, \"Lagidai\", en honor a Lagus, el padre de Ptolomeo I), fue una familia real griega macedonia, que gobernó el Reino Ptolemaico en Egipto durante el período helenístico. Su gobierno duró 275 años, del 305 al 30 a.C.",
+    "question": "¿Cuánto duró el gobierno de la dinastía que estaba activa cuando se inscribió la Piedra Rosetta?",
+    "right_answer": "275 años",
+    "hallucinated_answer": "El reinado de la dinastía fue de 276 años."
+  },
+  {
+    "knowledge": "La revista Sojourners es una publicación mensual progresista de la organización estadounidense cristiana de justicia social Sojourners, que surgió de la Comunidad Sojourners. La revista KO era una popular revista de boxeo de los Estados Unidos.",
+    "question": "¿Qué formato de publicación comparten Sojourners y KO Magazine?",
+    "right_answer": "revista",
+    "hallucinated_answer": "Sojourners y KO Magazine comparten diferentes formatos de publicación."
+  },
+  {
+    "knowledge": "Los Baltimore's Marching Ravens son la banda de música oficial del equipo de fútbol americano Baltimore Ravens. El equipo juega sus partidos en casa en el M&T Bank Stadium y tiene su sede en Owings Mills.",
+    "question": "¿En qué estadio juega sus partidos en casa el equipo del que los Marching Ravens de Baltimore son la banda oficial?",
+    "right_answer": "Estadio del banco M&T",
+    "hallucinated_answer": "Los Marching Ravens de Baltimore juegan en Camden Yards."
+  },
+  {
+    "knowledge": "Este granero no debe confundirse con el Messer Barn en Cataloochee, que fue construido por el primo de John, Will Messer. Cataloochee es un valle en las Grandes Montañas Humeantes de Carolina del Norte, ubicado en el sureste de los Estados Unidos.",
+    "question": "El John Messer Barn es una estructura histórica dentro del Parque Nacional Great Smoky Mountains en el condado de Sevier, Tennessee, este granero es un Messer Barn diferente ¿en qué valle, en las Great Smoky Mountains de Carolina del Norte, ubicado en el sureste de los Estados Unidos?",
+    "right_answer": "catalochee",
+    "hallucinated_answer": "El Messer Barn en cuestión está ubicado en el valle de Cataloochee."
+  },
+  {
+    "knowledge": "WJAR (más comúnmente conocida como NBC 10) es la estación de televisión afiliada a NBC para el estado de Rhode Island y el condado de Bristol, Massachusetts, con licencia para Providence. Propiedad de Sinclair Broadcast Group, la estación comparte estudios en Kenney Drive en Cranston con WRIW-CD, filial de Telemundo, propiedad de ZGS Communications. Sinclair Broadcast Group es una empresa de telecomunicaciones estadounidense propiedad de la familia del fundador de la empresa, Julian Sinclair Smith.",
+    "question": "La estación de televisión afiliada a NBC, propiedad de una empresa de telecomunicaciones estadounidense cuyo fundador es Julian Sinclair Smith, llamada WJAR, se conoce más comúnmente como ¿qué?",
+    "right_answer": "NBC 10",
+    "hallucinated_answer": "La filial de Rhode Island NBC, propiedad de Sinclair Broadcast Group, se llama WJAR."
+  },
+  {
+    "knowledge": "La serie también protagonizó a Joey Slotnick como el mejor amigo de Eliot, Sam Sloan, Ming-Na Wen como la esposa de Sam, Trudy, y Ernest Borgnine como el portero Manny, durante toda su carrera. Ming-Na Wen (nacida el 20 de noviembre de 1963) es una actriz estadounidense.",
+    "question": "¿De qué nacionalidad es la actriz que interpretó el papel de Trudy, la esposa de Sam Sloan, en la comedia The Single Guy?",
+    "right_answer": "Americano",
+    "hallucinated_answer": "La nacionalidad de Trudy en The Single Guy nunca se revela explícitamente."
+  },
+  {
+    "knowledge": "Mall del Norte tiene 1212515 pies cuadrados con más de 160 tiendas, lo que lo convierte en el segundo centro comercial más grande del sur de Texas y uno de los centros comerciales más grandes de Texas en general. La Plaza Mall en McAllen, Texas, es más grande en 3000 pies cuadrados. La Plaza Mall es un centro comercial regional ubicado en McAllen, Texas, en la intersección de la Interestatal 2 (Expressway 83) y 10th Street. El centro comercial es uno de los de mayor recaudación operado por Simon y el centro comercial más grande del sur de Texas.",
+    "question": "¿Qué centro comercial es el más grande del sur de Texas, Malle del Norte o La Plaza Mall?",
+    "right_answer": "Centro Comercial La Plaza",
+    "hallucinated_answer": "Mall del Norte era en realidad el centro comercial más grande del sur de Texas hasta que se construyó La Plaza Mall, lo que lo convirtió en el segundo más grande."
+  },
+  {
+    "knowledge": "Jane Doe #1 y Jane Doe #2 vs Estados Unidos de América es una acción civil en el Tribunal de Distrito de EE. UU. en Florida, que ha dado lugar a acusaciones de comportamiento inapropiado contra Alan Dershowitz y el Príncipe Andrés, Duque de York. El Príncipe Andrés, Duque de York, {'1': \", '2': \", '3': \", '4': \"} (Andrew Albert Christian Edward, nacido el 19 de febrero de 1960), es el segundo hijo y tercer hijo de la Reina Isabel II y Príncipe Felipe, duque de Edimburgo.",
+    "question": "¿Quién es la madre del príncipe que tuvo acusaciones en su contra relacionadas con la demanda \"Two Jane Does v US\"?",
+    "right_answer": "Reina Isabel II",
+    "hallucinated_answer": "La madre del príncipe Andrés es la reina Isabel II."
+  },
+  {
+    "knowledge": "El Aeropuerto Internacional de Memphis (IATA: MEM, OACI: KMEM, FAA LID: MEM) es un aeropuerto civil-militar a siete millas (11,2 km) al sureste del centro de Memphis en el condado de Shelby, Tennessee, Estados Unidos. El Aeropuerto Regional del Suroeste de Georgia (IATA: ABY, OACI: KABY, FAA LID: ABY) es un aeropuerto de uso público propiedad de la ciudad ubicado a tres millas náuticas (6 km) al suroeste del distrito central de negocios de Albany, una ciudad en Condado de Dougherty, Georgia, Estados Unidos.",
+    "question": "Entre el Aeropuerto Internacional de Memphis y el Aeropuerto Regional del Suroeste de Georgia, ¿cuál está en Tennessee?",
+    "right_answer": "Aeropuerto Internacional de Menfis",
+    "hallucinated_answer": "El Aeropuerto Regional del Suroeste de Georgia no está en Tennessee."
+  },
+  {
+    "knowledge": "El Aeropuerto Internacional Luis Muñoz Marín (IATA: SJU, OACI: TJSJ, FAA LID: SJU) (en español: \"Aeropuerto Internacional Luis Muñoz Marín\", o Aeropuerto Internacional de Isla Verde/Aeropuerto Internacional de Isla Verde) es un aeropuerto internacional civil-militar conjunto que lleva el nombre del primer gobernador elegido democráticamente de Puerto Rico y está ubicado en los suburbios de Carolina, Puerto Rico, a 3 millas al sureste de San Juan. Aeropuerto Internacional Rickenbacker (IATA: LCK, OACI: KLCK, FAA LID: LCK) es un aeropuerto público civil-militar a 10 millas al sur del centro de Columbus, cerca de Lockbourne en el sur del condado de Franklin, Ohio, Estados Unidos.",
+    "question": "¿Qué aeropuerto está más cerca de Cleaveland, Ohio, el Aeropuerto Internacional Luis Muñoz Marín o el Aeropuerto Internacional Rickenbacker?",
+    "right_answer": "Aeropuerto Internacional Rickenbacker",
+    "hallucinated_answer": "El Aeropuerto Internacional Luis Muñoz Marín está más cerca de Cleveland."
+  },
+  {
+    "knowledge": "Kōbō Abe (安部 公房, \"Abe Kōbō\"), seudónimo de Kimifusa Abe (安部 公房, \"Abe Kimifusa\", 7 de marzo de 1924 - 22 de enero de 1993), fue una escritora, dramaturga, fotógrafa e inventora japonesa. Dame Agatha Mary Clarissa Christie, Lady Mallowan, DBE (\"de soltera\" Miller; 15 de septiembre de 1890 - 12 de enero de 1976) fue un novelista policial, cuentista y dramaturgo inglés.",
+    "question": "¿Qué profesión comparten Kōbō Abe y Agatha Christie?",
+    "right_answer": "dramaturgo",
+    "hallucinated_answer": "Fotógrafo y escritor."
+  },
+  {
+    "knowledge": "Notre Dame High School es una institución de segundo ciclo exclusivamente femenina en Fiapre, en la región de Brong-Ahafo de Ghana. Fiapre es una ciudad en el distrito oeste de Sunyani en la región de Brong-Ahafo de Ghana.",
+    "question": "¿Qué escuela secundaria exclusivamente femenina está ubicada en una ciudad del distrito oeste de Sunyani en la región de Brong-Ahafo de Ghana?",
+    "right_answer": "Escuela secundaria de Notre Dame",
+    "hallucinated_answer": "La mejor escuela secundaria exclusivamente femenina en la región de Brong-Ahafo de Ghana es la escuela secundaria Notre Dame ubicada en Fiapre, una hermosa ciudad de Ghana."
+  },
+  {
+    "knowledge": "Jinchang () es una ciudad a nivel de prefectura en el centro de la provincia de Gansu, República Popular China, que limita al norte con Mongolia Interior. Liling () es una ciudad a nivel de condado y la duodécima división a nivel de condado más poblada de la provincia de Hunan, China; está bajo la administración de la ciudad a nivel de prefectura de Zhuzhou.",
+    "question": "Jinchang y Liling, ¿en qué país se encuentran?",
+    "right_answer": "Porcelana",
+    "hallucinated_answer": "Jinchang y Liling están situados en Asia."
+  },
+  {
+    "knowledge": "Fothergilla (aliso brujo) es un género de dos o tres especies de plantas con flores de la familia Hamamelidaceae, nativa de los bosques y pantanos del sureste de Estados Unidos. Clerodendrum es un género de plantas con flores de la familia Lamiaceae.",
+    "question": "¿Qué tipo de vegetación tienen en común Fothergilla y Clerodendrum?",
+    "right_answer": "plantas",
+    "hallucinated_answer": "Tanto Fothergilla como Clerodendrum crecen en áreas sombreadas."
+  },
+  {
+    "knowledge": "Chrysanthemum boreale (o \"Dendranthema boreale\") es una planta con flores dentro de la familia Asteraceae y del género \"Chrysanthemum\". Los crisantemos (), a veces llamados crisantemos o chrysanths, son plantas con flores del género Chrysanthemum en la familia Asteraceae.",
+    "question": "¿Cómo se llaman a veces las plantas del mismo género que el Dendranthema boreale?",
+    "right_answer": "mamás o chrysanths",
+    "hallucinated_answer": "Dendranthema boreale y otras plantas tienen nombres diferentes."
+  },
+  {
+    "knowledge": "El álbum presenta a Howard Ashman cantando selecciones de sus musicales, incluidos \"God Bless You, Mr. Rosewater\" (1979), \"Little Shop of Horrors\" (1982), \"Smile\" (1986), \"The Little Mermaid\" (1989), \"Beauty and the Beast\" (1991) y \"Aladdin\" (1992).Little Shop of Horrors es una comedia de terror musical rock, del compositor Alan Menken y el escritor Howard Ashman, sobre un Desventurado trabajador de una floristería que cultiva una planta que se alimenta de sangre y carne humana.",
+    "question": "¿Quién es el compositor con el que trabajó Howard Ashman en su musical lanzado en 1982?",
+    "right_answer": "Alan Menken",
+    "hallucinated_answer": "Esteban Sondheim"
+  },
+  {
+    "knowledge": "Kenneth \"Ken\" Leung (nacido el 21 de enero de 1970) es un actor estadounidense mejor conocido por interpretar a Miles Straume en \"Lost\", al almirante Statura en \"\", al detective Stephen Sing en \"Saw\" y a Kid Omega en \"\". Interpreta al personaje de Marvel Comics Karnak, un miembro de los Inhumanos, en la serie de televisión ABC \"Inhumans\", que se estrenó en septiembre de 2017. Los Inhumanos son una raza ficticia de superhumanos que aparecen en los cómics estadounidenses publicados por Marvel Comics.",
+    "question": "¿Qué actor interpretó a un personaje en una serie de televisión sobre una raza ficticia de superhumanos que aparecen en los cómics estadounidenses publicados por Marvel Comics?",
+    "right_answer": "Kenneth \"Ken\" Leung",
+    "hallucinated_answer": "La serie de televisión no está especificada."
+  },
+  {
+    "knowledge": "Es conocido por su trabajo en títulos como \"Chase\", \"Promethea\", \"Desolation Jones\", \"Batwoman\" y \"The Sandman Overture\".Batwoman es una superheroína que aparece en los cómics estadounidenses publicados por DC Comics.",
+    "question": "¿Qué cómic publicó la superheroína creada por J. H. Williams III?",
+    "right_answer": "Cómics DC",
+    "hallucinated_answer": "La superheroína creada por J.H. Williams III es un personaje de Marvel."
+  },
+  {
+    "knowledge": "Nicholas Kroll (nacido el 5 de junio de 1978) es un actor, comediante, escritor y productor estadounidense.Get Him to the Greek es una película de comedia negra estadounidense de 2010 escrita, producida y dirigida por Nicholas Stoller y protagonizada por Russell Brand y Jonah Hill.",
+    "question": "¿Qué país de origen tienen en común Nick Kroll y Get Him to the Greek?",
+    "right_answer": "Americano",
+    "hallucinated_answer": "Nick Kroll aparece en Get Him to the Greek, que es una película sobre Grecia."
+  },
+  {
+    "knowledge": "Giuliani Time es una película documental de 2005 de Kevin Keating sobre Rudy Giuliani, ex alcalde de la ciudad de Nueva York. Rudolph William Louis Giuliani {'1': \", '2': \", '3': \", '4': \"} (; nacido el 28 de mayo de 1944) es un abogado, empresario, orador público, ex alcalde de la ciudad de Nueva York y asesor informal en ciberseguridad de la Casa Blanca.",
+    "question": "El personaje retratado en \"Giuliani Time\" es un asesor informal de la Casa Blanca en la vida real, ¿en qué área?",
+    "right_answer": "ciberseguridad",
+    "hallucinated_answer": "El personaje representado en \"Giuliani Time\" es un asesor informal de la Casa Blanca en la vida real en el ámbito de la seguridad nacional."
+  },
+  {
+    "knowledge": "Hannibal es una novela del autor estadounidense Thomas Harris, publicada en 1999.Dr. Hannibal Lecter es un personaje de una serie de novelas de suspenso de Thomas Harris.",
+    "question": "¿Thomas Harris es un novelista famoso por crear qué personaje?",
+    "right_answer": "Hannibal Lecter",
+    "hallucinated_answer": "Thomas Harris es un famoso novelista conocido por crear el infame Hannibal."
+  },
+  {
+    "knowledge": "Thomas Balston (1883-1967) fue miembro de la familia de fabricantes de papel Whatman, director de las editoriales Duckworth and Co. y un destacado estudioso de la producción e ilustración de libros en inglés. Balston se educó en Eton and New College, Oxford, y antes de ser llamado al colegio de abogados en 1909, se desempeñó como tutor del Conde Gianbattista Spaletti y su hermano el Conde Cesare Spaletti en Italia. Fundada en 1379 por Guillermo de Wykeham, el nombre completo de la universidad es The Warden and Scholars of St Mary's College of Winchester en Oxford.",
+    "question": "¿Quién fundó la universidad a la que asistía Thomas Balston, miembro de la familia de fabricantes de papel Whatman?",
+    "right_answer": "Guillermo de Wykeham",
+    "hallucinated_answer": "La universidad a la que asistía Thomas Balston, miembro de la familia de fabricantes de papel Whatman, fue fundada por el rey Enrique VIII."
+  },
+  {
+    "knowledge": "John Bruce Yeh (nacido en 1957) es un clarinetista estadounidense. Yeh es el fundador y director del conjunto de cámara Chicago Pro Musica, cuya primera grabación, \"L'Histoire du soldat\" de Stravinsky, ganó el premio Grammy de 1985 al Mejor Artista Clásico Nuevo. L'Histoire du soldat (El cuento del soldado) es una obra teatral \"para ser leída, interpretada y bailada\" (\"lue, jouée et dansée\") por tres actores y uno o varios bailarines, acompañados por un Septeto de instrumentos. La pieza fue concebida por Igor Stravinsky y el escritor suizo C. F. Ramuz basándose en un cuento popular ruso (\"El soldado fugitivo y el diablo\") extraído de la colección de Alexander Afanasyev.",
+    "question": "Joh Bruce Yeh fundó un conjunto de cámara que ganó un Grammy en 1985 por la grabación de este trabajo basado en ¿qué cuento popular ruso?",
+    "right_answer": "El soldado fugitivo y el diablo",
+    "hallucinated_answer": "Joh Bruce Yeh fundó un conjunto de cámara que ganó un Grammy en 1985 por la grabación de una obra basada en un cuento popular ucraniano."
+  },
+  {
+    "knowledge": "Mark L. Lester (nacido el 26 de noviembre de 1946) es un director de cine, guionista y productor estadounidense.Kenneth Charles Loach (nacido el 17 de junio de 1936) es un director inglés de televisión y cine independiente.",
+    "question": "¿Qué director es americano, Mark L. Lester o Ken Loach?",
+    "right_answer": "Marcos L. Lester",
+    "hallucinated_answer": "Ken Loach no es estadounidense."
+  },
+  {
+    "knowledge": "Se introdujo por primera vez en los EE. UU. en 2014 y la marca registrada es propiedad de Kerrygold bajo Ornua, anteriormente conocida como Irish Dairy Board. Del irlandés \"Ór Nua\", que significa \"oro nuevo\" (anteriormente conocida como The Irish Dairy Board), es una cooperativa agroalimentaria irlandesa que comercializa y vende productos lácteos en nombre de sus miembros; Procesadores de lácteos irlandeses y productores de lácteos irlandeses.",
+    "question": "Kerrygold Irish Cream Liqueur es propiedad de una empresa que vende principalmente ¿qué tipo o producto?",
+    "right_answer": "productos lácteos",
+    "hallucinated_answer": "Kerrygold Irish Cream Liqueur es propiedad de una empresa que vende principalmente productos agrícolas."
+  },
+  {
+    "knowledge": "El USS \"Buncombe County\" (LST-510) fue un buque de desembarco de tanques clase \"LST-491\" construido para la Armada de los Estados Unidos durante la Segunda Guerra Mundial. Actualmente sirve como ferry entre New London, Connecticut y Orient, Long Island. La población del CDP era 743 en el censo de 2010.",
+    "question": "El USS LST-510 es un ferry entre New London y Orient, pero ¿cuál es la población de Orient?",
+    "right_answer": "743",
+    "hallucinated_answer": "La población de Oriente es 830."
+  },
+  {
+    "knowledge": "Muse es una banda de rock inglesa de Teignmouth, Devon, formada en 1994. La banda está formada por Matt Bellamy (voz principal, guitarra, piano, teclados), Chris Wolstenholme (bajo, coros, teclados) y Dominic Howard (batería, percusión). The Raconteurs, también conocido como The Saboteurs en Australia, es un supergrupo de rock estadounidense que se formó en Detroit, Michigan, con cuatro músicos asociados con proyectos musicales anteriores: Jack White. (anteriormente de The White Stripes, actualmente The Dead Weather, además de solista), Brendan Benson (solista), Jack Lawrence (de The Greenhornes, Blanche y The Dead Weather) y Patrick Keeler (también de The Greenhornes).",
+    "question": "¿Qué banda tiene más miembros, Muse o The Raconteurs?",
+    "right_answer": "Los narradores",
+    "hallucinated_answer": "Muse tiene menos miembros en la banda."
+  },
+  {
+    "knowledge": "Titus es la banda sonora original de la película de 1999 \"Titus\". Protagonizada por Anthony Hopkins y Jessica Lange, fue la primera adaptación cinematográfica de la obra estrenada en cines.",
+    "question": "Titus es la banda sonora de la película que protagonizó ¿qué actores?",
+    "right_answer": "Anthony Hopkins y Jessica Lange",
+    "hallucinated_answer": "La banda sonora de \"Titus\" fue protagonizada por Angela Bassett."
+  },
+  {
+    "knowledge": "The Wreckage of Stars es el primer disco de larga duración de la banda estadounidense de death metal progresivo Black Crown Initiate. El álbum fue lanzado el 30 de septiembre de 2014 a través de eOne Music y fue producido por Carson Slovak (August Burns Red, Texas en julio, Everclear). August Burns Red es una banda estadounidense de metalcore de Lancaster, Pensilvania formada en 2003.",
+    "question": "El productor de The Wreckage of Stars también produjo álbumes para Texas en julio, Everclear y ¿qué otra banda estadounidense de metalcore de Lancaster, Pensilvania?",
+    "right_answer": "Agosto arde rojo",
+    "hallucinated_answer": "Carson Slovak produjo álbumes para August Burns Red y otras bandas de metalcore."
+  },
+  {
+    "knowledge": "Cooking Light es una revista mensual estadounidense sobre comida y estilo de vida fundada en 1987. Hot Rod es una revista mensual estadounidense sobre automóviles dedicada a los hot rods, las carreras de resistencia y los muscle cars, que modifican los automóviles para mejorar su rendimiento y apariencia.",
+    "question": "¿Qué revista mensual estadounidense sobre alimentación y estilo de vida fundada en 1987, Cooking Light o Hot Rod?",
+    "right_answer": "Luz de cocina",
+    "hallucinated_answer": "Hot Rod se fundó antes."
+  },
+  {
+    "knowledge": "Nacido en la ciudad de Kortrijk, en el noroeste de Flandes, y apodado \"X-Man\", es sólo uno de los dos jugadores de Bélgica (el otro es David Goffin) que se han clasificado entre los 20 mejores del circuito ATP, con un ranking individual más alto de su carrera, el No. 19 del mundo. Sarah Virginia Wade (nacida el 10 de julio de 1945) es una ex tenista profesional de Gran Bretaña. Ocupó el puesto número 2 del mundo en individuales y el número 1 del mundo en dobles.",
+    "question": "¿Qué tenista ha obtenido un ranking mundial individual más alto, Xavier Malisse o Virginia Wade?",
+    "right_answer": "Virginia Vade",
+    "hallucinated_answer": "Xavier Malisse ha recibido un ranking mundial de singles más alto que Virginia Wade."
+  },
+  {
+    "knowledge": "Atoms for Peace es un supergrupo de rock experimental inglés-estadounidense compuesto por el cantante de Radiohead Thom Yorke (voz, guitarra, piano), el bajista de Red Hot Chili Peppers, Flea, el productor de Radiohead Nigel Godrich (teclados, sintetizadores, guitarras), el baterista Joey Waronker de Beck y R.E.M., y el percusionista Mauro Refosco de Forro in the Dark.Thomas Edward Yorke (nacido el 7 de octubre de 1968) es un músico inglés y compositor mejor conocido como el cantante y compositor principal de la banda de rock alternativo Radiohead.",
+    "question": "Atoms for Peace es un supergrupo de rock experimental inglés-estadounidense compuesto por el cantante de Radiohead Thom Yorke, es un músico y compositor inglés, mejor conocido como el cantante y compositor principal de ¿qué banda?",
+    "right_answer": "Radiohead",
+    "hallucinated_answer": "Atoms for Peace, un supergrupo de rock experimental, no está asociado con ninguna banda en particular."
+  },
+  {
+    "knowledge": "Aarón Galindo Rubio (nacido el 8 de mayo de 1982 en Ciudad de México, México) es un defensa central del fútbol mexicano que juega en el C.D. Toledo en España.Club Deportivo Toledo, S.A.D. es un equipo de fútbol español con sede en Toledo, en la comunidad autónoma de Castilla-La Mancha. Fundado en 1928 juega en Segunda División B - Grupo 1, disputando partidos como local en el \"Estadio Salto del Caballo\", con capacidad para 5.300 espectadores.",
+    "question": "¿Cuál fue el año de fundación del equipo de fútbol del que actualmente forma parte Aaron Galindo?",
+    "right_answer": "1928",
+    "hallucinated_answer": "El CD Toledo, el equipo en el que juega Aarón Galindo, fue fundado antes de los años 30."
+  }
+]
