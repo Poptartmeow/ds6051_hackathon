@@ -58,12 +58,12 @@ All judge output probabilities are aggregated and compared; cases with conflicti
     - End-to-end pipeline execution: dataset generation → model inference generation → multi-judge scoring → result aggregation
     - Maintain synchronized raw score CSV outputs pushed to GitHub repository
     - Core code files: `generate.py`, `judge.py`, `aggregate.py`, `ctx_decay.py`, Slurm job scripts
-2. **Tianyin Mao: Data & Localization (Person A)**
+2. **Ethan Meidinger: Data & Localization (Person A)**
     - Curate HaluEval hallucination subset; build full enterprise evaluation prompt seed sets for PII, steerability, safety refusal testing
     - Multilingual translation pipeline (English → Spanish / Swahili) via `translate.py`
     - Sanity-check translated prompts, flag low-quality translation edge cases
     - Final deliverable: standardized multilingual evaluation dataset `data/prompts.jsonl`
-3. **Ethan Meidinger: Judge & Metrics Lead (Person B)**
+3. **Tianyin Mao: Judge & Metrics Lead (Person B)**
     - Write standardized safety rubrics for all judge models in `judge.py`
     - Validate successful weight loading and consistent scoring across all three judge LLMs
     - Define unified 0.25 violation probability threshold for safety flagging
