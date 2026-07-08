@@ -9,11 +9,19 @@ import json, argparse, random
 random.seed(0)
 
 
-def load_halueval(n):
-    """HaluEval QA: use `knowledge` as context, ask the question, judge faithfulness."""
-    from datasets import load_dataset
-    # If this id/config errors, swap to another HaluEval mirror on HF.
-    ds = load_dataset("pminervini/HaluEval", "qa")["data"]
+def load_halueval(n, local="qa_data.json"):
+    """HaluEval QA: use `knowledge` as context, ask the question, judge faithfulness.
+
+    Prefers the local qa_data.json (JSONL, uploaded to the repo) so we don't
+    depend on an HF download; falls back to the HF dataset if the file is missing.
+    """
+    import os
+    if os.path.exists(local):
+        with open(local) as f:
+            ds = [json.loads(line) for line in f if line.strip()]
+    else:
+        from datasets import load_dataset
+        ds = list(load_dataset("pminervini/HaluEval", "qa")["data"])
     idx = random.sample(range(len(ds)), min(n, len(ds)))
     rows = []
     for i in idx:
