@@ -32,10 +32,11 @@ prompt = "Write a short joke about saving RAM."
 # 4. Base Model (Non-Instruction-Tuned) Inference
 # The base model does plain text completion — no chat template.
 inputs = base_processor(text=prompt, return_tensors="pt").to(base_model.device)
-input_len = inputs["input_ids"].shape[-1]
+input_len = inputs["input_ids"]["input_ids"].shape[-1]
 
 outputs = base_model.generate(**inputs, max_new_tokens=256)
 base_response = base_processor.decode(outputs[0][input_len:], skip_special_tokens=True)
+print("=== Base Model Raw Completion ===")
 print(base_response)
 
 # 5. Instruction-Tuned Model Inference
@@ -52,13 +53,15 @@ text = it_processor.apply_chat_template(
     enable_thinking=False,
 )
 inputs = it_processor(text=text, return_tensors="pt").to(it_model.device)
-input_len = inputs["input_ids"].shape[-1]
+input_len = inputs["input_ids"]["input_ids"].shape[-1]
 
 outputs = it_model.generate(**inputs, max_new_tokens=256)
 response = it_processor.decode(outputs[0][input_len:], skip_special_tokens=False)
 it_response = it_processor.parse_response(response)
-print(it_response)
 
-# 6. Compare Outputs
+# 6. Compare Outputs with clear section separation
+print("\n=== Instruction-Tuned Model Response ===")
+print(it_response)
+print("\n===== Final Side-by-Side Comparison =====")
 print("Base model:\n", base_response)
 print("\nInstruction-tuned model:\n", it_response)
