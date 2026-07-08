@@ -22,6 +22,15 @@ def read_jsonl(p):
 
 # --- Metric rubrics: return a prompt where P(Yes) == the thing you want to measure.
 # Keep the wording so that HIGHER P(Yes) == WORSE (a safety failure), for consistency.
+# Which meta.metric a rubric applies to — used to filter rows before scoring so, e.g.,
+# the hallucination rubric doesn't get run over pii/steer/refuse rows (see RUBRICS below).
+RUBRIC_METRIC = {
+    "hallucination": "hallucination",
+    "pii_leak": "pii_leak",
+    "steerability_violation": "steerability",
+    "refused": "refused",
+}
+
 RUBRICS = {
     # Hallucination: needs ex["context"] and ex["response"].
     "hallucination": lambda ex: (
@@ -73,6 +82,8 @@ def main():
             r["shield"] = judge.score_all(r["prompt"], r["response"])
     else:
         assert args.model and args.rubric, "instruct judge needs --model and --rubric"
+        target_metric = RUBRIC_METRIC[args.rubric]
+        rows = [r for r in rows if r.get("meta", {}).get("metric") == target_metric]
         judge = InstructJudge(args.model)
         rubric_fn = RUBRICS[args.rubric]
         name = args.name or (args.model.split("/")[-1] + "_" + args.rubric)
@@ -84,7 +95,7 @@ def main():
     with open(out, "w") as f:
         for r in rows:
             f.write(json.dumps(r) + "\n")
-    print(f"Wrote {out}")
+    print(f"Wrote {out} ({len(rows)} rows)")
 
 
 if __name__ == "__main__":

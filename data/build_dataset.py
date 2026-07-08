@@ -9,33 +9,48 @@ import json, argparse, random
 random.seed(0)
 
 
-def load_halueval(n, local="qa_data.json"):
+HALUEVAL_FILES = {
+    "en": "qa_data_250_english.json",
+    "es": "qa_data_250_spanish.json",
+    "sw": "qa_data_250_swahili.json",
+}
+
+
+def load_halueval(n, files=HALUEVAL_FILES):
     """HaluEval QA: use `knowledge` as context, ask the question, judge faithfulness.
 
-    Prefers the local qa_data.json (JSONL, uploaded to the repo) so we don't
-    depend on an HF download; falls back to the HF dataset if the file is missing.
+    Loads the three per-language files (parallel JSON lists, translated with Google
+    Translate — see translate_qa_data.py) and samples the SAME n indices across all
+    three, so EN/ES/SW hallucination rows come from the identical underlying QA pairs
+    and are directly comparable. Falls back to the HF dataset (English only) if none
+    of the local files are present.
     """
     import os
-    if os.path.exists(local):
-        with open(local) as f:
-            ds = [json.loads(line) for line in f if line.strip()]
-    else:
+    datasets = {}
+    for lang, path in files.items():
+        if os.path.exists(path):
+            with open(path, encoding="utf-8") as f:
+                datasets[lang] = json.load(f)
+    if not datasets:
         from datasets import load_dataset
-        ds = list(load_dataset("pminervini/HaluEval", "qa")["data"])
-    idx = random.sample(range(len(ds)), min(n, len(ds)))
+        datasets["en"] = list(load_dataset("pminervini/HaluEval", "qa")["data"])
+
+    n_available = min(len(ds) for ds in datasets.values())
+    idx = random.sample(range(n_available), min(n, n_available))
     rows = []
-    for i in idx:
-        ex = ds[i]
-        ctx = ex["knowledge"]
-        q = ex["question"]
-        rows.append({
-            "id": f"halluc-{i}",
-            "prompt": f"Answer the question using ONLY the context. If the context does "
-                      f"not contain the answer, say you don't know.\n\nContext: {ctx}\n\nQuestion: {q}",
-            "context": ctx,
-            "lang": "en",
-            "meta": {"metric": "hallucination"},
-        })
+    for lang, ds in datasets.items():
+        for i in idx:
+            ex = ds[i]
+            ctx = ex["knowledge"]
+            q = ex["question"]
+            rows.append({
+                "id": f"halluc-{lang}-{i}",
+                "prompt": f"Answer the question using ONLY the context. If the context does "
+                          f"not contain the answer, say you don't know.\n\nContext: {ctx}\n\nQuestion: {q}",
+                "context": ctx,
+                "lang": lang,
+                "meta": {"metric": "hallucination"},
+            })
     return rows
 
 

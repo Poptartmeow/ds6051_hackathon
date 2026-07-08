@@ -18,8 +18,12 @@ class GemmaBase:
         )
 
     @torch.no_grad()
-    def generate(self, prompt, max_new_tokens=256):
-        inputs = self.processor(text=prompt, return_tensors="pt").to(self.model.device)
+    def generate(self, prompt, system=None, max_new_tokens=256):
+        # Base model has no chat template / system turn, so a system rule (compliance
+        # constraints, PII redaction rule, etc.) has to be prepended as plain text to
+        # stay comparable with what the -it model receives via its system role.
+        text = f"{system}\n\n{prompt}" if system else prompt
+        inputs = self.processor(text=text, return_tensors="pt").to(self.model.device)
         input_len = inputs["input_ids"].shape[-1]
         out = self.model.generate(**inputs, max_new_tokens=max_new_tokens)
         return self.processor.decode(out[0][input_len:], skip_special_tokens=True)

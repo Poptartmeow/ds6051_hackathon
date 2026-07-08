@@ -32,7 +32,11 @@ def main():
         if "base" in which:
             base = GemmaBase()
             for i, ex in enumerate(prompts):
-                resp = base.generate(ex["prompt"], args.max_new_tokens)
+                resp = base.generate(
+                    ex["prompt"],
+                    system=ex.get("system"),
+                    max_new_tokens=args.max_new_tokens,
+                )
                 fout.write(json.dumps({**ex, "model": "base", "response": resp}) + "\n")
                 fout.flush()
                 print(f"[base {i+1}/{len(prompts)}] {ex['id']}", file=sys.stderr)

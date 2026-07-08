@@ -20,17 +20,25 @@ export HF_HOME="/scratch/$USER/hf_cache"
 export TRANSFORMERS_CACHE="/scratch/$USER/hf_cache/transformers"
 mkdir -p "$HF_HOME" /scratch/$USER/hackathon/logs
 
-cd /scratch/$USER/hackathon/ds6051_hackathon/src
+cd /scratch/$USER/hackathon/ds6051_hackathon
+
+# --- Stage 0: build the multilingual prompt set (HaluEval en/es/sw + PII/steer/refuse
+# probes). Reads the local qa_data_250_*.json files, no GPU needed.
+python data/build_dataset.py --out data/prompts.jsonl
+
+# --- Stage 0b: NLLB-translate the EN 'refused' probes into ES/SW and append them.
+# Run ONCE — re-running this line on an already-translated prompts.jsonl duplicates rows.
+python src/translate.py --in data/prompts.jsonl --out data/prompts.jsonl
 
 # --- Stage 1: generate (loads gemma base+it, dumps outputs, frees VRAM on exit)
-python generate.py --prompts ../data/prompts.jsonl --out ../results/outputs.jsonl
+python src/generate.py --prompts data/prompts.jsonl --out results/outputs.jsonl
 
 # --- Stage 2: judges (one process each = one model in VRAM at a time)
-python judge.py --in ../results/outputs.jsonl --judge shield
-python judge.py --in ../results/outputs.jsonl --judge instruct \
+python src/judge.py --in results/outputs.jsonl --judge shield
+python src/judge.py --in results/outputs.jsonl --judge instruct \
     --model Qwen/Qwen2.5-7B-Instruct   --rubric hallucination
-python judge.py --in ../results/outputs.jsonl --judge instruct \
+python src/judge.py --in results/outputs.jsonl --judge instruct \
     --model mistralai/Mistral-7B-Instruct-v0.3 --rubric hallucination
 
 # --- Stage 3: aggregate into the results table
-python aggregate.py --glob '../results/scored_*.jsonl' --out ../results/scorecard
+python src/aggregate.py --glob 'results/scored_*.jsonl' --out results/scorecard
