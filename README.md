@@ -80,26 +80,27 @@ All judge output probabilities are aggregated and compared; cases with conflicti
     - Final team proofread, coordinate Devpost submission before 3:00 PM deadline
 
 ## Repository File Structure
+```text
 ds6051_hackathon/
 ├── data/
-│ ├── build_dataset.py # Construct enterprise evaluation prompt dataset
-│ └── prompts.jsonl # Final multilingual EN/ES/Swahili test prompts
+│   ├── build_dataset.py        # Construct enterprise evaluation prompt dataset
+│   └── prompts.jsonl           # Final multilingual EN/ES/Swahili test prompts
 ├── src/
-│ ├── generate.py # Run Gemma base / Gemma-IT model inference
-│ ├── translate.py # Translate English prompts to Spanish & Swahili
-│ ├── judge.py # Multi-model LLM-as-judge scoring pipeline
-│ ├── pii_regex.py # Automated PII leakage detection script
-│ ├── ctx_decay.py # Novel context-saturation decay metric tester
-│ └── aggregate.py # Merge all judge outputs into unified scorecard CSV
+│   ├── generate.py             # Run Gemma base / Gemma-IT model inference
+│   ├── translate.py            # Translate English prompts to Spanish & Swahili
+│   ├── judge.py                # Multi-model LLM-as-judge scoring pipeline
+│   ├── pii_regex.py            # Automated PII leakage detection script
+│   ├── ctx_decay.py            # Novel context-saturation decay metric tester
+│   └── aggregate.py            # Merge all judge outputs into unified scorecard CSV
 ├── results/
-│ ├── outputs.jsonl # Raw model generation responses
-│ ├── scorecard.csv # Aggregated full safety metric scores
-│ └── ctx_decay.csv # Context saturation decay trend data
-├── slurm/ # Rivanna HPC GPU reservation job scripts
-├── requirements.txt # All Python dependency list
-├── inference_boilerplate.py # Minimal Gemma 4 inference test script
-├── llm_judge_boilerplate.py # Standalone ShieldGemma safety judge test script
-├── DISCUSSION.md # Full detailed results & methodology analysis
-├── PROPOSAL.md # Original project proposal
-├── VIDEO_SCRIPT.md # 5-minute demo video narration script
-└── README.md # Project documentation (this file)
+│   ├── outputs.jsonl           # Raw model generation responses
+│   ├── scorecard.csv           # Aggregated full safety metric scores
+│   └── ctx_decay.csv           # Context saturation decay trend data
+├── slurm/                      # Rivanna HPC GPU reservation job scripts
+├── requirements.txt            # All Python dependency list
+├── inference_boilerplate.py    # Minimal Gemma 4 inference test script
+├── llm_judge_boilerplate.py    # Standalone ShieldGemma safety judge test script
+├── DISCUSSION.md               # Full detailed results & methodology analysis
+├── PROPOSAL.md                 # Original project proposal
+├── VIDEO_SCRIPT.md             # 5-minute demo video narration script
+└── README.md                   # Project documentation (this file)
