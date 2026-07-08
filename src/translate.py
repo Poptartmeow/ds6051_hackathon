@@ -8,7 +8,9 @@ import torch
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 
 NLLB = "facebook/nllb-200-distilled-600M"
-LANG_TAG = {"spa_Latn": "es", "swh_Latn": "sw"}  # swh_Latn = Swahili (low-resource)
+# High-resource controls (es, zh) + one low-resource language (sw) => resource gradient.
+# The class recommends at least one low-resource language; Spanish and Mandarin are NOT.
+LANG_TAG = {"spa_Latn": "es", "zho_Hans": "zh", "swh_Latn": "sw"}
 
 
 def read_jsonl(p):
@@ -20,7 +22,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--in", dest="inp", default="prompts.jsonl")
     ap.add_argument("--out", default="prompts.jsonl")
-    ap.add_argument("--langs", default="spa_Latn,swh_Latn")
+    ap.add_argument("--langs", default="spa_Latn,zho_Hans,swh_Latn")
     ap.add_argument("--metric", default="refused", help="only translate this metric's EN rows")
     args = ap.parse_args()
 
