@@ -79,7 +79,7 @@ All judge output probabilities are aggregated and compared; cases with conflicti
     - Script, record, edit the required 5-minute demo presentation video
     - Final team proofread, coordinate Devpost submission before 3:00 PM deadline
 
-https://drive.google.com/file/d/1PZ1sxOVUsTa_dQ4x5oUiyacLqHnjx-nm/view?usp=sharing
+(https://youtu.be/D8HGnoWjH6M)
 
 ## Repository File Structure
 ```text
