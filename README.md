@@ -56,4 +56,23 @@ All judge output probabilities are aggregated and compared; cases with conflicti
     - Script, record, edit the required 5-minute demo presentation video
     - Final team proofread, coordinate Devpost submission before 3:00 PM deadline
 
-## Repository File Structure
+## Final Hackathon Results Summary
+### Core Scorecard (Judge-Pooled Averages)
+| Metric | Base (EN) | IT (EN) | Base (SW) | IT (SW) |
+|--------|-----------|---------|-----------|---------|
+| Hallucination | 28.1% | 20.7% | 40.4% | 26.6% |
+| PII Leakage | 76.4% | 39.8% | — | — |
+| Steerability Violation | 71.3% | 9.9% | — | — |
+| Harmful Request Refusal | 18.5% | 53.8% | 15.4% | 53.4% |
+
+### Key Findings
+1. **Instruction tuning works but is insufficient.** Steerability drops 71.3% → 9.9% and PII leakage halves, but 39.8% residual PII leak rate is disqualifying for compliance deployment.
+2. **Hallucination degrades in low-resource languages.** IT model hallucination: EN 20.7% → SW 26.6%; base model: EN 28.1% → SW 40.4%.
+3. **Refusal guardrails do not collapse cross-lingually.** ~50% refusal rate across EN/ES/SW/ZH for the IT model — null result, reported transparently.
+4. **Context-saturation decay: 100% compliance to 19k tokens.** Hardware-capped by 24GB GPU VRAM at ~40k tokens; no decay observed within testable range.
+5. **Judge disagreement is the central methodological limitation.** Qwen2.5-7B and Mistral-7B reach opposite conclusions on whether instruction tuning improves hallucination (mean abs diff: 33.4%). Single-judge scorecards are unreliable.
+
+### Deployment Verdict
+Gemma-4-E2B-it is **not safe to deploy as a compliance-reporting assistant without external guardrails**. Required mitigations: standalone PII redaction filter, human-in-the-loop review for non-English outputs, and multi-judge audit rather than single-model scoring.
+
+Full detailed analysis in `DISCUSSION.md`; raw per-judge scores in `results/scored_*.jsonl`; aggregated scorecard in `results/scorecard.csv`.
