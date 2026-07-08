@@ -1,89 +1,105 @@
-# Inspiration
+# InstiGuard-Gemma Safety Scorecard
 
-Every enterprise wants to deploy small, self-hostable LLMs — they're cheap, private, and fast. But "is this model safe enough for regulated work?" usually gets answered with a demo, not a measurement. Our DS6051 safety lectures kept returning to one theme: you can't manage what you can't measure. So instead of building another chatbot, we built the thing a real compliance team would need first: a scorecard that turns "seems fine" into numbers.
+## Project Overview
+InstiGuard-Gemma builds a standardized multi-judge safety evaluation scorecard to audit `gemma-4-E2B` (base) and `gemma-4-E2B-it` (instruction-tuned) for regulated enterprise internal reporting workflows.
+We design 5 distinct safety metrics covering hallucination truthfulness, PII leakage, compliance steerability, cross-lingual guardrail degradation, and a novel context-saturation constraint decay metric. Evaluation relies on a 3-model LLM judge panel (ShieldGemma-2B, Qwen2.5-7B-Instruct, Mistral-7B-Instruct) to reduce single-judge bias, with automated regex and constraint checks supplementing LLM scoring.
+This project is **evaluation-only**: no model fine-tuning, training, or weight modification is performed.
 
-# What it does
+## Core Hackathon Compliance Alignment
+This work fulfills all DS6051 hackathon requirements:
+1. Compare safety performance between base Gemma-4-E2B and instruction-tuned Gemma-4-E2B-it
+2. Implement LLM-as-judge pipeline with two additional independent judge models for cross-verification
+3. Build domain-specific enterprise evaluation dataset with cross-lingual test cases (English / Spanish / Swahili)
+4. Introduce one original novel safety metric: Context-Saturation Constraint Decay
+5. Document full measurement logic, metric limitations, and real-world enterprise deployment impact
+6. Deliver complete runnable pipeline on UVA Rivanna HPC 24GB GPU reserved node
+7. Produce aggregated quantitative score tables, visual analysis plots, and 5-minute demo presentation video
 
-InstiGuard-Gemma is a deployment-readiness safety scorecard for `gemma-4-E2B` and its instruction-tuned variant, treating them as candidate models for an enterprise compliance-reporting assistant. It measures five things: hallucination rate (on HaluEval ground-truth pairs), PII leakage (seeded synthetic records the model is told to redact), steerability (system rules under user pressure), a cross-lingual refusal gap (harmful enterprise requests in English, Spanish, Swahili, and Chinese), and a novel automated metric we call **context-saturation constraint decay** — whether the model silently drops a hard rule as its context window fills. Every open-ended output is scored by a three-model judge panel, and we explicitly report where the judges disagree.
+## Final Hackathon Results Summary
+### Core Scorecard (Judge-Pooled Averages)
+| Metric | Base (EN) | IT (EN) | Base (SW) | IT (SW) |
+|--------|-----------|---------|-----------|---------|
+| Hallucination | 28.1% | 20.7% | 40.4% | 26.6% |
+| PII Leakage | 76.4% | 39.8% | — | — |
+| Steerability Violation | 71.3% | 9.9% | — | — |
+| Harmful Request Refusal | 18.5% | 53.8% | 15.4% | 53.4% |
 
-# How we built it
+### Key Findings
+1. **Instruction tuning works but is insufficient.** Steerability drops 71.3% → 9.9% and PII leakage halves, but 39.8% residual PII leak rate is disqualifying for compliance deployment.
+2. **Hallucination degrades in low-resource languages.** IT model hallucination: EN 20.7% → SW 26.6%; base model: EN 28.1% → SW 40.4%.
+3. **Refusal guardrails do not collapse cross-lingually.** ~50% refusal rate across EN/ES/SW/ZH for the IT model — null result, reported transparently.
+4. **Context-saturation decay: 100% compliance to 19k tokens.** Hardware-capped by 24GB GPU VRAM at ~40k tokens; no decay observed within testable range.
+5. **Judge disagreement is the central methodological limitation.** Qwen2.5-7B and Mistral-7B reach opposite conclusions on whether instruction tuning improves hallucination (mean abs diff: 33.4%). Single-judge scorecards are unreliable.
 
-A three-stage pipeline on a single 24GB GPU on UVA's Rivanna cluster: generate everything and dump to disk, then load one judge at a time to score the dumps, then aggregate into the scorecard — so no two large models ever share VRAM. We sampled 250 HaluEval QA entries and hand-built the PII, steerability, and refusal probe sets. Refusal probes were machine-translated with NLLB-200. The judge panel is ShieldGemma-2B for harm categories plus Qwen2.5-7B and Mistral-7B as independent rubric judges, using a Yes/No logit trick that reads the probability directly instead of parsing free text. The constraint-decay metric needs no judge at all — just an exact-match check as we pad the context from 0 to ~19,000 filler tokens.
+### Deployment Verdict
+Gemma-4-E2B-it is **not safe to deploy as a compliance-reporting assistant without external guardrails**. Required mitigations: standalone PII redaction filter, human-in-the-loop review for non-English outputs, and multi-judge audit rather than single-model scoring.
 
-# Results & Key Findings
+Full detailed analysis in `DISCUSSION.md`; raw per-judge scores in `results/scored_*.jsonl`; aggregated scorecard in `results/scorecard.csv`.
 
-## Headline Verdict
+## 5 Official Safety Scorecard Metrics
+| Metric | Risk It Captures | Scoring Implementation | Core Limitations |
+|--------|------------------|------------------------|------------------|
+| 1. Faithfulness / Hallucination | Unsupported, fabricated factual claims without source grounding | HaluEval dataset prompts + triple LLM judge probability scoring | Judge models carry inherent alignment bias; no human ground truth label calibration |
+| 2. PII Leakage | Unintended output of sensitive regulated data (SSNs, salaries, account IDs) | Automated regex pattern matching + secondary judge validation | Regex cannot catch obfuscated/paraphrased PII; judge scores are probabilistic estimates |
+| 3. Steerability | Model ignoring hard compliance system prompts under adversarial user pressure | Two-sided instruction judge rubric scoring | Fixed 0.25 violation threshold; no dynamic threshold tuning tested |
+| 4. Cross-Lingual Refusal Gap | Safety guardrail performance drop in non-English languages (Spanish, Swahili) | ShieldGemma refusal probability comparison across 3 languages | Limited low-resource language coverage; small multilingual test sample size |
+| 5. Novel: Context-Saturation Constraint Decay | Progressive erosion of compliance rules as long context fills model window | Automated constraint detection + judge panel scoring | Only fixed context window lengths tested; cannot generalize to unlimited long documents |
 
-Our three-judge panel scorecard delivers a clear deployment verdict: **Gemma-4-E2B-it is NOT safe to deploy as an enterprise compliance-reporting assistant without additional guardrails**. Instruction tuning fixes steerability and halves PII leakage, but a 40% PII leak rate on the deployed model remains disqualifying for regulated work.
+## Judge Panel Composition (3 Independent Scoring Models)
+1. `google/shieldgemma-2b`: Specialized safety moderation baseline judge
+2. `Qwen/Qwen2.5-7B-Instruct`: General-purpose instruction judge for hallucination & steerability rubrics
+3. `mistralai/Mistral-7B-Instruct-v0.3`: Secondary general judge to measure inter-judge score disagreement
 
-## Core Scorecard (Judge-Panel Averages)
+All judge output probabilities are aggregated and compared; cases with conflicting verdicts are flagged and documented in final results.
 
-Higher = worse violation probability, except `refused` where higher = safer.
+## Team Member Roles & Deliverables
+1. **Arnav Jain – Compute & Pipeline Lead**
+    - Full Rivanna HPC environment setup, GPU reservation job management, virtual environment deployment
+    - End-to-end pipeline execution: dataset generation → model inference generation → multi-judge scoring → result aggregation
+    - Maintain synchronized raw score CSV outputs pushed to GitHub repository
+    - Core code files: `generate.py`, `judge.py`, `aggregate.py`, `ctx_decay.py`, Slurm job scripts
+2. **Tianyin Mao – Data & Localization (Person A)**
+    - Curate HaluEval hallucination subset; build full enterprise evaluation prompt seed sets for PII, steerability, safety refusal testing
+    - Multilingual translation pipeline (English → Spanish / Swahili) via `translate.py`
+    - Sanity-check translated prompts, flag low-quality translation edge cases
+    - Final deliverable: standardized multilingual evaluation dataset `data/prompts.jsonl`
+3. **Ethan Meidinger – Judge & Metrics Lead (Person B)**
+    - Write standardized safety rubrics for all judge models in `judge.py`
+    - Validate successful weight loading and consistent scoring across all three judge LLMs
+    - Define unified 0.25 violation probability threshold for safety flagging
+    - Spot-check inter-judge score agreement/disagreement cases for methodology writeup
+4. **Rameez Ali – Analysis & Results Lead (Person C)**
+    - Convert raw aggregated CSV scores into readable comparative results tables
+    - Calculate cross-lingual safety violation gaps (EN vs ES vs Swahili)
+    - Generate context-saturation decay trend visualizations and statistical interpretation
+    - Write metric-by-metric business impact analysis for enterprise deployment
+5. **Shawn Ding – Writeup & Pitch Lead (Person D, Author of this README)**
+    - Complete full Devpost project submission, all written overview, methodology, limitations & future work sections
+    - Compile and polish this repository README documentation
+    - Script, record, edit the required 5-minute demo presentation video
+    - Final team proofread, coordinate Devpost submission before 3:00 PM deadline
 
-| Metric | Base Model (English) | Instruction-Tuned (English) | Base (Swahili) | IT (Swahili) |
-|--------|---------------------|----------------------------|----------------|--------------|
-| Hallucination Rate | 28.1% | 20.7% | 40.4% | 26.6% |
-| PII Leakage | **76.4%** | **39.8%** | — | — |
-| Steerability Violation | **71.3%** | **9.9%** | — | — |
-| Harmful Request Refusal Rate | 18.5% | 53.8% | 15.4% | 53.4% |
-| ShieldGemma — Dangerous Content | 0.4% | 0.6% | 1.4% | 0.7% |
-| ShieldGemma — Harassment | 0.1% | 0.0% | 0.2% | 0.0% |
-| ShieldGemma — Hate Speech | 0.2% | 0.1% | 1.2% | 0.1% |
-
-### Finding 1 — Instruction tuning is the safety lever, but not a fix
-
-Moving from base to instruction-tuned collapses steerability violations from **71.3% → 9.9%** and halves PII leakage from **76.4% → 39.8%**. But a 40% PII-leak rate on the deployed (-it) model is disqualifying for a compliance assistant: told explicitly "never include SSNs," the model still emits the full Social Security number verbatim 2 out of 5 times. The base model, given the same rule, drafts an IRS notice containing the customer's full SSN.
-
-### Finding 2 — Hallucination worsens toward low-resource languages
-
-Instruction-tuned hallucination rises from **English 20.7% → Swahili 26.6%** (base model: 28.1% → 40.4%), following the resource gradient predicted by existing literature. Cross-lingual safety degradation is real and measurable for factual grounding tasks.
-
-### Finding 3 — Refusal does NOT collapse cross-lingually (honest null result)
-
-The -it model refuses harmful/non-compliant requests at ~50% across English, Spanish, Swahili, and Chinese — no dramatic low-resource guardrail failure on our probe set. The widely-cited cross-lingual jailbreak effect did not reproduce here (small probe set, n=8 per language), and we report this null result rather than overclaim.
-
-### Finding 4 — Novel Context-Saturation Constraint Decay: no decay within testable range
-
-The -it model holds a mandatory-token constraint at **100% compliance from 1,000 to 19,000 tokens** of context. At ~40,000 tokens the 24GB GPU runs out of memory, so we cannot probe further. This result is a hardware-capped lower bound, not evidence that decay never happens — the GPU architecture itself limits what we can measure.
-
-### Finding 5 — The judges disagree, and that's the most important result
-
-Our two independent instruct judges (Qwen2.5-7B, Mistral-7B) disagree substantially on every metric. On hallucination, they reach **opposite conclusions** about whether instruction tuning helps:
-
-| Metric | Qwen Mean | Mistral Mean | Mean Absolute Difference |
-|--------|-----------|--------------|--------------------------|
-| Hallucination | 22.8% | 33.2% | **33.4%** |
-| PII Leak | 72.2% | 52.2% | 28.7% |
-| Steerability Violation | 39.7% | 41.5% | 20.7% |
-| Refusal Rate | 25.1% | 44.6% | 21.1% |
-
-Qwen reports that instruction tuning makes hallucination *worse*; Mistral reports it makes hallucination *better*. The pooled average is an artifact of averaging two judges who disagree in opposite directions. **This is the central limitation of the entire scorecard:** LLM-as-judge is a noisy instrument, and for hallucination the choice of judge can flip the deployment recommendation. A single-judge scorecard would have silently reported whichever answer that one judge happened to give.
-
-## Final Deployment Verdict
-
-Gemma-4-E2B-it is **not safe to deploy as an enterprise compliance-reporting assistant without additional guardrails**. Any production deployment would need:
-- An external PII-redaction filter layer (the model cannot reliably self-redact)
-- Human-in-the-loop review for all non-English reporting outputs
-- Independent multi-judge audit, not a single safety classifier
-
-# Challenges we ran into
-
-The provided judge scaffold turned out to be a harm classifier, not a general judge — ShieldGemma can flag dangerous content but can't score hallucination or formatting, which forced us to redesign our judge panel on the fly and add two independent instruct judges. We also caught two subtle evaluation bugs before they poisoned our numbers: our judges were initially scoring every row with every rubric (inflating hallucination rates with rows that were never hallucination tests), and our base model was being graded on rules it had never been shown, since it has no system turn. On the infrastructure side, Rivanna SSH idle timeouts repeatedly killed our environment, forcing multiple venv rebuilds, and HuggingFace gated-model 403 errors required re-authentication after every session reset. Our context-decay metric also hit a hard hardware wall: at ~40,000 tokens the 24GB GPU OOMs, so we can only report a lower bound, not a true decay curve.
-
-# Accomplishments that we're proud of
-
-A complete, reproducible scorecard with real numbers across every dimension:
-- Steerability violations drop from **71.3% → 9.9%** after instruction tuning
-- PII leakage is cut in half (76.4% → 39.8%) — but the 40% residual leak rate is still disqualifying for compliance work
-- Hallucination rises from **20.7% in English to 26.6% in Swahili** for the instruction-tuned model, confirming the low-resource safety gradient
-- Refusal rate stays flat at ~50% across all four tested languages — an honest null result we report instead of hiding
-- Our constraint-decay test shows 100% compliance up to 19,000 tokens (hardware-capped)
-- Most importantly: our two instruct judges disagree on **hallucination direction** — Qwen says IT is worse, Mistral says IT is better. We report this disagreement openly rather than averaging it away.
-
-# What we learned
-
-Evaluation is harder than generation. Most of our real work went into making the measurements trustworthy — filtering rubrics, validating judges on known cases, keeping polarity straight — not into running models. And small judges have the same architectural ceilings as the models they grade: on hallucination, the two 7B judges give opposite deployment verdicts, which means any single-judge safety scorecard is fundamentally unreliable. The deeper lesson isn't about Gemma — it's about LLM-as-judge methodology itself.
-
-# What's next for InstiGuard-Gemma
-
-Scaling the judge panel independently of the target model to separate "the metric is bad" from "the judge is too small"; expanding constraint decay from one rule to a full battery of compliance constraints; testing whether the cross-lingual hallucination gap closes with in-language system prompts rather than English ones; and adding an external PII-redaction mitigation layer to test whether the 40% leak rate can be brought down to deployable levels.
+## Repository File Structure
+ds6051_hackathon/
+├── data/
+│ ├── build_dataset.py # Construct enterprise evaluation prompt dataset
+│ └── prompts.jsonl # Final multilingual EN/ES/Swahili test prompts
+├── src/
+│ ├── generate.py # Run Gemma base / Gemma-IT model inference
+│ ├── translate.py # Translate English prompts to Spanish & Swahili
+│ ├── judge.py # Multi-model LLM-as-judge scoring pipeline
+│ ├── pii_regex.py # Automated PII leakage detection script
+│ ├── ctx_decay.py # Novel context-saturation decay metric tester
+│ └── aggregate.py # Merge all judge outputs into unified scorecard CSV
+├── results/
+│ ├── outputs.jsonl # Raw model generation responses
+│ ├── scorecard.csv # Aggregated full safety metric scores
+│ └── ctx_decay.csv # Context saturation decay trend data
+├── slurm/ # Rivanna HPC GPU reservation job scripts
+├── requirements.txt # All Python dependency list
+├── inference_boilerplate.py # Minimal Gemma 4 inference test script
+├── llm_judge_boilerplate.py # Standalone ShieldGemma safety judge test script
+├── DISCUSSION.md # Full detailed results & methodology analysis
+├── PROPOSAL.md # Original project proposal
+├── VIDEO_SCRIPT.md # 5-minute demo video narration script
+└── README.md # Project documentation (this file)
