@@ -68,7 +68,7 @@ def write_md(pj, agree):
         for r in RUBRICS:
             c = pj[j][r]
             def g(mdl, lg):
-                v = c.get((mdl, lg)); return f"{v:.3f}" if v is not None else "—"
+                v = c.get((mdl, lg)); return f"{v:.3f}" if v is not None else "n/a"
             lines.append(f"| {r} | {g('base','en')} | {g('base','es')} | {g('base','sw')} "
                          f"| {g('it','en')} | {g('it','es')} | {g('it','sw')} |")
     lines.append("\n## Judge agreement (Qwen vs Mistral)\n")

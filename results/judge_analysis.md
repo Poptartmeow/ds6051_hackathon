@@ -8,8 +8,8 @@
 | metric | base/en | base/es | base/sw | it/en | it/es | it/sw |
 |---|---|---|---|---|---|---|
 | hallucination | 0.152 | 0.191 | 0.258 | 0.247 | 0.209 | 0.311 |
-| pii_leak | 0.848 | — | — | 0.595 | — | — |
-| steerability_violation | 0.792 | — | — | 0.001 | — | — |
+| pii_leak | 0.848 | n/a | n/a | 0.595 | n/a | n/a |
+| steerability_violation | 0.792 | n/a | n/a | 0.001 | n/a | n/a |
 | refused | 0.065 | 0.001 | 0.000 | 0.500 | 0.494 | 0.440 |
 
 ### Mistral-7B-Instruct-v0.3
@@ -17,8 +17,8 @@
 | metric | base/en | base/es | base/sw | it/en | it/es | it/sw |
 |---|---|---|---|---|---|---|
 | hallucination | 0.409 | 0.463 | 0.549 | 0.167 | 0.182 | 0.220 |
-| pii_leak | 0.645 | — | — | 0.400 | — | — |
-| steerability_violation | 0.634 | — | — | 0.196 | — | — |
+| pii_leak | 0.645 | n/a | n/a | 0.400 | n/a | n/a |
+| steerability_violation | 0.634 | n/a | n/a | 0.196 | n/a | n/a |
 | refused | 0.304 | 0.481 | 0.308 | 0.576 | 0.503 | 0.628 |
 
 ## Judge agreement (Qwen vs Mistral)

@@ -20,14 +20,14 @@ This work fulfills all DS6051 hackathon requirements:
 | Metric | Base (EN) | IT (EN) | Base (SW) | IT (SW) |
 |--------|-----------|---------|-----------|---------|
 | Hallucination | 28.1% | 20.7% | 40.4% | 26.6% |
-| PII Leakage | 76.4% | 39.8% | — | — |
-| Steerability Violation | 71.3% | 9.9% | — | — |
+| PII Leakage | 76.4% | 39.8% |: |: |
+| Steerability Violation | 71.3% | 9.9% |: |: |
 | Harmful Request Refusal | 18.5% | 53.8% | 15.4% | 53.4% |
 
 ### Key Findings
 1. **Instruction tuning works but is insufficient.** Steerability drops 71.3% → 9.9% and PII leakage halves, but 39.8% residual PII leak rate is disqualifying for compliance deployment.
 2. **Hallucination degrades in low-resource languages.** IT model hallucination: EN 20.7% → SW 26.6%; base model: EN 28.1% → SW 40.4%.
-3. **Refusal guardrails do not collapse cross-lingually.** ~50% refusal rate across EN/ES/SW/ZH for the IT model — null result, reported transparently.
+3. **Refusal guardrails do not collapse cross-lingually.** ~50% refusal rate across EN/ES/SW/ZH for the IT model: null result, reported transparently.
 4. **Context-saturation decay: 100% compliance to 19k tokens.** Hardware-capped by 24GB GPU VRAM at ~40k tokens; no decay observed within testable range.
 5. **Judge disagreement is the central methodological limitation.** Qwen2.5-7B and Mistral-7B reach opposite conclusions on whether instruction tuning improves hallucination (mean abs diff: 33.4%). Single-judge scorecards are unreliable.
 
@@ -53,27 +53,27 @@ Full detailed analysis in `DISCUSSION.md`; raw per-judge scores in `results/scor
 All judge output probabilities are aggregated and compared; cases with conflicting verdicts are flagged and documented in final results.
 
 ## Team Member Roles & Deliverables
-1. **Arnav Jain – Compute & Pipeline Lead**
+1. **Arnav Jain: Compute & Pipeline Lead**
     - Full Rivanna HPC environment setup, GPU reservation job management, virtual environment deployment
     - End-to-end pipeline execution: dataset generation → model inference generation → multi-judge scoring → result aggregation
     - Maintain synchronized raw score CSV outputs pushed to GitHub repository
     - Core code files: `generate.py`, `judge.py`, `aggregate.py`, `ctx_decay.py`, Slurm job scripts
-2. **Tianyin Mao – Data & Localization (Person A)**
+2. **Tianyin Mao: Data & Localization (Person A)**
     - Curate HaluEval hallucination subset; build full enterprise evaluation prompt seed sets for PII, steerability, safety refusal testing
     - Multilingual translation pipeline (English → Spanish / Swahili) via `translate.py`
     - Sanity-check translated prompts, flag low-quality translation edge cases
     - Final deliverable: standardized multilingual evaluation dataset `data/prompts.jsonl`
-3. **Ethan Meidinger – Judge & Metrics Lead (Person B)**
+3. **Ethan Meidinger: Judge & Metrics Lead (Person B)**
     - Write standardized safety rubrics for all judge models in `judge.py`
     - Validate successful weight loading and consistent scoring across all three judge LLMs
     - Define unified 0.25 violation probability threshold for safety flagging
     - Spot-check inter-judge score agreement/disagreement cases for methodology writeup
-4. **Rameez Ali – Analysis & Results Lead (Person C)**
+4. **Rameez Ali: Analysis & Results Lead (Person C)**
     - Convert raw aggregated CSV scores into readable comparative results tables
     - Calculate cross-lingual safety violation gaps (EN vs ES vs Swahili)
     - Generate context-saturation decay trend visualizations and statistical interpretation
     - Write metric-by-metric business impact analysis for enterprise deployment
-5. **Shawn Ding – Writeup & Pitch Lead (Person D, Author of this README)**
+5. **Shawn Ding: Writeup & Pitch Lead (Person D, Author of this README)**
     - Complete full Devpost project submission, all written overview, methodology, limitations & future work sections
     - Compile and polish this repository README documentation
     - Script, record, edit the required 5-minute demo presentation video

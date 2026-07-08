@@ -58,8 +58,11 @@ def title_slide():
     tf2 = box(s, 0.9, 5.0, 11.5, 1.2)
     para(tf2, "DS6051 · Decoding Large Language Models · Gemma-4-E2B", size=16,
          color=RGBColor(0x9F, 0xB8, 0xCE))
-    para(tf2, "Evaluation, not training — is this model safe enough to deploy?", size=16,
+    para(tf2, "Evaluation, not training: is this model safe enough to deploy?", size=16,
          color=RGBColor(0x9F, 0xB8, 0xCE))
+    tf3 = box(s, 0.9, 6.35, 11.5, 0.7)
+    para(tf3, "Arnav Jain · Shawn Ding · Tianyin Mao · Rameez Ali · Ethan Meidinger",
+         size=15, color=WHITE, bold=True)
 
 
 def header(s, title):
@@ -109,12 +112,12 @@ bullets_slide("The Problem", [
 ])
 
 # 3 What we built
-bullets_slide("What We Built — a 5-Metric Safety Scorecard", [
-    "1  Faithfulness / hallucination — fabricated figures are a regulatory liability",
-    "2  PII leakage — emitting SSNs / accounts / salaries violates GDPR / HIPAA / SOX",
-    "3  Steerability — does it honor a 'never disclose' system rule under pressure?",
-    "4  Cross-lingual safety gap — do guardrails survive in Spanish and low-resource Swahili?",
-    "5  [BONUS] Context-saturation constraint decay — does it drop a rule as context grows?",
+bullets_slide("What We Built: a 5-Metric Safety Scorecard", [
+    "1  Faithfulness / hallucination: fabricated figures are a regulatory liability",
+    "2  PII leakage: emitting SSNs / accounts / salaries violates GDPR / HIPAA / SOX",
+    "3  Steerability: does it honor a 'never disclose' system rule under pressure?",
+    "4  Cross-lingual safety gap: do guardrails survive in Spanish and low-resource Swahili?",
+    "5  [BONUS] Context-saturation constraint decay: does it drop a rule as context grows?",
     "*Scored on BASE vs INSTRUCTION-TUNED Gemma, by a 3-model judge panel.",
 ])
 
@@ -124,11 +127,11 @@ bullets_slide("Methodology", [
     "3-judge panel: ShieldGemma-2B (harm) + Qwen2.5-7B + Mistral-7B (faithfulness, PII, steerability, refusal).",
     "Automated PII regex as a deterministic second check.",
     "Cross-lingual: evaluation set translated into Spanish and low-resource Swahili.",
-    "Ran on a single 24GB GPU (Rivanna) — the hardware limit becomes part of the story.",
+    "Ran on a single 24GB GPU (Rivanna): the hardware limit becomes part of the story.",
 ])
 
 # 5 Result 1
-image_slide("Result 1 — Instruction Tuning Is the Safety Lever", FIG / "base_vs_it.png", [
+image_slide("Result 1: Instruction Tuning Is the Safety Lever", FIG / "base_vs_it.png", [
     "Steerability violations: 0.71 → 0.10",
     "PII leakage: 0.76 → 0.40",
     "But -it STILL leaks PII 40% of the time.",
@@ -137,26 +140,26 @@ image_slide("Result 1 — Instruction Tuning Is the Safety Lever", FIG / "base_v
 ], caption="base vs instruction-tuned, English, higher = worse")
 
 # 6 Cross-lingual
-image_slide("Result 2 — Cross-Lingual Safety Gap", FIG / "crosslingual_hallucination.png", [
+image_slide("Result 2: Cross-Lingual Safety Gap", FIG / "crosslingual_hallucination.png", [
     "Hallucination worsens toward low-resource Swahili (EN 0.21 → SW 0.27).",
     "The resource gradient the literature predicts.",
     "But refusal of harmful requests did NOT collapse across languages (~0.50 everywhere).",
-    "An honest null result — we report it rather than overclaim.",
+    "An honest null result: we report it rather than overclaim.",
 ], caption="hallucination rate by language")
 
 # 7 Key insight
-image_slide("Key Insight — The Judges Disagree", FIG / "judge_agreement.png", [
+image_slide("Key Insight: The Judges Disagree", FIG / "judge_agreement.png", [
     "Qwen vs Mistral differ by 0.33 on hallucination.",
     "They reach OPPOSITE conclusions:",
     "  Qwen: instruction tuning makes hallucination worse (0.15 → 0.25)",
     "  Mistral: it makes it better (0.41 → 0.17)",
     "A single-judge scorecard would have been confidently wrong.",
-], caption="mean P(fail) per judge — LLM-as-judge is a noisy instrument")
+], caption="mean P(fail) per judge: LLM-as-judge is a noisy instrument")
 
 # 8 Bonus + limitations
 image_slide("Bonus Metric + Limitations", FIG / "ctx_decay.png", [
     "No constraint decay observed up to 19k tokens.",
-    "At ~40k tokens the 24GB GPU OOMs — a hardware ceiling, not proof of no decay.",
+    "At ~40k tokens the 24GB GPU OOMs: a hardware ceiling, not proof of no decay.",
     "Judges are LLMs with the same failure modes.",
     "Regex catches known PII formats only.",
     "Small probe samples; numbers are relative signals, not ground truth.",
@@ -168,7 +171,6 @@ s = bullets_slide("Verdict", [
     "It leaks PII ~40% of the time and hallucinates more in low-resource languages.",
     "Deployment would require an external PII-redaction filter + human-in-the-loop for non-English.",
     "*The deeper lesson: a safety scorecard is only as trustworthy as its judges.",
-    "Being honest about that — and building a panel to expose it — is the whole point.",
 ])
 
 out = "InstiGuard_Presentation.pptx"
