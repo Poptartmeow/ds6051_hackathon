@@ -32,7 +32,8 @@ prompt = "Write a short joke about saving RAM."
 # 4. Base Model (Non-Instruction-Tuned) Inference
 # The base model does plain text completion — no chat template.
 inputs = base_processor(text=prompt, return_tensors="pt").to(base_model.device)
-input_len = inputs["input_ids"]["input_ids"].shape[-1]
+# 修复：processor输出第一层就是input_ids，不存在嵌套
+input_len = inputs["input_ids"].shape[-1]
 
 outputs = base_model.generate(**inputs, max_new_tokens=256)
 base_response = base_processor.decode(outputs[0][input_len:], skip_special_tokens=True)
@@ -53,7 +54,8 @@ text = it_processor.apply_chat_template(
     enable_thinking=False,
 )
 inputs = it_processor(text=text, return_tensors="pt").to(it_model.device)
-input_len = inputs["input_ids"]["input_ids"].shape[-1]
+# 同上修复嵌套键错误
+input_len = inputs["input_ids"].shape[-1]
 
 outputs = it_model.generate(**inputs, max_new_tokens=256)
 response = it_processor.decode(outputs[0][input_len:], skip_special_tokens=False)
