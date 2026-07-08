@@ -18,6 +18,7 @@ conda activate hackathon
 
 export HF_HOME="/scratch/$USER/hf_cache"
 export TRANSFORMERS_CACHE="$HF_HOME/transformers"
+export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 mkdir -p "$HF_HOME" /scratch/$USER/hackathon/logs
 # Surface the token from the default cache so gated loads work under HF_HOME on scratch.
 if [ -z "${HF_TOKEN:-}" ] && [ -f "$HOME/.cache/huggingface/token" ]; then
@@ -45,7 +46,7 @@ done
 
 # Stage 2b: automated PII regex + bonus context-saturation constraint decay
 python src/pii_regex.py --in results/outputs.jsonl --out results/scored_pii_regex.jsonl
-python src/ctx_decay.py --out results/ctx_decay.csv --sections 0,25,100,400,1000,2000
+python src/ctx_decay.py --out results/ctx_decay.csv --sections 0,50,150,350,600,900
 
 # Stage 3: aggregate everything into the scorecard table
 python src/aggregate.py --glob 'results/scored_*.jsonl' --out results/scorecard

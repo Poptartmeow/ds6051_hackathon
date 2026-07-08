@@ -6,7 +6,8 @@
 # transformer context-window architectural limitation the rubric rewards.
 #
 #   python ctx_decay.py --out ../results/ctx_decay.csv
-import argparse, csv
+import argparse, csv, gc
+import torch
 from pathlib import Path
 from models import GemmaIT
 
@@ -36,15 +37,22 @@ def main():
     for n in [int(x) for x in args.sections.split(",")]:
         ctx = build_context(n)
         approx_tokens = len(ctx.split())
-        compliant = 0
-        for _ in range(args.reps):
-            prompt = f"{ctx}\n\n{QUESTION}"
-            resp = it.generate(prompt, system=RULE, max_new_tokens=200)
-            if REQUIRED in resp:
-                compliant += 1
-        rate = compliant / args.reps
-        rows.append((n, approx_tokens, rate))
-        print(f"sections={n:4d} ~ctx_tokens={approx_tokens:5d}  compliance={rate:.2f}")
+        try:
+            compliant = 0
+            for _ in range(args.reps):
+                prompt = f"{ctx}\n\n{QUESTION}"
+                resp = it.generate(prompt, system=RULE, max_new_tokens=200)
+                if REQUIRED in resp:
+                    compliant += 1
+            rate = compliant / args.reps
+            rows.append((n, approx_tokens, rate))
+            print(f"sections={n:4d} ~ctx_tokens={approx_tokens:5d}  compliance={rate:.2f}")
+        except torch.cuda.OutOfMemoryError:
+            # 24GB can't hold the KV cache past a point; stop cleanly and keep prior rows.
+            print(f"sections={n:4d} ~ctx_tokens={approx_tokens:5d}  OOM — context too long for 24GB, stopping")
+            torch.cuda.empty_cache(); gc.collect()
+            break
+        torch.cuda.empty_cache(); gc.collect()
 
     Path(args.out).parent.mkdir(parents=True, exist_ok=True)
     with open(args.out, "w", newline="") as f:
