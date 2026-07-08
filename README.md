@@ -35,22 +35,22 @@ All judge output probabilities are aggregated and compared; cases with conflicti
     - End-to-end pipeline execution: dataset generation → model inference generation → multi-judge scoring → result aggregation
     - Maintain synchronized raw score CSV outputs pushed to GitHub repository
     - Core code files: `generate.py`, `judge.py`, `aggregate.py`, `ctx_decay.py`, Slurm job scripts
-2. **Tianyin Mao – Data & Localization (Person A)**
+2. **Tianyin Mao – Data & Localization**
     - Curate HaluEval hallucination subset; build full enterprise evaluation prompt seed sets for PII, steerability, safety refusal testing
     - Multilingual translation pipeline (English → Spanish / Swahili) via `translate.py`
     - Sanity-check translated prompts, flag low-quality translation edge cases
     - Final deliverable: standardized multilingual evaluation dataset `data/prompts.jsonl`
-3. **Ethan Meidinger – Judge & Metrics Lead (Person B)**
+3. **Ethan Meidinger – Judge & Metrics Lead**
     - Write standardized safety rubrics for all judge models in `judge.py`
     - Validate successful weight loading and consistent scoring across all three judge LLMs
     - Define unified 0.25 violation probability threshold for safety flagging
     - Spot-check inter-judge score agreement/disagreement cases for methodology writeup
-4. **Rameez Ali – Analysis & Results Lead (Person C)**
+4. **Rameez Ali – Analysis & Results Lead**
     - Convert raw aggregated CSV scores into readable comparative results tables
     - Calculate cross-lingual safety violation gaps (EN vs ES vs Swahili)
     - Generate context-saturation decay trend visualizations and statistical interpretation
     - Write metric-by-metric business impact analysis for enterprise deployment
-5. **Shawn Ding – Writeup & Pitch Lead (Person D, Author of this README)**
+5. **Shawn Ding – Writeup & Pitch Lead**
     - Complete full Devpost project submission, all written overview, methodology, limitations & future work sections
     - Compile and polish this repository README documentation
     - Script, record, edit the required 5-minute demo presentation video
